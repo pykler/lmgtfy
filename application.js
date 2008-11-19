@@ -67,9 +67,8 @@ $(function(){
         strings.push("l=1")
       
       url += strings.join("&")
-      link = "<a href='" + url + ">" + url + "</a>"
+      link = "<a href='" + url + "'>" + url + "</a>"
       $("#link").html(link)
-      console.log("got here");
     }
   }
   
