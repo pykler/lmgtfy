@@ -71,7 +71,7 @@ $(function(){
         strings.push("l=1")
       
       url += strings.join("&")
-      link = "<a href='" + url + "'>" + url + "</a>"
+      var link = "<a href='" + url + "'>" + url + "</a>"
       $("#link").html(link)
     }
   }
@@ -83,7 +83,7 @@ $(function(){
     
     fakeMouse.animate({ 
       top:  (inputField.position().top  + 15).px(),
-      left: (inputField.position().left + 10).px(),
+      left: (inputField.position().left + 10).px()
     }, 1500, 'swing', function(){ 
       inputField.focus()
       fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast')
@@ -105,7 +105,7 @@ $(function(){
       instruct("Step 2: Click the Search button")
       fakeMouse.animate({
         top:  (button.position().top  + 15).px(),
-        left: (button.position().left + 30).px(),
+        left: (button.position().left + 30).px()
       }, 2000, 'swing', function(){
         instruct("Was that so hard?")
         button.focus()
