@@ -37,7 +37,7 @@ Number.prototype.px = function(){ return this.toString() + "px" }
 // app code
 $(function(){
 
-  $("a[name=about]").click(function(){ $("#about").toggle() })
+  $("a[name=about]").click(function(){ $("#about").toggle(); return false; })
 
   $("#about p").each(function() {
     $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'))
