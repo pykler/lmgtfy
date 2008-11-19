@@ -1,4 +1,6 @@
-task :default => :build
+task :default => :build do
+  sh("open index.html")
+end
 
 desc 'build the html'
 task :build do
