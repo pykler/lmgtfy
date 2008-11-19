@@ -21,6 +21,7 @@
         #link { position: relative; top: 60px; font-size: 1.1em; color: #555 }
         #footer { position: relative; top: 100px; border-top: solid 1px #ddd; padding-top: 0.5em }
         #footer a { color: #999; text-decoration: none; font-size: 0.9em; }
+        #footer a:hover { text-decoration: underline; }
         #about { position: relative; top: 100px; padding-top: 0.5em; color: #666 }
   %body
     %center
@@ -44,18 +45,18 @@
       #link
 
       #footer
-        %a{ :href => "#", :name => "about" }
+        %a.about{ :href => "#", :name => "about" }
           About
 
       #about{ :style => "display: none" }
         %p
-          Created by @coderifous, hosted by @rmm5t, inspired during lunch conversation with @coderifous, Tate, 
+          Created by @coderifous, hosted by @rmm5t, inspired during a lunch conversation with @coderifous, Tate,
           @rmm5t, @EricStratton, and @methodvon.
 
         %p
           This is for all those people that find it more convenient to bother you with their question
           rather than google it for themselves.
-          
+
         %p
           Not associated with google in any way.
 
