@@ -4,16 +4,16 @@
     %script{ :src => "application.js", :type => "text/javascript" }
     %style{ :rel => "text/css" }
       :plain
-        * { 
+        * {
         font-family:arial,sans-serif;
         }
         #logo { position: relative; top: 2em; }
         .logo { font-size: 1.5em; color: #444; }
         input.text { font-size: 1.0em; }
         #fake_mouse { position: absolute; top: 100px; left: 100px; }
-        #instructions { 
-        position: relative; top: 50px; 
-        font-size: 1.2em; color: #999; 
+        #instructions {
+        position: relative; top: 50px;
+        font-size: 1.2em; color: #999;
         width: 334px; height: 84px;
         background-image: url(images/instructions_bg.png);
         }
@@ -25,8 +25,8 @@
   %body
     %center
       .logo
-        let me 
-        %img{ :id => "logo", :src => "images/logo.gif" } 
+        let me
+        %img{ :id => "logo", :src => "images/logo.gif" }
         that for you
       %br
       %br
@@ -40,21 +40,32 @@
       #instructions
         %div
           \:)
-      
+
       #link
-      
+
       #footer
         %a{ :href => "#", :name => "about" }
           About
-      
+
       #about{ :style => "display: none" }
         %p
           Created by @coderifous, hosted by @rmm5t, inspired during lunch conversation with Tate, @rmm5t, @EricStratton,
           and @methodvon.
-          
+
         %p
-          This is for all those people that find it more convenient to bother you with their question 
+          This is for all those people that find it more convenient to bother you with their question
           rather than google it for themselves.
-        
+
     %img{ :id => "fake_mouse", :src => "images/mouse_arrow.gif", :width => "12px", :style => "display: none" }
-      
+
+    :plain
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-6370983-1");
+      pageTracker._trackPageview();
+      } catch(err) {}</script>
+
