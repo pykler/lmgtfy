@@ -8,6 +8,6 @@ task :build do
 end
 
 desc 'publish this wicked stuff to the world'
-task :publish do
+task :publish => :build do
   sh("scp -r *.html *.js images letmegooglethatforyou.com:~/www")
 end
