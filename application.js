@@ -16,7 +16,7 @@
         var name = unescape(pair[0]);
 
       if (pair.length == 2)
-      { 
+      {
         value = unescape(pair[1]);
       }
       else
@@ -36,24 +36,24 @@ Number.prototype.px = function(){ return this.toString() + "px" }
 
 // app code
 $(function(){
-  
+
   $("a[name=about]").click(function(){ $("#about").toggle() })
   var about = $("#about p:first").text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>')
   $("#about p:first").html(about)
-  
+
   var searchString = $.getQueryString({ id: "q" })
   var inputField   = $("input[type=text]")
   var fakeMouse    = $("#fake_mouse")
   var instructions = $("#instructions > div")
   var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search")
-  
+
   if (searchString && searchString.length > 0) googleItForThem()
   else getTheSearchTerms()
 
   function instruct(words){
     instructions.html(words)
   }
-  
+
   function getTheSearchTerms(){
     $("form").submit(function(){ $("#search").click(); return false; })
     instruct("Type in a question, click a button.")
@@ -62,34 +62,34 @@ $(function(){
 
     function clicked(e){
       instruct("Share the link below.")
-      
+
       var l = window.location
       var url = l.protocol + "//" + l.hostname + l.pathname + "?"
-      
+
       strings = [ "q=" + escape(inputField.val().replace(/ /g, "+")) ]
       if (this.id == "lucky")
         strings.push("l=1")
-      
+
       url += strings.join("&")
       var link = "<a href='" + url + "'>" + url + "</a>"
       $("#link").html(link)
     }
   }
-  
+
   function googleItForThem(){
     $("body").css("cursor", "wait")
     fakeMouse.show()
       instruct("Step 1: Type in your question")
-    
-    fakeMouse.animate({ 
+
+    fakeMouse.animate({
       top:  (inputField.position().top  + 15).px(),
       left: (inputField.position().left + 10).px()
-    }, 1500, 'swing', function(){ 
+    }, 1500, 'swing', function(){
       inputField.focus()
       fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast')
       type(searchString, 0)
     })
-    
+
     function type(string, index){
       var val = string.substr(0, index + 1)
       inputField.attr('value', val)
@@ -100,11 +100,11 @@ $(function(){
         doneTyping()
       }
     }
-    
+
     function doneTyping(){
       instruct("Step 2: Click the Search button")
       fakeMouse.animate({
-        top:  (button.position().top  + 15).px(),
+        top:  (button.position().top  + 10).px(),
         left: (button.position().left + 30).px()
       }, 2000, 'swing', function(){
         instruct("Was that so hard?")
@@ -112,7 +112,7 @@ $(function(){
         setTimeout(redirect, 2000)
       })
     }
-    
+
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return
       if (button.attr("id") == $("#lucky").attr("id")) {
@@ -123,5 +123,5 @@ $(function(){
       }
     }
   }
-  
+
 })
