@@ -69,7 +69,7 @@ $(function(){
       var l = window.location
       var url = l.protocol + "//" + l.hostname + l.pathname + "?"
 
-      strings = [ "q=" + escape(inputField.val().replace(/ /g, "+")) ]
+      strings = [ "q=" + escape(inputField.val()).replace(/\+/g, "%2B").replace(/%20/g, "+") ]
       if (this.id == "lucky")
         strings.push("l=1")
 
@@ -118,11 +118,12 @@ $(function(){
 
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return
+      var escapedString = escape(searchString).replace(/\+/g, "%2B").replace(/%20/g, "+")
       if (button.attr("id") == $("#lucky").attr("id")) {
-        window.location="http://www.google.com/search?q=" + escape(searchString) + "&btnI=" + escape(button.attr("value"))
+        window.location="http://www.google.com/search?q=" + escapedString + "&btnI=" + escape(button.attr("value"))
       }
       else {
-        window.location="http://www.google.com/search?q=" + escape(searchString) + "&btnG=" + escape(button.attr("value"))
+        window.location="http://www.google.com/search?q=" + escapedString + "&btnG=" + escape(button.attr("value"))
       }
     }
   }
