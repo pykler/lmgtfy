@@ -1,0 +1,44 @@
+%html
+  %head
+    %script{ :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js", :type => "text/javascript" }
+    %script{ :src => "application.js", :type => "text/javascript" }
+    %style{ :rel => "text/css" }
+      :plain
+        * { 
+        font-family:arial,sans-serif;
+        }
+        #logo { position: relative; top: 2em; }
+        .logo { font-size: 1.5em; color: #444; }
+        input.text { font-size: 1.0em; }
+        #fake_mouse { position: absolute; top: 100px; left: 100px; }
+        #instructions { 
+        position: relative; top: 50px; 
+        font-size: 1.2em; color: #999; 
+        width: 334px; height: 84px;
+        background-image: url(instructions_bg.png);
+        }
+        #instructions > div { padding-top: 1.5em }
+        #link { position: relative; top: 60px; font-size: 1.1em; color: #555 }
+  %html
+    %center
+      .logo
+        let me 
+        %img{ :id => "logo", :src => "logo.gif" } 
+        that for you
+      %br
+      %br
+      %br
+      %form
+        %input.text{ :type => "text", :size => 55, :title => "Google Search", :value => "" }
+        %br
+        %input{ :type => "button", :value => "Google Search", :id => "search" }
+        %input{ :type => "button", :value => "I'm Feeling Lucky", :id => "lucky" }
+
+      #instructions
+        %div
+          \:)
+      
+      #link
+  
+    %img{ :id => "fake_mouse", :src => "mouse_arrow.gif", :width => "12px", :style => "display: none" }
+      
