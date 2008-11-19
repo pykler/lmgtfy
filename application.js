@@ -57,7 +57,7 @@ $(function(){
   function getTheSearchTerms(){
     $("form").submit(function(){ $("#search").click(); return false; })
     instruct("Type a question, click a button.")
-    $(':input:first').focus().select()
+    inputField.focus().select()
 
     $("input[type=button]").click(clicked)
 
