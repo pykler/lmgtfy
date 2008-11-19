@@ -37,6 +37,10 @@ Number.prototype.px = function(){ return this.toString() + "px" }
 // app code
 $(function(){
   
+  $("a[name=about]").click(function(){ $("#about").show() })
+  var about = $("#about p").text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>')
+  $("#about p").html(about)
+  
   var searchString = $.getQueryString({ id: "q" })
   var inputField   = $("input[type=text]")
   var fakeMouse    = $("#fake_mouse")
