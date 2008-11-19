@@ -1,6 +1,8 @@
+excludes = %w(.* R* cgi-bin *.haml artwork)
+exclude_options = excludes.map { |e| "--exclude=#{e}" }.join(" ")
 SETTINGS = {
   :rsync_server  => "letmegooglethatforyou.com:~/www",
-  :rsync_options => "-e ssh -avz --delete --exclude=.git* --exclude=.htaccess --exclude=R* --exclude=cgi-bin --exclude=*.haml"
+  :rsync_options => "-e ssh -avz --delete #{exclude_options}"
 }
 
 task :default => :build do
