@@ -1,5 +1,5 @@
-// // QueryString Engine v1.0.1
-//By James Campbell
+// // QueryString Engine v1.0.1 (modified)
+//By James Campbell (modified by coderifous)
 (function($) {
   $.querystringvalues = $.queryStringValues = $.QueryStringValues = $.QueryStringvalues = $.queryStringValues = $.queryStringvalues = $.querystringValues = $.getqueryString = $.queryString = $.querystring = $.QueryString = $.Querystring = $.getQueryString = $.getquerystring = $.getQuerystring  = function(options)
   {
@@ -13,11 +13,11 @@
       {
         var value;
         var pair = args[i].split('=');
-        var name = unescape(pair[0]);
+        var name = decodeURIComponent(pair[0]);
 
       if (pair.length == 2)
       {
-        value = unescape(pair[1]);
+        value = decodeURIComponent(pair[1]);
       }
       else
       {
@@ -69,7 +69,7 @@ $(function(){
       var l = window.location
       var url = l.protocol + "//" + l.hostname + l.pathname + "?"
 
-      strings = [ "q=" + escape(inputField.val()).replace(/\+/g, "%2B").replace(/%20/g, "+") ]
+      strings = [ "q=" + encodeURIComponent(inputField.val()).replace(/%20(\D)?/g, "+$1") ]
       if (this.id == "lucky")
         strings.push("l=1")
 
@@ -118,7 +118,7 @@ $(function(){
 
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return
-      var escapedString = escape(searchString).replace(/\+/g, "%2B").replace(/%20/g, "+")
+      var escapedString = encodeURIComponent(searchString).replace(/%20(\D)?/g, "+$1")
       if (button.attr("id") == $("#lucky").attr("id")) {
         window.location="http://www.google.com/search?q=" + escapedString + "&btnI=" + escape(button.attr("value"))
       }
