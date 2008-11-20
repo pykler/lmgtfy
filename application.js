@@ -13,11 +13,11 @@
       {
         var value;
         var pair = args[i].split('=');
-        var name = decodeURIComponent(pair[0]);
+        var name = gentlyDecode(pair[0]);
 
       if (pair.length == 2)
       {
-        value = decodeURIComponent(pair[1]);
+        value = gentlyDecode(pair[1]);
       }
       else
       {
@@ -33,6 +33,16 @@
 })(jQuery);
 
 Number.prototype.px = function(){ return this.toString() + "px" }
+
+function gentlyEncode(string){
+  return ( encodeURIComponent
+           ? encodeURIComponent(string).replace(/%20(\D)?/g, "+$1").replace(/'/, escape("'"))
+           : escape(string).replace(/\+/g, "%2B").replace(/%20/g, "+") )
+}
+
+function gentlyDecode(string){
+  return encodeURIComponent ? decodeURIComponent(string) : unescape(string)
+}
 
 // app code
 $(function(){
@@ -69,7 +79,7 @@ $(function(){
       var l = window.location
       var url = l.protocol + "//" + l.hostname + l.pathname + "?"
 
-      strings = [ "q=" + encodeURIComponent(inputField.val()).replace(/%20(\D)?/g, "+$1") ]
+      strings = [ "q=" + gentlyEncode(inputField.val()) ]
       if (this.id == "lucky")
         strings.push("l=1")
 
@@ -118,7 +128,7 @@ $(function(){
 
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return
-      var escapedString = encodeURIComponent(searchString).replace(/%20(\D)?/g, "+$1")
+      var escapedString = gentlyEncode(searchString)
       if (button.attr("id") == $("#lucky").attr("id")) {
         window.location="http://www.google.com/search?q=" + escapedString + "&btnI=" + escape(button.attr("value"))
       }
