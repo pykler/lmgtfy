@@ -24,8 +24,8 @@
         }
         #instructions div { padding-top: 1.5em }
         #link { position: relative; top: 60px; font-size: 1.1em; color: #555 }
-        #footer { position: relative; top: 100px; border-top: solid 1px #ddd; padding-top: 0.5em }
-        #footer a { color: #999; text-decoration: none; font-size: 0.9em; }
+        #footer { color: #999; position: relative; top: 100px; border-top: solid 1px #ddd; padding-top: 0.5em }
+        #footer a { color: #999; text-decoration: none; font-size: 0.9em; padding: 0 1em; }
         #footer a:hover { text-decoration: underline; }
         #about { position: relative; top: 100px; padding-top: 0.5em; color: #666 }
   %body
@@ -50,8 +50,11 @@
       #link
 
       #footer
-        %a.about{ :href => "#", :name => "about" }
-          About
+        %a.about{ :href => "#", :name => "about" } About
+        :plain
+          <script type="text/javascript" language="javascript">
+          document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,115,116,97,102,102,64,108,109,103,116,102,121,46,99,111,109,34,62,67,111,110,116,97,99,116,60,47,97,62))
+          </script>
 
       #about{ :style => "display: none" }
         %p Created by @coderifous, contributions and hosting by @rmm5t.
