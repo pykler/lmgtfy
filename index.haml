@@ -51,10 +51,8 @@
 
       #footer
         %a.about{ :href => "#", :name => "about" } About
-        :plain
-          <script type="text/javascript" language="javascript">
-          document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,115,116,97,102,102,64,108,109,103,116,102,121,46,99,111,109,34,62,67,111,110,116,97,99,116,60,47,97,62))
-          </script>
+        %script{ :type => "text/javascript" }
+          eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%73%74%61%66%66%40%6c%6d%67%74%66%79%2e%63%6f%6d%3f%62%6f%64%79%3d%4a%69%6d%25%32%30%61%6e%64%25%32%30%52%79%61%6e%25%32%30%61%72%65%25%32%30%61%77%65%73%6f%6d%65%25%32%31%26%61%6d%70%3b%73%75%62%6a%65%63%74%3d%49%25%32%30%6c%6f%76%65%25%32%30%4c%4d%47%54%46%59%25%32%31%22%3e%43%6f%6e%74%61%63%74%3c%2f%61%3e%27%29%3b'))
 
       #about{ :style => "display: none" }
         %p Created by @coderifous, contributions and hosting by @rmm5t.
