@@ -33,7 +33,7 @@
     %center
       .logo
         let me
-        %img{ :id => "logo", :src => "http://www.google.com/intl/en_ALL/images/logo.gif" }
+        %img#logo{ :src => "http://www.google.com/intl/en_ALL/images/logo.gif" }
         that for you
       %br
       %br
@@ -41,8 +41,8 @@
       %form
         %input.text{ :type => "text", :size => 55, :title => "Google Search", :value => "" }
         %br
-        %input{ :type => "button", :value => "Google Search", :id => "search" }
-        %input{ :type => "button", :value => "I'm Feeling Lucky", :id => "lucky" }
+        %input#search{ :type => "button", :value => "Google Search" }
+        %input#lucky{ :type => "button", :value => "I'm Feeling Lucky" }
 
       #instructions
         %div
@@ -61,7 +61,7 @@
         %p This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
         %p Not associated with Google&trade; in any way.
 
-    %img{ :id => "fake_mouse", :src => "images/mouse_arrow.png", :style => "display: none" }
+    %img#fake_mouse{ :src => "images/mouse_arrow.png", :style => "display: none" }
 
     :plain
       <script type="text/javascript">
