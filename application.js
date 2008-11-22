@@ -99,7 +99,7 @@ $(function(){
       left: (inputField.position().left + 10).px()
     }, 1500, 'swing', function(){
       inputField.focus()
-      fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast')
+      fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast', function() { fixSafariRenderGlitch() })
       type(searchString, 0)
     })
 
@@ -135,6 +135,10 @@ $(function(){
       else {
         window.location="http://www.google.com/search?q=" + escapedString + "&btnG=" + escape(button.attr("value"))
       }
+    }
+
+    function fixSafariRenderGlitch() {
+      if ($.browser.safari) inputField.blur().focus()
     }
   }
 
