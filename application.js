@@ -1,5 +1,5 @@
-// // QueryString Engine v1.0.1 (modified)
-//By James Campbell (modified by coderifous)
+// QueryString Engine v1.0.1 (modified)
+// By James Campbell (modified by coderifous)
 (function($) {
   $.querystringvalues = $.queryStringValues = $.QueryStringValues = $.QueryStringvalues = $.queryStringValues = $.queryStringvalues = $.querystringValues = $.getqueryString = $.queryString = $.querystring = $.QueryString = $.Querystring = $.getQueryString = $.getquerystring = $.getQuerystring  = function(options)
   {
@@ -32,6 +32,7 @@
   };
 })(jQuery);
 
+// helpers
 Number.prototype.px = function(){ return this.toString() + "px" }
 
 function gentlyEncode(string){
@@ -41,17 +42,12 @@ function gentlyEncode(string){
 }
 
 function gentlyDecode(string){
-  return encodeURIComponent ? decodeURIComponent(string) : unescape(string)
+  return decodeURIComponent ? decodeURIComponent(string) : unescape(string)
 }
 
 // app code
 $(function(){
-
-  $("a[name=about]").click(function(){ $("#about").toggle(); return false; })
-
-  $("#about p").each(function() {
-    $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'))
-  })
+  initializeContent()
 
   var searchString = $.getQueryString({ id: "q" })
   var inputField   = $("input[type=text]")
@@ -61,38 +57,42 @@ $(function(){
 
   if (searchString && searchString.length > 0) googleItForThem()
   else getTheSearchTerms()
+  
+  function initializeContent(){
+    $("a[name=about]").click(function(){ $("#about").toggle(); return false; })
 
-  function instruct(words){
-    instructions.html(words)
+    $("#about p").each(function() {
+      $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'))
+    })
   }
+
+  function instruct(words){ instructions.html(words) }
 
   function getTheSearchTerms(){
     $("form").submit(function(){ $("#search").click(); return false; })
     instruct("Type a question, click a button.")
     inputField.focus().select()
 
-    $("input[type=button]").click(clicked)
-
-    function clicked(e){
+    $("input[type=button]").click(function(e){
       instruct("Share the link below.")
 
-      var l = window.location
+      var l   = window.location
       var url = l.protocol + "//" + l.hostname + l.pathname + "?"
 
       strings = [ "q=" + gentlyEncode(inputField.val()) ]
-      if (this.id == "lucky")
-        strings.push("l=1")
-
+      if (this.id == "lucky") strings.push("l=1")
+      
       url += strings.join("&")
+      
       var link = "<a href='" + url + "'>" + url + "</a>"
       $("#link").html(link)
-    }
+    })
   }
 
   function googleItForThem(){
     $("body").css("cursor", "wait")
     fakeMouse.show()
-      instruct("Step 1: Type in your question")
+    instruct("Step 1: Type in your question")
 
     fakeMouse.animate({
       top:  (inputField.position().top  + 15).px(),
@@ -128,13 +128,11 @@ $(function(){
 
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return
+
       var escapedString = gentlyEncode(searchString)
-      if (button.attr("id") == $("#lucky").attr("id")) {
-        window.location="http://www.google.com/search?q=" + escapedString + "&btnI=" + escape(button.attr("value"))
-      }
-      else {
-        window.location="http://www.google.com/search?q=" + escapedString + "&btnG=" + escape(button.attr("value"))
-      }
+      var button_key    = (button.attr("id") == $("#lucky").attr("id")) ? "btnI" : "btnG"
+      
+      window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=" + escape(button.attr("value"))
     }
 
     function fixSafariRenderGlitch() {
