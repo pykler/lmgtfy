@@ -50,16 +50,18 @@ $(function(){
   initializeContent()
 
   var searchString = $.getQueryString({ id: "q" })
-  var inputField   = $("input[type=text]")
+  var inputField   = $("input[type=text]:first")
   var fakeMouse    = $("#fake_mouse")
   var instructions = $("#instructions > div")
   var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search")
 
   if (searchString && searchString.length > 0) googleItForThem()
   else getTheSearchTerms()
-  
+
   function initializeContent(){
     $("a[name=about]").click(function(){ $("#about").toggle(); return false; })
+
+    $('input.copyable').click(function() { $(this).select(); });
 
     $("#about p").each(function() {
       $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'))
@@ -81,11 +83,16 @@ $(function(){
 
       strings = [ "q=" + gentlyEncode(inputField.val()) ]
       if (this.id == "lucky") strings.push("l=1")
-      
+
       url += strings.join("&")
-      
-      var link = "<a href='" + url + "'>" + url + "</a>"
-      $("#link").html(link)
+
+      $("#link input.link").val(url)
+      $("#link").show()
+
+      $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(url), function(data) {
+        $("#tiny input.link").val(data.tinyurl).show
+        $("#tiny").show()
+      });
     })
   }
 
@@ -131,7 +138,7 @@ $(function(){
 
       var escapedString = gentlyEncode(searchString)
       var button_key    = (button.attr("id") == $("#lucky").attr("id")) ? "btnI" : "btnG"
-      
+
       window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=" + escape(button.attr("value"))
     }
 
@@ -139,5 +146,4 @@ $(function(){
       if ($.browser.safari) inputField.blur().focus()
     }
   }
-
 })
