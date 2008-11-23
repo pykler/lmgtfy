@@ -76,7 +76,7 @@ $(function(){
     inputField.focus().select()
 
     $("input[type=button]").click(function(e){
-      instruct("Share the link below.")
+      instruct("Share a link below.")
 
       var l   = window.location
       var url = l.protocol + "//" + l.hostname + l.pathname + "?"
