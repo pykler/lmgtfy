@@ -92,7 +92,6 @@ $(function(){
       $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(url), function(data) {
         $("#tiny input.link").val(data.tinyurl)
         $("#tiny").show()
-        instruct("Share a link below.")
       });
     })
   }
