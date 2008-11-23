@@ -16,7 +16,7 @@
   play: {
     step_1: "Paso 1: Escribe tu pregunta",
     step_2: "Paso 2: Pulsa el bot&oacute;n buscar",
-    pwnage: "&iquest;De verdad fue tan dif&iacute;cil?"
+    pwnage: "&iquest;De verdad era tan dif&iacute;cil?"
   },
   
   credit:     "Creado por @coderifous, con contribuciones de @rmm5t.",
