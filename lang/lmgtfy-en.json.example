@@ -1,0 +1,28 @@
+{
+  pre_logo:           "let me",
+  post_logo:          "that for you",
+  search_button:      "Search Google",
+  lucky_button:       "I'm Feeling Lucky",
+  about:              "About",
+  contact:            "Contact",
+  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+
+  setup: {
+    type_question: "Type a question, click a button.",
+    share_link:    "Share the link below.",
+    or:            "or"
+  },
+  
+  play: {
+    step_1: "Step 1: Type in your question",
+    step_2: "Step 2: Click the Search button",
+    pwnage: "Was that so hard?"
+  },
+  
+  credit:     "Created by @coderifous, contributions by @rmm5t.",
+  genesis:    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
+  pitch:      "This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.",
+  disclaimer: "Not associated with Google™ in any way.",
+  
+  translated_by: "<Translated by Your Name Goes Here />"
+}
