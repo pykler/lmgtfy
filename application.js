@@ -86,11 +86,11 @@ $(function(){
 
       url += strings.join("&")
 
-      $("#link input.link").val(url)
       $("#link").show()
+      $("#link input.link").val(url).focus().select()
 
       $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(url), function(data) {
-        $("#tiny input.link").val(data.tinyurl).show
+        $("#tiny input.link").val(data.tinyurl)
         $("#tiny").show()
       });
     })
