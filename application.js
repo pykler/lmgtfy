@@ -172,7 +172,7 @@ LMGTFY.lang = {
   url: {
     copied:    "URL copied to clipboard",
     shortened: "TinyURL copied to clipboard"
-  },
+  }
 }
 
 // app code
