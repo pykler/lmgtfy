@@ -8,7 +8,7 @@
   google_owns_google: "GOOGLE est une marque commerciale de Google Inc.",
 
   setup: {
-    type_question: "Tapez une question, cliquez sur un bouton.",
+    type_question: "Tapez une question, cliquez un bouton.",
     share_link:    "Envoyer à un ami.",
   },
 
