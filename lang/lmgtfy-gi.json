@@ -1,0 +1,35 @@
+{
+  pre_logo:           "lemme",
+  post_logo:          "dat fo U",
+  search_button:      "Sutcha GoogleMoogle",
+  lucky_button:       "Gimme sum sugar",
+  about:              "Bout us",
+  contact:            "Getta holda us",
+  google_owns_google: "GOOGLEsa trademarko Google Inc.",
+
+  setup: {
+    type_question: "Klikikliki U wannano, mousklicki de button.",
+    share_link:    "Sharee dat linkee.",
+  },
+
+  play: {
+    step_1: "Fust: Klikikliki U wannano",
+    step_2: "Den: Clickee weh it sez 'Sutcha'",
+    pwnage: "Dat wuz EZ-PZ!"
+  },
+
+  url: {
+    copy:      "makeanudda",
+    shorten:   "ittybitty",
+    go:        "go",
+    copied:    "Nudda URL now on de klipbord",
+    shortened: "itty URL now on de klipbord"
+  },
+
+  credit:     "Dis de work ob @coderifous, @rmm5t helpt.",
+  genesis:    "@coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon wuz jawin ober sum chow.",
+  pitch:      "Fo kinna pippl hoo ax steddo jus doon it demself.",
+  disclaimer: "Google&trade; got nuttin to do wit dis.",
+
+  translated_by: "Retold by Ginger Root 2008 dis retellin mine not uz"
+}
