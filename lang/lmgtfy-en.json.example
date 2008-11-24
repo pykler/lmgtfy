@@ -20,7 +20,7 @@
 
   url: {
     copy:      "copy",
-    shorten:   "shorten",
+    shorten:   "tinyurl",
     go:        "go",
     copied:    "URL copied to clipboard",
     shortened: "TinyURL copied to clipboard"
