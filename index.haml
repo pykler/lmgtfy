@@ -18,14 +18,16 @@
         #instructions { margin-top: 50px; font-size: 1.1em; color: #999; width: 334px; height: 84px; background-image: url(images/instructions_bg.png); }
         #instructions div { line-height: 84px; }
         #link { display: none; margin-top: 25px; }
-        #tiny { display: none; }
-        #tiny .or { color: #999; line-height: 1.5em; }
         input.link { width: 312px; font-size: 1.2em; text-align: center; border: 1px solid #c2c9ff; color: #555; background-color: #f4fbff; cursor: pointer; }
         #footer { color: #999; margin-top: 50px; border-top: solid 1px #ddd; padding-top: 0.5em; }
         #footer a { color: #999; text-decoration: none; padding: 0 1em; }
         #footer a:hover { text-decoration: underline; }
         #about { margin-top: 0.5em; color: #666; }
         #copyright { position: fixed; bottom: 0; width: 100%; padding: 0.25em; text-align: center; font-size: 0.75em; color: #bbb; background-color: #fff; }
+        #copy_buttons, #copy_message { position: absolute; display: none; }
+        a.copy_button { display: block; float: left; width: 60px; height: 20px; margin: 0 2px; background: url(images/copy_button.png); color: #fff; line-height: 20px; text-align: center; font-size: 0.8em; text-decoration: none; }
+        a.copy_button:hover { background: url(images/copy_button_hover.png) }
+        #copy_message { z-index: 99; width: 332px; height: 32px; background: url(images/copy_message.png); color: #fff; line-height: 32px; text-align: center; font-size: 1em; }
   %body
     %center
       .logo
@@ -47,14 +49,16 @@
 
       #link
         %input.link.copyable{ :type => "text", :readonly => true }
-      #tiny
-        .or{:rel => "localize.setup.or" } or
-        %input.link.copyable{ :type => "text", :size => 40, :readonly => true }
+        #copy_message
+        #copy_buttons
+          %a#copy_url.copy_button{ :href => "#", :rel => "localize.url.copy" } copy
+          %a#copy_tiny.copy_button{ :href => "#", :rel => "localize.url.shorten" } shorten
+          %a#copy_go.copy_button{ :href => "#", :rel => "localize.url.go" } go
 
       #footer
         %a.about{ :href => "#", :name => "about", :rel => "localize.about" } About
         %a{ :rel => "localize.contact", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
-        
+
       #about{ :style => "display: none" }
         %p{ :rel => "localize.credit" }        Created by @coderifous, contributions by @rmm5t.
         %p{ :rel => "localize.genesis" }       Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.
@@ -64,11 +68,11 @@
         %br
 
     #copyright
-      &copy; LMGTFY, 2008 | 
+      &copy; LMGTFY, 2008 |
       %span{ :rel => "localize.google_owns_google" } GOOGLE is a trademark of Google Inc.
 
     %img#fake_mouse{ :src => "images/mouse_arrow.png", :style => "display: none" }
-    
+
     :plain
       <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

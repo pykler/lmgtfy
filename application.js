@@ -32,6 +32,27 @@
   };
 })(jQuery);
 
+(function($) {
+  $.sendToClipboard = function(text) {
+    var copier = $("#flash_copier");
+    if (copier.size() == 0) {
+      copier = $('<div id="flash_copier"></div>').appendTo("body")
+    }
+    copier.html('<embed src="_clipboard.swf" FlashVars="clipboard='+encodeURIComponent(text)+'" width="0" height="0" type="application/x-shockwave-flash"></embed>')
+  };
+})(jQuery);
+
+(function($) {
+  $.fn.centerOver = function(element) {
+    var self = this;
+    self.css({
+      top: (element.position().top + element.outerHeight()/2 - self.height()/2).px(),
+      left: (element.position().left + element.outerWidth()/2 - self.width()/2).px()
+    });
+    return self;
+  };
+})(jQuery);
+
 // http://keith-wood.name/localisation.html
 // Localisation assistance for jQuery v1.0.2.
 // Written by Keith Wood (kbwood@iprimus.com.au) June 2007.
@@ -146,7 +167,12 @@ LMGTFY.lang = {
     step_1: "Step 1: Type in your question",
     step_2: "Step 2: Click the Search button",
     pwnage: "Was that so hard?"
-  }
+  },
+
+  url: {
+    copied:    "URL copied to clipboard",
+    shortened: "TinyURL copied to clipboard"
+  },
 }
 
 // app code
@@ -158,6 +184,9 @@ $(function(){
   var fakeMouse    = $("#fake_mouse")
   var instructions = $("#instructions > div")
   var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search")
+  var inputLink    = $("#link input.link")
+  var copyButtons  = $("#copy_buttons")
+  var copyMessage  = $("#copy_message")
 
   if (searchString && searchString.length > 0) googleItForThem()
   else getTheSearchTerms()
@@ -190,14 +219,22 @@ $(function(){
 
   function linkifyAbout() {
     $("#about p").each(function() {
-      $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'))
-    })
+      $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'));
+    });
   }
 
   function instruct(langkey) {
-    var keys = langkey.split(/\./)
-    var value = keys.length == 1 ? LMGTFY.lang[keys[0]] : LMGTFY.lang[keys[0]][keys[1]]
-    instructions.html(value)
+    instructions.html(langString(langkey));
+  }
+
+  function copyStatus(langkey) {
+    copyMessage.html(langString(langkey)).show().centerOver(inputLink);
+    setTimeout(function(){ copyMessage.fadeOut(1500) }, 1000);
+  }
+
+  function langString(langkey) {
+    var keys = langkey.split(/\./);
+    return keys.length == 1 ? LMGTFY.lang[keys[0]] : LMGTFY.lang[keys[0]][keys[1]];
   }
 
   function getTheSearchTerms() {
@@ -216,14 +253,40 @@ $(function(){
 
       url += strings.join("&")
 
-      $("#link").show()
-      $("#link input.link").val(url).focus().select()
-
-      $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(url), function(data) {
-        $("#tiny input.link").val(data.tinyurl)
-        $("#tiny").show()
-      });
+      showTheUrl(url)
     })
+  }
+
+  function showTheUrl(url) {
+    $("#link").show();
+    inputLink.val(url).focus().select();
+    copyButtons.centerOver(inputLink);
+    $("#link").hover(function(){
+      inputLink.fadeTo("fast", 0.5);
+      copyButtons.fadeIn("fast");
+    }, function(){
+      inputLink.fadeTo("fast", 1.0);
+      copyButtons.fadeOut("fast");
+    });
+    $.sendToClipboard(inputLink.val());
+    copyStatus("url.copied");
+
+    $("#copy_url").click(function(){
+      $.sendToClipboard(inputLink.val());
+      copyStatus("url.copied");
+      return false;
+    });
+    $("#copy_tiny").click(function(){
+      $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
+        $.sendToClipboard(data.tinyurl)
+        copyStatus("url.shortened");
+      });
+      return false;
+    });
+    $("#copy_go").click(function(){
+      window.location = inputLink.val();
+      return false;
+    });
   }
 
   function googleItForThem() {

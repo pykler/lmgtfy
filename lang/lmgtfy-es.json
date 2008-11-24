@@ -6,23 +6,30 @@
   about:              "Acerca de",
   contact:            "Contacto",
   google_owns_google: "GOOGLE es una marca registrada de Google Inc.",
-  
+
   setup: {
     type_question: "Escribe una pregunta y pulsa un bot&oacute;n.",
     share_link:    "Comparte el enlace de abajo.",
-    or:            "o"
   },
-  
+
   play: {
     step_1: "Paso 1: Escribe tu pregunta",
     step_2: "Paso 2: Pulsa el bot&oacute;n buscar",
     pwnage: "&iquest;De verdad era tan dif&iacute;cil?"
   },
-  
+
+  url: {
+    copy:      "copia",
+    shorten:   "acortar",
+    go:        "ir",
+    copied:    "URL copiado al portapapeles",
+    shortened: "TinyURL copiado al portapapeles"
+  },
+
   credit:     "Creado por @coderifous, con contribuciones de @rmm5t.",
   genesis:    "Ideado en una comida con @coderifous, @tmassing, @rmm5t, @EricStratton, y @methodvon.",
   pitch:      "Esto es para todas las personas que piensan que es mejor molestarte a ti antes que buscar en Google.",
   disclaimer: "No tenemos nada que ver con Google&trade;.",
-  
+
   translated_by: "Traducido por aditza121."
 }
