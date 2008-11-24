@@ -31,5 +31,5 @@
   pitch:      "This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.",
   disclaimer: "Not associated with Google™ in any way.",
 
-  translated_by: "<Translated by Your Name Goes Here />"
+  translated_by: "Translated by <Your Name Goes Here>"
 }
