@@ -43,11 +43,13 @@
 })(jQuery);
 
 (function($) {
-  $.fn.centerOver = function(element) {
+  $.fn.centerOver = function(element, topOffset, leftOffset) {
+    topOffset = topOffset || 0;
+    leftOffset = leftOffset || 0;
     var self = this;
     self.css({
-      top: (element.position().top + element.outerHeight()/2 - self.height()/2).px(),
-      left: (element.position().left + element.outerWidth()/2 - self.width()/2).px()
+      top: (element.position().top + element.outerHeight()/2 - self.height()/2 + topOffset).px(),
+      left: (element.position().left + element.outerWidth()/2 - self.width()/2 + leftOffset).px()
     });
     return self;
   };
@@ -260,12 +262,10 @@ $(function(){
   function showTheUrl(url) {
     $("#link").show();
     inputLink.val(url).focus().select();
-    copyButtons.centerOver(inputLink);
+    copyButtons.centerOver(inputLink, 28);
     $("#link").hover(function(){
-      inputLink.fadeTo("fast", 0.5);
       copyButtons.fadeIn("fast");
     }, function(){
-      inputLink.fadeTo("fast", 1.0);
       copyButtons.fadeOut("fast");
     });
     $.sendToClipboard(inputLink.val());
