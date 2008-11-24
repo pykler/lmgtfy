@@ -19,7 +19,7 @@
   },
 
   url: {
-    copy:      "copia",
+    copy:      "copiar",
     shorten:   "acortar",
     go:        "ir",
     copied:    "URL copiado al portapapeles",
