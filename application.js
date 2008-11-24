@@ -34,9 +34,9 @@
 
 // http://keith-wood.name/localisation.html
 // Localisation assistance for jQuery v1.0.2.
-// Written by Keith Wood (kbwood@iprimus.com.au) June 2007. 
-// Dual licensed under the GPL (http://dev.jquery.com/browser/trunk/jquery/GPL-LICENSE.txt) and 
-// MIT (http://dev.jquery.com/browser/trunk/jquery/MIT-LICENSE.txt) licenses. 
+// Written by Keith Wood (kbwood@iprimus.com.au) June 2007.
+// Dual licensed under the GPL (http://dev.jquery.com/browser/trunk/jquery/GPL-LICENSE.txt) and
+// MIT (http://dev.jquery.com/browser/trunk/jquery/MIT-LICENSE.txt) licenses.
 // Please attribute the author if you use it.
 (function($) {
 
@@ -49,13 +49,13 @@
   // Also accepts an array of package names to process.
   // Optionally specify whether or not to include the base file,
   // the desired language, and/or the timeout period, e.g.
-  // $.localise(['jquery-calendar', 'jquery-timeentry'], 
+  // $.localise(['jquery-calendar', 'jquery-timeentry'],
   //      {loadBase: true; language: 'en-AU', timeout: 300});
   $.localise = function(pkg, settings) {
     settings = settings || {}
     var saveSettings = {async: $.ajaxSettings.async, timeout: $.ajaxSettings.timeout};
     $.ajaxSetup({async: false, timeout: (settings && settings.timeout ? settings.timeout : 500)});
-    
+
     var intermediateLangData = {}
     function loadLanguage(pkg, lang, level) {
       level = level || 1;
@@ -77,7 +77,7 @@
         jsonCall(file, pkg, lang, level)
       }
     }
-    
+
     function jsonCall(file, pkg, lang, level) {
       if (settings.pathPrefix) file = settings.pathPrefix + "/" + file
       $.getJSON(file, null, function(d){
@@ -86,26 +86,26 @@
         loadLanguage(pkg, lang, level + 1);
       });
     }
-    
+
     function notifyDelegateLanguageLoaded(data) {
       if (settings.callback) settings.callback(data)
     }
-    
+
     var lang = normaliseLang(settings && settings.language ? settings.language : $.defaultLanguage);
 
     if (settings.skipLanguage && settings.skipLanguage == lang) return
     loadLanguage(pkg, lang, 1)
-    
+
     $.ajaxSetup(saveSettings);
   };
-  
+
   // Retrieve the default language set for the browser.
-  $.defaultLanguage = normaliseLang(navigator.language 
-    ? navigator.language       // Mozilla 
+  $.defaultLanguage = normaliseLang(navigator.language
+    ? navigator.language       // Mozilla
     : navigator.userLanguage   // IE
   );
-  
-  // Ensure language code is in the format aa-AA. 
+
+  // Ensure language code is in the format aa-AA.
   function normaliseLang(lang) {
    lang = lang.replace(/_/, '-').toLowerCase();
    if (lang.length > 3) {
@@ -114,7 +114,7 @@
    return lang;
   }
 
-  // Determine whether an object is an array. 
+  // Determine whether an object is an array.
   function isArray(a) {
    return (a.constructor && a.constructor.toString().match(/\Array\(\)/));
   }
@@ -141,7 +141,7 @@ LMGTFY.lang = {
     share_link:    "Share the link below.",
     or:            "or"
   },
-  
+
   play: {
     step_1: "Step 1: Type in your question",
     step_2: "Step 2: Click the Search button",
@@ -166,13 +166,13 @@ $(function(){
     $("a[name=about]").click(function(){ $("#about").toggle(); return false; })
     $('input.copyable').click(function() { $(this).select(); });
     linkifyAbout()
-    
+
     var localise_opts = { pathPrefix: 'lang', callback: languageLoaded, skipLanguage: "en-US" }
     var lang = $.getQueryString({ id: "lang" })
     if (lang) localise_opts.language = lang
     $.localise('lmgtfy', localise_opts);
   }
-  
+
   function languageLoaded(data) {
     LMGTFY.lang = data
     var keys, value
@@ -187,7 +187,7 @@ $(function(){
     })
     linkifyAbout()
   }
-  
+
   function linkifyAbout() {
     $("#about p").each(function() {
       $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'))
@@ -197,7 +197,7 @@ $(function(){
   function instruct(langkey) {
     var keys = langkey.split(/\./)
     var value = keys.length == 1 ? LMGTFY.lang[keys[0]] : LMGTFY.lang[keys[0]][keys[1]]
-    instructions.html(value) 
+    instructions.html(value)
   }
 
   function getTheSearchTerms() {
@@ -209,8 +209,7 @@ $(function(){
       instruct("setup.share_link")
 
       var l   = window.location
-      var port = l.port == "80" ? "" : ":" + l.port
-      var url = l.protocol + "//" + l.hostname + port + l.pathname + "?"
+      var url = l.protocol + "//" + l.hostname + l.pathname + "?"
 
       strings = [ "q=" + gentlyEncode(inputField.val()) ]
       if (this.id == "lucky") strings.push("l=1")
