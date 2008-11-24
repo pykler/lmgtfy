@@ -1,0 +1,35 @@
+{
+  pre_logo:           "deixa'm que et busqui això a",
+  post_logo:          "",
+  search_button:      "Cerca amb Google",
+  lucky_button:       "Segur que tinc sort",
+  about:              "Sobre",
+  contact:            "Contacta'ns",
+  google_owns_google: "GOOGLE és una marca registrada de Google Inc.",
+
+  setup: {
+    type_question: "Escriu una pregunta i fes clic al botó.",
+    share_link:    "Comparteix l'enllaç de sota.",
+  },
+
+  play: {
+    step_1: "Pas 1: Escriu la teva pregunta",
+    step_2: "Pas 2: Fes clic al botó buscar",
+    pwnage: "Realment era tan difícil?"
+  },
+
+  url: {
+    copy:      "copiar",
+    shorten:   "tinyurl",
+    go:        "anar",
+    copied:    "URL copiat al porta-retalls",
+    shortened: "TinyURL copiat al porta-retalls"
+  },
+
+  credit:     "Creat per @coderifous, amb contribucions de @rmm5t.",
+  genesis:    "Ideat en un dinar amb @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
+  pitch:      "Això és per a totes les persones que pensen que és millor molestar-te a tu amb les seves preguntes abans de buscar a google.",
+  disclaimer: "No tenim res a veure amb Google&trade;.",
+
+  translated_by: "Traduït per @daxtoor."
+}
