@@ -262,31 +262,31 @@ $(function(){
   function showTheUrl(url) {
     $("#link").show();
     inputLink.val(url).focus().select();
-    copyButtons.centerOver(inputLink, 28);
-    $("#link").hover(function(){
-      copyButtons.fadeIn("fast");
-    }, function(){
-      copyButtons.fadeOut("fast");
-    });
-    $.sendToClipboard(inputLink.val());
-    copyStatus("url.copied");
+//     copyButtons.centerOver(inputLink, 28);
+//     $("#link").hover(function(){
+//       copyButtons.fadeIn("fast");
+//     }, function(){
+//       copyButtons.fadeOut("fast");
+//     });
+//     $.sendToClipboard(inputLink.val());
+//     copyStatus("url.copied");
 
-    $("#copy_url").click(function(){
-      $.sendToClipboard(inputLink.val());
-      copyStatus("url.copied");
-      return false;
-    });
-    $("#copy_tiny").click(function(){
-      $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
-        $.sendToClipboard(data.tinyurl)
-        copyStatus("url.shortened");
-      });
-      return false;
-    });
-    $("#copy_go").click(function(){
-      window.location = inputLink.val();
-      return false;
-    });
+//     $("#copy_url").click(function(){
+//       $.sendToClipboard(inputLink.val());
+//       copyStatus("url.copied");
+//       return false;
+//     });
+//     $("#copy_tiny").click(function(){
+//       $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
+//         $.sendToClipboard(data.tinyurl)
+//         copyStatus("url.shortened");
+//       });
+//       return false;
+//     });
+//     $("#copy_go").click(function(){
+//       window.location = inputLink.val();
+//       return false;
+//     });
   }
 
   function googleItForThem() {
