@@ -1,0 +1,35 @@
+{
+  pre_logo:           "låt mig",
+  post_logo:          "det för dig",
+  search_button:      "Google-Sökning",
+  lucky_button:       "Jag har tur",
+  about:              "Om sidan",
+  contact:            "Kontakt",
+  google_owns_google: "GOOGLE är ett registrerat varumärke av Google Inc.",
+
+  setup: {
+    type_question: "Ställ en fråga, klicka på en knapp.",
+    share_link:    "Dela länken nedan."
+  },
+
+  play: {
+    step_1: "Steg 1: Ställ din fråga",
+    step_2: "Steg 2: Klicka på sök-knappen",
+    pwnage: "Var det så svårt?"
+  },
+
+  url: {
+    copy:      "kopia",
+    shorten:   "tinyurl",
+    go:        "gå",
+    copied:    "URL kopieras till Urklipp",
+    shortened: "TinyURL kopieras till Urklipp"
+  },
+
+  credit:     "Skapad av @coderifous, med medverkan av @rmm5t.",
+  genesis:    "Inspiration funnen under en lunch med @coderifous, @tmassing, @rmm5t, @EricStratton, och @methodvon.",
+  pitch:      "Den här sidan är till för alla människor som tycker att det är bekvämare att störa dig med sina frågor istället för att googla det.",
+  disclaimer: "Sidan har inget samarbete med Google&trade;.",
+
+  translated_by: "Översatt av Victor Karmebäck"
+}
