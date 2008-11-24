@@ -1,0 +1,34 @@
+{
+  pre_logo:           "deixa que eu busco pra você no",
+  post_logo:          "",
+  search_button:      "Pesquisa Google",
+  lucky_button:       "Estou com sorte",
+  about:              "Sobre",
+  contact:            "Contato",
+  google_owns_google: "GOOGLE é uma marca registrada de Google Inc.",
+
+  setup: {
+    type_question: "Digite uma pergunta e aperte um botão.",
+    share_link:    "Compartilhe o link abaixo.",
+  },
+
+  play: {
+    step_1: "Passo 1: Digite sua pergunta",
+    step_2: "Passo 2: Clique no botão Pesquisa",
+    pwnage: "Difícil né ?"
+  },
+
+  url: {
+    copy:      "copiar",
+    shorten:   "tinyurl",
+    go:        "ir",
+    copied:    "URL copiado para a área de transferência",
+    shortened: "TinyURL copiado para a área de transferência"
+  },
+
+  credit:     "Criado por @coderifous, com contribuições de @rmm5t.",
+  genesis:    "Inspiração vinda de uma conversa durante o almoço com @coderifous, @tmassing, @rmm5t, @EricStratton, e @methodvon.",
+  pitch:      "Esta ferramenta é para todas as pessoas que acham mais conveniente te perturbar com a pergunta deles do que ir no google e pesquisarem sozinhos.",
+  disclaimer: "Não temos associação alguma com o Google&trade;.",
+  translated_by: "Traduzido por nervosaaa."
+}
