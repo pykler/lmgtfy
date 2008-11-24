@@ -9,7 +9,7 @@
 
   setup: {
     type_question: "Tapez une question, cliquez un bouton.",
-    share_link:    "Envoyer à un ami.",
+    share_link:    "Partager cette adresse.",
   },
 
   play: {
@@ -20,8 +20,8 @@
 
   url: {
     copy:      "copier",
-    shorten:   "courte",
-    go:        "aller",
+    shorten:   "tinyurl",
+    go:        "voir",
     copied:    "URL copiée dans le presse-papier",
     shortened: "TinyURL copiée dans le presse-papier"
   },
