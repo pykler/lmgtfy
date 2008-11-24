@@ -1,0 +1,35 @@
+{
+  pre_logo:           "warte, ich",
+  post_logo:          "das für dich",
+  search_button:      "Google-Suche",
+  lucky_button:       "Auf gut Glück!",
+  about:              "Über uns",
+  contact:            "Kontakt",
+  google_owns_google: "GOOGLE ist ein eingetragenes Warenzeichen von Google Inc.",
+
+  setup: {
+    type_question: "Frage eingeben, Button anklicken.",
+    share_link:    "Link unten weitergeben.",
+  },
+
+  play: {
+    step_1: "Schritt 1: Frage eingeben",
+    step_2: "Schritt 2: Such-Button anklicken",
+    pwnage: "War das so schwierig?"
+  },
+
+  url: {
+    copy:      "kopieren",
+    shorten:   "kürzen",
+    go:        "los",
+    copied:    "URL in Zwischenablage kopiert",
+    shortened: "TinyURL in Zwischenablage kopiert"
+  },
+
+  credit:     "Erstellt von @coderifous, Unterstützung von @rmm5t.",
+  genesis:    "Während einer Unterhaltung beim Mittagessen mit @coderifous, @tmassing, @rmm5t, @EricStratton, und @methodvon entstanden.",
+  pitch:      "Für all die Leute, die lieber dich mit ihren Fragen nerven, statt selbst mal mit Google zu suchen.",
+  disclaimer: "In keinster Weise mit Google™ assoziiert.",
+
+  translated_by: "<Translated by @dertyp />"
+}
