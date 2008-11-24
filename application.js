@@ -260,14 +260,17 @@ $(function(){
   }
 
   function showTheUrl(url) {
+    $("#copy_url").hide();
+    $("#copy_tiny").hide();
+    
     $("#link").show();
     inputLink.val(url).focus().select();
-//     copyButtons.centerOver(inputLink, 28);
-//     $("#link").hover(function(){
-//       copyButtons.fadeIn("fast");
-//     }, function(){
-//       copyButtons.fadeOut("fast");
-//     });
+    copyButtons.centerOver(inputLink, 28);
+    $("#link").hover(function(){
+      copyButtons.fadeIn("fast");
+    }, function(){
+      copyButtons.fadeOut("fast");
+    });
 //     $.sendToClipboard(inputLink.val());
 //     copyStatus("url.copied");
 
@@ -283,10 +286,10 @@ $(function(){
 //       });
 //       return false;
 //     });
-//     $("#copy_go").click(function(){
-//       window.location = inputLink.val();
-//       return false;
-//     });
+    $("#copy_go").click(function(){
+      window.location = inputLink.val();
+      return false;
+    });
   }
 
   function googleItForThem() {
