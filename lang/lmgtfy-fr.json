@@ -1,0 +1,35 @@
+{
+  pre_logo:           "laissez-moi",
+  post_logo:          "ça pour vous",
+  search_button:      "Recherche Google",
+  lucky_button:       "J'ai de la chance",
+  about:              "A propos",
+  contact:            "Contact",
+  google_owns_google: "GOOGLE est une marque commerciale de Google Inc.",
+
+  setup: {
+    type_question: "Tapez une question, cliquez sur un bouton.",
+    share_link:    "Envoyer à un ami.",
+  },
+
+  play: {
+    step_1: "Step 1: Tapez votre question",
+    step_2: "Step 2: Cliquez sur le bouton de recherche",
+    pwnage: "Etait-ce si difficile ?"
+  },
+
+  url: {
+    copy:      "copier",
+    shorten:   "courte",
+    go:        "aller",
+    copied:    "URL copiée dans le presse-papier",
+    shortened: "TinyURL copiée dans le presse-papier"
+  },
+
+  credit:     "Créé par @coderifous, avec la contribution de @rmm5t.",
+  genesis:    "Imaginé lors d'un repas avec @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
+  pitch:      "Pour tous ces gens qui préfèrent vous agacer avec leur question plutôt que de consulter Google.",
+  disclaimer: "Aucun accord avec Google™",
+
+  translated_by: "Traduit par Antoine"
+}
