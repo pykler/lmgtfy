@@ -10,7 +10,7 @@
 
   setup: {
     type_question: "Frage eingeben, Button anklicken.",
-    share_link:    "Link unten weitergeben.",
+    share_link:    "Link unten weitergeben."
   },
 
   play: {

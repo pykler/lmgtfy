@@ -10,7 +10,7 @@
 
   setup: {
     type_question: "Escribe una pregunta y pulsa un bot&oacute;n.",
-    share_link:    "Comparte el enlace de abajo.",
+    share_link:    "Comparte el enlace de abajo."
   },
 
   play: {

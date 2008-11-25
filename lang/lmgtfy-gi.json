@@ -10,7 +10,7 @@
 
   setup: {
     type_question: "Klikikliki U wannano, mousklicki de button.",
-    share_link:    "Sharee dat linkee.",
+    share_link:    "Sharee dat linkee."
   },
 
   play: {

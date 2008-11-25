@@ -10,7 +10,7 @@
 
   setup: {
     type_question: "Type a question, click a button.",
-    share_link:    "Share the link below.",
+    share_link:    "Share the link below."
   },
 
   play: {

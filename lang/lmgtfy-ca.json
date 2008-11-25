@@ -10,7 +10,7 @@
 
   setup: {
     type_question: "Escriu una pregunta i fes clic al botó.",
-    share_link:    "Comparteix l'enllaç de sota.",
+    share_link:    "Comparteix l'enllaç de sota."
   },
 
   play: {
