@@ -1,11 +1,11 @@
 {
   pre_logo:           "давай-ка в",
-  Post_logo:          "поищем",
-  Search_button:      "Поиск в Google",
+  post_logo:          "поищем",
+  search_button:      "Поиск в Google",
   lucky_button:       "Мне повезёт!",
   about:              "О сервисе",
-  Contact:            "Контакты",
-  Donate:             "Пожертвовать",
+  contact:            "Контакты",
+  donate:             "Пожертвовать",
   google_owns_google: "GOOGLE является зарегистрированной торговой маркой Google Inc.",
 
   setup: {
@@ -15,8 +15,8 @@
 
   play: {
     step_1: "Шаг 1. Напиши запрос.",
-    Step_2: "Шаг 2. Нажми на кнопку поиска.",
-    Pwnage: "Разве это так трудно?"
+    step_2: "Шаг 2. Нажми на кнопку поиска.",
+    pwnage: "Разве это так трудно?"
   },
 
   url: {
@@ -30,7 +30,7 @@
   credit:     "Создано @coderifous, при поддержке @rmm5t.",
   genesis:    "Под вдохновением от обеденного разговора с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
   pitch:      "Этот сайт для тех людей, которые считают, что лучше беспокоить вас своими вопросами, чем самим поискать ответ в Google.",
-  Disclaimer: "Сервис не имеет отношения к Google&trade;.",
+  disclaimer: "Сервис не имеет отношения к Google&trade;.",
 
   translated_by: "Автор перевода странички на русский язык ProVal и Дима"
 }
