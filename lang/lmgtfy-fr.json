@@ -1,12 +1,11 @@
 {
   pre_logo:           "laissez-moi",
-  post_logo:          "ça pour toi",
+  post_logo:          "r ça pour toi",
   search_button:      "Recherche Google",
   lucky_button:       "J'ai de la chance",
-  about:              "A propos",
+  about:              "A Propos",
   contact:            "Contact",
-  donate:             "Faire un don",
-  google_owns_google: "GOOGLE est une marque commerciale de Google Inc.",
+  google_owns_google: "GOOGLE est une marque de Google Inc.",
 
   setup: {
     type_question: "Tapez une question, cliquez un bouton.",
@@ -14,23 +13,23 @@
   },
 
   play: {
-    step_1: "Step 1: Tapez votre question",
-    step_2: "Step 2: Cliquez sur le bouton de recherche",
-    pwnage: "Etait-ce si difficile ?"
+    step_1: "Etape 1: Tapez votre question",
+    step_2: "Etape 2: Cliquez sur le bouton Recherche",
+    pwnage: "C'était si compliqué que ça ?"
   },
 
   url: {
     copy:      "copier",
     shorten:   "tinyurl",
-    go:        "voir",
+    go:        "suivre",
     copied:    "URL copiée dans le presse-papier",
     shortened: "TinyURL copiée dans le presse-papier"
   },
 
-  credit:     "Créé par @coderifous, avec la contribution de @rmm5t.",
-  genesis:    "Imaginé lors d'un repas avec @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
-  pitch:      "Pour tous ces gens qui préfèrent vous agacer avec leur question plutôt que de consulter Google.",
-  disclaimer: "Aucun accord avec Google&trade;",
+  credit:     "Créé par @coderifous, avec la participation de @rmm5t.",
+  genesis:    "Imaginé durant un déjeuner avec @coderifous, @tmassing, @rmm5t, @EricStratton, et @methodvon.",
+  pitch:      "Ce site est destiné à toutes les personnes qui préfèrent vous déranger avec leurs questions plutôt que de chercher par eux-mêmes.",
+  disclaimer: "Ce site n'est lié à Google&trade; en aucune façon",
 
-  translated_by: "Traduit par Antoine"
+  translated_by: "Traduit par Antoine et Norbz"
 }
