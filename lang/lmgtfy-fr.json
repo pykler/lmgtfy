@@ -1,6 +1,6 @@
 {
-  pre_logo:           "laissez-moi",
-  post_logo:          "r ça pour toi",
+  pre_logo:           "Laisse moi chercher ça dans",
+  post_logo:          "pour toi",
   search_button:      "Recherche Google",
   lucky_button:       "J'ai de la chance",
   about:              "A Propos",
@@ -8,8 +8,8 @@
   google_owns_google: "GOOGLE est une marque de Google Inc.",
 
   setup: {
-    type_question: "Tapez une question, cliquez un bouton.",
-    share_link:    "Partager cette adresse."
+    type_question: "Tapez une question et cliquez sur l'un des boutons.",
+    share_link:    "Utilisez le lien ci-dessous."
   },
 
   play: {
