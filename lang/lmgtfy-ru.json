@@ -5,6 +5,7 @@
   lucky_button:       "Мне повезёт!",
   about:              "О нас",
   contact:            "Обратная связь",
+  donate:             "Пожертвовать",
   google_owns_google: "GOOGLE является зарегистрированной торговой маркой Google Inc.",
 
   setup: {
