@@ -1,0 +1,36 @@
+{
+  pre_logo:           "izin verin",
+  post_logo:          "sizin için",
+  search_button:      "Google'da Ara",
+  lucky_button:       "Şansımı Denemek İstiyorum",
+  about:              "Hakkında",
+  contact:            "İletisim",
+  donate:             "Bağış Yap",
+  google_owns_google: "GOOGLE Google Inc.'a ait bir markadır.",
+
+  setup: {
+    type_question: "Arayacağınız kelimeyi yazıp, Google'da ara butonuna basınız.",
+    share_link:    "Aşağıdaki linki paylaşınız."
+  },
+
+  play: {
+    step_1: "1. Adım : Arayacağın kelimeyi yaz",
+    step_2: "2. Adım : Arama butonuna bas",
+    pwnage: "Bunu yapmak çok mu zordu?"
+  },
+
+  url: {
+    copy:      "kopyala",
+    shorten:   "tinyurl",
+    go:        "git",
+    copied:    "URL panoya kopyalandı",
+    shortened: "TinyURL panoya kopyalandı"
+  },
+
+  credit:     "@coderifous tarafından hazırlanmıştır, @rmm5t tarafından yardım edilmiştir.",
+  genesis:    "@coderifous, @tmassing, @rmm5t, @EricStratton, ve @methodvon arasında geçen bir öğle yemeği konuşmasında esinlenerek hazırlanmıştır.",
+  pitch:      "Sorularının cevaplarını Google'da aramaktansa sizi rahatsız etmeyi tercih eden isnalar için.",
+  disclaimer: "Google markası ile hiçbir şekilde ortaklık yoktur.",
+
+  translated_by: "Cemal Yerlikaya tarafından çevrilmiştir."
+}
