@@ -28,7 +28,7 @@
           return value;
       }
       }
-    return options.defaultvalue
+    return options.defaultvalue;
   };
 })(jQuery);
 
@@ -36,9 +36,9 @@
   $.sendToClipboard = function(text) {
     var copier = $("#flash_copier");
     if (copier.size() == 0) {
-      copier = $('<div id="flash_copier"></div>').appendTo("body")
+      copier = $('<div id="flash_copier"></div>').appendTo("body");
     }
-    copier.html('<embed src="_clipboard.swf" FlashVars="clipboard='+encodeURIComponent(text)+'" width="0" height="0" type="application/x-shockwave-flash"></embed>')
+    copier.html('<embed src="_clipboard.swf" FlashVars="clipboard='+encodeURIComponent(text)+'" width="0" height="0" type="application/x-shockwave-flash"></embed>');
   };
 })(jQuery);
 
@@ -75,11 +75,11 @@
   // $.localise(['jquery-calendar', 'jquery-timeentry'],
   //      {loadBase: true; language: 'en-AU', timeout: 300});
   $.localise = function(pkg, settings) {
-    settings = settings || {}
+    settings = settings || {};
     var saveSettings = {async: $.ajaxSettings.async, timeout: $.ajaxSettings.timeout};
     $.ajaxSetup({async: false, timeout: (settings && settings.timeout ? settings.timeout : 500)});
 
-    var intermediateLangData = {}
+    var intermediateLangData = {};
     function loadLanguage(pkg, lang, level) {
       level = level || 1;
       if (settings && settings.loadBase && level == 1) {
@@ -93,16 +93,16 @@
       }
       else if (level == 2 && lang.length >= 2) {
         var file = pkg + '-' + lang.substring(0, 2) + '.json';
-        jsonCall(file, pkg, lang, level)
+        jsonCall(file, pkg, lang, level);
       }
       else if (level == 3 && lang.length >= 5) {
         var file = pkg + '-' + lang.substring(0, 5) + '.json';
-        jsonCall(file, pkg, lang, level)
+        jsonCall(file, pkg, lang, level);
       }
     }
 
     function jsonCall(file, pkg, lang, level) {
-      if (settings.pathPrefix) file = settings.pathPrefix + "/" + file
+      if (settings.pathPrefix) file = settings.pathPrefix + "/" + file;
       $.getJSON(file, null, function(d){
         $.extend(intermediateLangData, d);
         notifyDelegateLanguageLoaded(intermediateLangData);
@@ -111,13 +111,13 @@
     }
 
     function notifyDelegateLanguageLoaded(data) {
-      if (settings.callback) settings.callback(data)
+      if (settings.callback) settings.callback(data);
     }
 
     var lang = normaliseLang(settings && settings.language ? settings.language : $.defaultLanguage);
 
-    if (settings.skipLanguage && settings.skipLanguage == lang) return
-    loadLanguage(pkg, lang, 1)
+    if (settings.skipLanguage && settings.skipLanguage == lang) return;
+    loadLanguage(pkg, lang, 1);
 
     $.ajaxSetup(saveSettings);
   };
@@ -144,20 +144,20 @@
 })(jQuery);
 
 // helpers
-Number.prototype.px = function(){ return this.toString() + "px" }
+Number.prototype.px = function(){ return this.toString() + "px"; };
 
 function gentlyEncode(string) {
   return ( encodeURIComponent
            ? encodeURIComponent(string).replace(/%20(\D)?/g, "+$1").replace(/'/g, escape("'"))
-           : escape(string).replace(/\+/g, "%2B").replace(/%20/g, "+") )
+           : escape(string).replace(/\+/g, "%2B").replace(/%20/g, "+") );
 }
 
 function gentlyDecode(string) {
-  return decodeURIComponent ? decodeURIComponent(string) : unescape(string)
+  return decodeURIComponent ? decodeURIComponent(string) : unescape(string);
 }
 
 // default lang necessities
-var LMGTFY = {}
+var LMGTFY = {};
 LMGTFY.lang = {
   setup: {
     type_question: "Type a question, click a button.",
@@ -175,48 +175,48 @@ LMGTFY.lang = {
     copied:    "URL copied to clipboard",
     shortened: "TinyURL copied to clipboard"
   }
-}
+};
 
 // app code
 $(function(){
-  initializeContent()
+  initializeContent();
 
-  var searchString = $.getQueryString({ id: "q" })
-  var inputField   = $("input[type=text]:first")
-  var fakeMouse    = $("#fake_mouse")
-  var instructions = $("#instructions > div")
-  var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search")
-  var inputLink    = $("#link input.link")
-  var copyButtons  = $("#copy_buttons")
-  var copyMessage  = $("#copy_message")
+  var searchString = $.getQueryString({ id: "q" });
+  var inputField   = $("input[type=text]:first");
+  var fakeMouse    = $("#fake_mouse");
+  var instructions = $("#instructions > div");
+  var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search");
+  var inputLink    = $("#link input.link");
+  var copyButtons  = $("#copy_buttons");
+  var copyMessage  = $("#copy_message");
 
-  if (searchString && searchString.length > 0) googleItForThem()
-  else getTheSearchTerms()
+  if (searchString && searchString.length > 0) googleItForThem();
+  else getTheSearchTerms();
 
   function initializeContent() {
-    $("a[name=about]").click(function(){ $("#about").toggle(); return false; })
+    $("a[name=about]").click(function(){ $("#about").toggle(); return false; });
     $('input.copyable').click(function() { $(this).select(); });
-    linkifyAbout()
+    linkifyAbout();
 
-    var localise_opts = { pathPrefix: 'lang', callback: languageLoaded, skipLanguage: "en-US" }
-    var lang = $.getQueryString({ id: "lang" })
-    if (lang) localise_opts.language = lang
+    var localise_opts = { pathPrefix: 'lang', callback: languageLoaded, skipLanguage: "en-US" };
+    var lang = $.getQueryString({ id: "lang" });
+    if (lang) localise_opts.language = lang;
     $.localise('lmgtfy', localise_opts);
   }
 
   function languageLoaded(data) {
-    LMGTFY.lang = data
-    var keys, value
+    LMGTFY.lang = data;
+    var keys, value;
     $("[rel*=localize]").each(function(){
-      elem = $(this)
-      keys = elem.attr("rel").split(/\./)
-      value = keys.length == 2 ? data[keys[1]] : data[keys[1]][keys[2]]
+      elem = $(this);
+      keys = elem.attr("rel").split(/\./);
+      value = keys.length == 2 ? data[keys[1]] : data[keys[1]][keys[2]];
       if (elem.attr('tagName') == "INPUT")
-        elem.val(value)
+        elem.val(value);
       else
-        elem.text(value)
-    })
-    linkifyAbout()
+        elem.text(value);
+    });
+    linkifyAbout();
   }
 
   function linkifyAbout() {
@@ -231,7 +231,7 @@ $(function(){
 
   function copyStatus(langkey) {
     copyMessage.html(langString(langkey)).show().centerOver(inputLink);
-    setTimeout(function(){ copyMessage.fadeOut(1500) }, 1000);
+    setTimeout(function(){ copyMessage.fadeOut(1500); }, 1000);
   }
 
   function langString(langkey) {
@@ -240,29 +240,29 @@ $(function(){
   }
 
   function getTheSearchTerms() {
-    $("form").submit(function(){ $("#search").click(); return false; })
-    instruct("setup.type_question")
-    inputField.focus().select()
+    $("form").submit(function(){ $("#search").click(); return false; });
+    instruct("setup.type_question");
+    inputField.focus().select();
 
     $("input[type=button]").click(function(e){
-      instruct("setup.share_link")
+      instruct("setup.share_link");
 
-      var l   = window.location
-      var url = l.protocol + "//" + l.hostname + l.pathname + "?"
+      var l   = window.location;
+      var url = l.protocol + "//" + l.hostname + l.pathname + "?";
 
-      strings = [ "q=" + gentlyEncode(inputField.val()) ]
-      if (this.id == "lucky") strings.push("l=1")
+      strings = [ "q=" + gentlyEncode(inputField.val()) ];
+      if (this.id == "lucky") strings.push("l=1");
 
-      url += strings.join("&")
+      url += strings.join("&");
 
-      showTheUrl(url)
-    })
+      showTheUrl(url);
+    });
   }
 
   function showTheUrl(url) {
     $("#copy_url").hide();
     $("#copy_tiny").hide();
-    
+
     $("#link").show();
     inputLink.val(url).focus().select();
     copyButtons.centerOver(inputLink, 28);
@@ -293,53 +293,53 @@ $(function(){
   }
 
   function googleItForThem() {
-    $("body").css("cursor", "wait")
-    fakeMouse.show()
-    instruct("play.step_1")
+    $("body").css("cursor", "wait");
+    fakeMouse.show();
+    instruct("play.step_1");
 
     fakeMouse.animate({
       top:  (inputField.position().top  + 15).px(),
       left: (inputField.position().left + 10).px()
     }, 1500, 'swing', function(){
-      inputField.focus()
-      fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast', function() { fixSafariRenderGlitch() })
-      type(searchString, 0)
-    })
+      inputField.focus();
+      fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast', function() { fixSafariRenderGlitch(); });
+      type(searchString, 0);
+    });
 
     function type(string, index){
-      var val = string.substr(0, index + 1)
-      inputField.attr('value', val)
+      var val = string.substr(0, index + 1);
+      inputField.attr('value', val);
       if (index < string.length) {
-        setTimeout(function(){ type(string, index + 1) }, Math.random() * 240)
+        setTimeout(function(){ type(string, index + 1); }, Math.random() * 240);
       }
       else {
-        doneTyping()
+        doneTyping();
       }
     }
 
     function doneTyping(){
-      instruct("play.step_2")
+      instruct("play.step_2");
       fakeMouse.animate({
         top:  (button.position().top  + 10).px(),
         left: (button.position().left + 30).px()
       }, 2000, 'swing', function(){
-        instruct("play.pwnage")
-        button.focus()
-        setTimeout(redirect, 2000)
-      })
+        instruct("play.pwnage");
+        button.focus();
+        setTimeout(redirect, 2000);
+      });
     }
 
     function redirect(){
-      if ($.getQueryString({ id: "debug" })) return
+      if ($.getQueryString({ id: "debug" })) return;
 
-      var escapedString = gentlyEncode(searchString)
-      var button_key    = (button.attr("id") == $("#lucky").attr("id")) ? "btnI" : "btnG"
+      var escapedString = gentlyEncode(searchString);
+      var button_key    = (button.attr("id") == $("#lucky").attr("id")) ? "btnI" : "btnG";
 
-      window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=" + escape(button.attr("value"))
+      window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=" + escape(button.attr("value"));
     }
 
     function fixSafariRenderGlitch() {
-      if ($.browser.safari) inputField.blur().focus()
+      if ($.browser.safari) inputField.blur().focus();
     }
   }
-})
+});
