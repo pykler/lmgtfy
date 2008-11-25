@@ -1,12 +1,12 @@
 {
-  pre_logo:           "izin verin",
-  post_logo:          "sizin için",
+  pre_logo:           "Sizin için",
+  post_logo:          "'da arayayım.",
   search_button:      "Google'da Ara",
   lucky_button:       "Şansımı Denemek İstiyorum",
   about:              "Hakkında",
-  contact:            "İletisim",
+  contact:            "İletişim",
   donate:             "Bağış Yap",
-  google_owns_google: "GOOGLE Google Inc.'a ait bir markadır.",
+  google_owns_google: "'GOOGLE' Google Inc.'a ait bir markadır.",
 
   setup: {
     type_question: "Arayacağınız kelimeyi yazıp, Google'da ara butonuna basınız.",
@@ -27,10 +27,10 @@
     shortened: "TinyURL panoya kopyalandı"
   },
 
-  credit:     "@coderifous tarafından hazırlanmıştır, @rmm5t tarafından yardım edilmiştir.",
-  genesis:    "@coderifous, @tmassing, @rmm5t, @EricStratton, ve @methodvon arasında geçen bir öğle yemeği konuşmasında esinlenerek hazırlanmıştır.",
-  pitch:      "Sorularının cevaplarını Google'da aramaktansa sizi rahatsız etmeyi tercih eden isnalar için.",
+  credit:     "@coderifous tarafından hazırlanmıştır, @rmm5t tarafından hazırlanmasına yardım edilmiştir.",
+  genesis:    "@coderifous, @tmassing, @rmm5t, @EricStratton, ve @methodvon arasında geçen bir öğle yemeği konuşmasından esinlenerek hazırlanmıştır.",
+  pitch:      "Sorularının cevaplarını Google'da aramaktansa sizi rahatsız etmeyi tercih eden insanlar için.",
   disclaimer: "Google markası ile hiçbir şekilde ortaklık yoktur.",
 
-  translated_by: "Cemal Yerlikaya tarafından çevrilmiştir."
+  translated_by: "Cemal Yerlikaya tarafından çevrilmiştir. Çeviri hataları Utku Aydın tarafından düzeltilmiştir. "
 }
