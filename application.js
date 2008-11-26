@@ -172,6 +172,8 @@ LMGTFY.lang = {
   },
 
   url: {
+    creating:  "Creating...",
+    fetching:  "Fetching...",
     copied:    "URL copied to clipboard",
     shortened: "TinyURL copied to clipboard"
   }
@@ -187,8 +189,8 @@ $(function(){
   var instructions = $("#instructions > div");
   var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search");
   var inputLink    = $("#link input.link");
-  var copyButtons  = $("#copy_buttons");
-  var copyMessage  = $("#copy_message");
+  var linkButtons  = $("#link_buttons");
+  var linkMessage  = $("#link_message");
 
   if (searchString && searchString.length > 0) googleItForThem();
   else getTheSearchTerms();
@@ -202,6 +204,25 @@ $(function(){
     var lang = $.getQueryString({ id: "lang" });
     if (lang) localise_opts.language = lang;
     $.localise('lmgtfy', localise_opts);
+
+    $("#link").hover(function(){ linkButtons.fadeIn("fast"); }, function(){ linkButtons.fadeOut("fast"); });
+    $("#go").click(function(){ window.location = inputLink.val(); return false; });
+    $("#reset").click(function(){ showTheUrl($(this).attr("url")); return false; });
+    $("#tiny").click(function(){
+      linkStatus("url.fetching", 0, true);
+      $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
+        inputLink.val(data.tinyurl).focus().select();
+        linkStatus("url.fetching", 1500);
+      });
+      $(this).hide();
+      $("#reset").show();
+      return false;
+    });
+//     $("#copy").click(function(){
+//       $.sendToClipboard(inputLink.val());
+//       linkStatus("url.copied");
+//       return false;
+//     });
   }
 
   function languageLoaded(data) {
@@ -229,9 +250,12 @@ $(function(){
     instructions.html(langString(langkey));
   }
 
-  function copyStatus(langkey) {
-    copyMessage.html(langString(langkey)).show().centerOver(inputLink);
-    setTimeout(function(){ copyMessage.fadeOut(1500); }, 1000);
+  function linkStatus(langkey, millis, stuck) {
+    millis = millis || 2500;
+    linkMessage.html(langString(langkey)).show().centerOver(inputLink);
+    if (!stuck) {
+      setTimeout(function(){ linkMessage.fadeOut(millis/4*3); }, millis/4);
+    }
   }
 
   function langString(langkey) {
@@ -260,36 +284,18 @@ $(function(){
   }
 
   function showTheUrl(url) {
-    $("#copy_url").hide();
-    $("#copy_tiny").hide();
+    $("#copy").hide();
 
-    $("#link").show();
+    $("#link").centerOver($("#link_placeholder")).show();
+    $("#reset").attr("url", url).hide();
+    $("#tiny").show();
+    
+    linkStatus("url.creating", 1500);
     inputLink.val(url).focus().select();
-    copyButtons.centerOver(inputLink, 28);
-    $("#link").hover(function(){
-      copyButtons.fadeIn("fast");
-    }, function(){
-      copyButtons.fadeOut("fast");
-    });
-//     $.sendToClipboard(inputLink.val());
-//     copyStatus("url.copied");
+    linkButtons.centerOver(inputLink, 28);
 
-//     $("#copy_url").click(function(){
-//       $.sendToClipboard(inputLink.val());
-//       copyStatus("url.copied");
-//       return false;
-//     });
-//     $("#copy_tiny").click(function(){
-//       $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
-//         $.sendToClipboard(data.tinyurl)
-//         copyStatus("url.shortened");
-//       });
-//       return false;
-//     });
-    $("#copy_go").click(function(){
-      window.location = inputLink.val();
-      return false;
-    });
+//     $.sendToClipboard(inputLink.val());
+//     linkStatus("url.copied");
   }
 
   function googleItForThem() {

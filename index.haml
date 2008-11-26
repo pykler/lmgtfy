@@ -17,17 +17,18 @@
         #fake_mouse { position: absolute; top: 100px; left: 100px; }
         #instructions { margin-top: 50px; font-size: 1.1em; color: #999; width: 350; height: 84px; background: transparent url(images/instructions_bg.png) no-repeat top center; }
         #instructions div { line-height: 84px; }
-        #link { display: none; margin-top: 25px; }
+        #link_placeholder { height: 100px; }
+        #link { position: absolute; display: none; padding-bottom: 28px; }
         input.link { width: 312px; font-size: 1.2em; text-align: center; border: 1px solid #c2c9ff; color: #555; background-color: #f4fbff; cursor: pointer; }
-        #footer { color: #999; margin-top: 50px; border-top: solid 1px #ddd; padding-top: 0.5em; }
+        #footer { color: #999; border-top: solid 1px #ddd; padding-top: 0.5em; }
         #footer a { color: #999; text-decoration: none; padding: 0 1em; }
         #footer a:hover { text-decoration: underline; }
         #about { margin-top: 0.5em; color: #666; }
         #copyright { position: fixed; bottom: 0; width: 100%; padding: 0.25em; text-align: center; font-size: 0.75em; color: #bbb; background-color: #fff; }
-        #copy_buttons, #copy_message { position: absolute; display: none;}
-        a.copy_button { display: block; float: left; width: 60px; height: 20px; margin: 0 2px; padding: 5px 0; background: transparent url(images/copy_button.png) no-repeat center center; color: #fff; line-height: 20px; text-align: center; font-size: 0.8em; text-decoration: none; }
-        a.copy_button:hover { background-image: url(images/copy_button_hover.png) }
-        #copy_message { z-index: 99; width: 332px; height: 32px; background: url(images/copy_message.png); color: #fff; line-height: 32px; text-align: center; font-size: 1em; }
+        #link_buttons, #link_message { position: absolute; display: none;}
+        a.link_button { display: block; float: left; width: 60px; height: 20px; margin: 0 2px; padding: 5px 0; background: transparent url(images/link_button.png) no-repeat center center; color: #fff; line-height: 20px; text-align: center; font-size: 0.8em; text-decoration: none; }
+        a.link_button:hover { background-image: url(images/link_button_hover.png) }
+        #link_message { z-index: 99; width: 332px; height: 32px; background: url(images/link_message.png); color: #fff; line-height: 32px; text-align: center; font-size: 1em; }
   %body
     %center
       .logo
@@ -47,13 +48,15 @@
         %div
           Enable javascript to use LMGTFY.
 
+      #link_placeholder
       #link
         %input.link.copyable{ :type => "text", :readonly => true }
-        #copy_message
-        #copy_buttons
-          %a#copy_url.copy_button{ :href => "#", :rel => "localize.url.copy" } copy
-          %a#copy_tiny.copy_button{ :href => "#", :rel => "localize.url.shorten" } tinyurl
-          %a#copy_go.copy_button{ :href => "#", :rel => "localize.url.go" } go
+        #link_message
+        #link_buttons
+          %a#copy.link_button{ :href => "#", :rel => "localize.url.copy" } copy
+          %a#reset.link_button{ :href => "#", :rel => "localize.url.reset" } reset
+          %a#tiny.link_button{ :href => "#", :rel => "localize.url.shorten" } tinyurl
+          %a#go.link_button{ :href => "#", :rel => "localize.url.go" } go
 
       #footer
         %a.about{ :href => "#", :name => "about", :rel => "localize.about" } About
