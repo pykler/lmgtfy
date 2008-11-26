@@ -1,0 +1,39 @@
+{
+  pre_logo:           "Użyje",
+  post_logo:          "dla Ciebie",
+  search_button:      "Szukaj Google",
+  lucky_button:       "Szczęśliwy Traf",
+  about:              "O Nas",
+  contact:            "Kontakt",
+  donate:             "Podarunek",
+  google_owns_google: "GOOGLE jest znakiem towarowym Google Inc.",
+
+  setup: {
+    type_question: "Wpisz pytanie i naciśnij jeden z przycisków.",
+    share_link:    "Podziel się linkiem z innymi."
+  },
+
+  play: {
+    step_1: "Krok 1: Wpisz pytanie",
+    step_2: "Krok 2: Naciśnij jeden z dwóch przycisków",
+    pwnage: "Czy było to takie trudne?"
+  },
+
+  link: {
+    copy:      "kopiuj",
+    shorten:   "skrócony link",
+    go:        "idź",
+    reset:     "wróć",
+    creating:  "Tworzenie...",
+    fetching:  "Pobieranie...",
+    copied:    "URL skopiowany do schowka",
+    shortened: "Skrócony URL skopiowany do schowka"
+  },
+
+  credit:     "Popełnione przez @coderifous, poskładane przez @rmm5t.",
+  genesis:    "Inspiracja do utworzenia strony narodziła się w trakcie obiadu prowadzonego przez: @coderifous, @tmassing, @rmm5t, @EricStratton, oraz @methodvon.",
+  pitch:      "Strona dla wszystkich tych ludzi którzy uważają że wygodniej będzie zawracać Tobie gitare niż skorzystać z wyszukiwarki Google.",
+  disclaimer: "Nie jesteśmy powiązani z  Google&trade; w jakikolwiek sposób.",
+
+  translated_by: "Przetłumaczone @mehow80"
+}
