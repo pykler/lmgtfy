@@ -21,9 +21,9 @@
 
   url: {
     copy:      "copy",
-    reset:     "reset",
     shorten:   "tinyurl",
     go:        "go",
+    reset:     "reset",
     creating:  "Creating...",
     fetching:  "Fetching...",
     copied:    "URL copied to clipboard",

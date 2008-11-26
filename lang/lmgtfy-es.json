@@ -23,6 +23,9 @@
     copy:      "copiar",
     shorten:   "acortar",
     go:        "ir",
+    reset:     "rojo",
+    creating:  "Crear...",
+    fetching:  "Obtención...",
     copied:    "URL copiado al portapapeles",
     shortened: "TinyURL copiado al portapapeles"
   },

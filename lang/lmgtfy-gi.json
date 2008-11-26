@@ -23,6 +23,9 @@
     copy:      "makeanudda",
     shorten:   "ittybitty",
     go:        "go",
+    reset:     "makeanudda",
+    creating:  "Creating...",
+    fetching:  "Fetching...",
     copied:    "Nudda URL now on de klipbord",
     shortened: "itty URL now on de klipbord"
   },

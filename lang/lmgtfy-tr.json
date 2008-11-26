@@ -23,6 +23,9 @@
     copy:      "kopyala",
     shorten:   "tinyurl",
     go:        "git",
+    reset:     "tekrar",
+    creating:  "Oluşturmak...",
+    fetching:  "Geri almak...",
     copied:    "URL panoya kopyalandı",
     shortened: "TinyURL panoya kopyalandı"
   },

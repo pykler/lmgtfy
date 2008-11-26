@@ -23,6 +23,9 @@
     copy:      "kopieren",
     shorten:   "kürzen",
     go:        "los",
+    reset:     "reset",
+    creating:  "Erstellen...",
+    fetching:  "Abholen...",
     copied:    "URL in Zwischenablage kopiert",
     shortened: "TinyURL in Zwischenablage kopiert"
   },

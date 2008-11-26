@@ -23,6 +23,9 @@
     copy:      "copiar",
     shorten:   "tinyurl",
     go:        "ir",
+    reset:     "refazer",
+    creating:  "Criar...",
+    fetching:  "Buscando...",
     copied:    "URL copiado para a área de transferência",
     shortened: "TinyURL copiado para a área de transferência"
   },

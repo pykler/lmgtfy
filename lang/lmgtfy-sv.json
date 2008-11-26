@@ -23,6 +23,9 @@
     copy:      "kopia",
     shorten:   "tinyurl",
     go:        "gå",
+    reset:     "igen",
+    creating:  "Skapa...",
+    fetching:  "Hämtar...",
     copied:    "URL kopieras till Urklipp",
     shortened: "TinyURL kopieras till Urklipp"
   },

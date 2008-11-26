@@ -23,6 +23,9 @@
     copy:      "copiar",
     shorten:   "tinyurl",
     go:        "anar",
+    reset:     "refer",
+    creating:  "Crear...",
+    fetching:  "Obtenció...",
     copied:    "URL copiat al porta-retalls",
     shortened: "TinyURL copiat al porta-retalls"
   },

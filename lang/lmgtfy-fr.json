@@ -22,6 +22,9 @@
     copy:      "copier",
     shorten:   "tinyurl",
     go:        "suivre",
+    reset:     "refaire",
+    creating:  "Création...",
+    fetching:  "De travail...",
     copied:    "URL copiée dans le presse-papier",
     shortened: "TinyURL copiée dans le presse-papier"
   },
