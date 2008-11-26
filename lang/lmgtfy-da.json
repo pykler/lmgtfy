@@ -1,0 +1,39 @@
+{
+  pre_logo:           "lad mig",
+  post_logo:          "det for dig",
+  search_button:      "Søg Google",
+  lucky_button:       "Jeg føler mig heldig",
+  about:              "Om",
+  contact:            "Kontakt",
+  donate:             "Donér",
+  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+
+  setup: {
+    type_question: "Skriv et spørgsmål, klik på en knap.",
+    share_link:    "Del linket herunder."
+  },
+
+  play: {
+    step_1: "1: Skriv dit spørgsmål",
+    step_2: "2: Klik på søgeknappen",
+    pwnage: "Var det så svært?"
+  },
+
+  link: {
+    copy:      "kopier",
+    shorten:   "tinyurl",
+    go:        "gå",
+    reset:     "nulstil",
+    creating:  "Opretter...",
+    fetching:  "Henter...",
+    copied:    "Adresse kopieret til udklipsholder",
+    shortened: "TinyURL kopieret til udklipsholder"
+  },
+
+  credit:     "Lavet af @coderifous, bidrag af @rmm5t.",
+  genesis:    "Inspireret af en samtale under en frokost mellem @coderifous, @tmassing, @rmm5t, @EricStratton, og @methodvon.",
+  pitch:      "Det her er for alle de der døgenigte og slendrianner, der finder det nemmere at spørge dig, end at google det selv.",
+  disclaimer: "Ikke associeret med Google&trade; på nogen måde.",
+
+  translated_by: "Oversat af @mikker"
+}
