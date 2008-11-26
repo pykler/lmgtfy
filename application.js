@@ -171,7 +171,7 @@ LMGTFY.lang = {
     pwnage: "Was that so hard?"
   },
 
-  url: {
+  link: {
     creating:  "Creating...",
     fetching:  "Fetching...",
     copied:    "URL copied to clipboard",
@@ -209,10 +209,10 @@ $(function(){
     $("#go").click(function(){ window.location = inputLink.val(); return false; });
     $("#reset").click(function(){ showTheUrl($(this).attr("url")); return false; });
     $("#tiny").click(function(){
-      linkStatus("url.fetching", 0, true);
+      linkStatus("link.fetching", 0, true);
       $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
         inputLink.val(data.tinyurl).focus().select();
-        linkStatus("url.fetching", 1500);
+        linkStatus("link.fetching", 1500);
       });
       $(this).hide();
       $("#reset").show();
@@ -220,7 +220,7 @@ $(function(){
     });
 //     $("#copy").click(function(){
 //       $.sendToClipboard(inputLink.val());
-//       linkStatus("url.copied");
+//       linkStatus("link.copied");
 //       return false;
 //     });
   }
@@ -289,13 +289,13 @@ $(function(){
     $("#link").centerOver($("#link_placeholder")).show();
     $("#reset").attr("url", url).hide();
     $("#tiny").show();
-    
-    linkStatus("url.creating", 1500);
+
+    linkStatus("link.creating", 1500);
     inputLink.val(url).focus().select();
     linkButtons.centerOver(inputLink, 28);
 
 //     $.sendToClipboard(inputLink.val());
-//     linkStatus("url.copied");
+//     linkStatus("link.copied");
   }
 
   function googleItForThem() {

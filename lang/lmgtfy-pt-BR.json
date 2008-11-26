@@ -19,7 +19,7 @@
     pwnage: "Difícil, né?"
   },
 
-  url: {
+  link: {
     copy:      "copiar",
     shorten:   "tinyurl",
     go:        "ir",

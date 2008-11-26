@@ -19,7 +19,7 @@
     pwnage: "Dat wuz EZ-PZ!"
   },
 
-  url: {
+  link: {
     copy:      "makeanudda",
     shorten:   "ittybitty",
     go:        "go",

@@ -19,7 +19,7 @@
     pwnage: "Var det så svårt?"
   },
 
-  url: {
+  link: {
     copy:      "kopia",
     shorten:   "tinyurl",
     go:        "gå",

@@ -19,7 +19,7 @@
     pwnage: "Was that so hard?"
   },
 
-  url: {
+  link: {
     copy:      "copy",
     shorten:   "tinyurl",
     go:        "go",

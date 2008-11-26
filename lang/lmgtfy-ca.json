@@ -19,7 +19,7 @@
     pwnage: "Realment era tan difícil?"
   },
 
-  url: {
+  link: {
     copy:      "copiar",
     shorten:   "tinyurl",
     go:        "anar",

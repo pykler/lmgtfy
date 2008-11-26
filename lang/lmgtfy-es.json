@@ -19,7 +19,7 @@
     pwnage: "&iquest;De verdad era tan dif&iacute;cil?"
   },
 
-  url: {
+  link: {
     copy:      "copiar",
     shorten:   "acortar",
     go:        "ir",

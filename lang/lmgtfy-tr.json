@@ -19,7 +19,7 @@
     pwnage: "Bunu yapmak çok mu zordu?"
   },
 
-  url: {
+  link: {
     copy:      "kopyala",
     shorten:   "tinyurl",
     go:        "git",

@@ -18,7 +18,7 @@
     pwnage: "C'était si compliqué que ça ?"
   },
 
-  url: {
+  link: {
     copy:      "copier",
     shorten:   "tinyurl",
     go:        "suivre",
