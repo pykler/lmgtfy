@@ -6,10 +6,10 @@
   about:              "Hakkında",
   contact:            "İletişim",
   donate:             "Bağış Yap",
-  google_owns_google: "'GOOGLE' Google Inc.'a ait bir markadır.",
+  google_owns_google: "Google, Google Inc.'a ait bir markadır.",
 
   setup: {
-    type_question: "Arayacağınız kelimeyi yazıp, Google'da ara butonuna basınız.",
+    type_question: "Kelimeyi yazın ve butonlardam birine basın.",
     share_link:    "Aşağıdaki linki paylaşınız."
   },
 
@@ -20,20 +20,20 @@
   },
 
   link: {
-    copy:      "kopyala",
-    shorten:   "tinyurl",
-    go:        "git",
-    reset:     "tekrar",
-    creating:  "Oluşturmak...",
-    fetching:  "Geri almak...",
+    copy:      "Kopyala",
+    shorten:   "TinyURL",
+    go:        "Git",
+    reset:     "Sıfırla.",
+    creating:  "Oluşturuluyor...",
+    fetching:  "Getiriliyor...",
     copied:    "URL panoya kopyalandı",
     shortened: "TinyURL panoya kopyalandı"
   },
 
   credit:     "@coderifous tarafından hazırlanmıştır, @rmm5t tarafından hazırlanmasına yardım edilmiştir.",
   genesis:    "@coderifous, @tmassing, @rmm5t, @EricStratton, ve @methodvon arasında geçen bir öğle yemeği konuşmasından esinlenerek hazırlanmıştır.",
-  pitch:      "Sorularının cevaplarını Google'da aramaktansa sizi rahatsız etmeyi tercih eden insanlar için.",
+  pitch:      "Sorularının cevaplarını Google'da aramaktansa sizi rahatsız etmeyi tercih eden insanlara çözüm bulmak için yapılmıştır.",
   disclaimer: "Google markası ile hiçbir şekilde ortaklık yoktur.",
 
-  translated_by: "Cemal Yerlikaya tarafından çevrilmiştir. Çeviri hataları Utku Aydın tarafından düzeltilmiştir. "
+  translated_by: "Bu site Utku Aydın tarafından çevrilmiştir. Bir önceki çevirisi, Cemal Yerlikaya'ya aittir. "
 }
