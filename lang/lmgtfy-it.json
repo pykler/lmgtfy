@@ -1,0 +1,39 @@
+{
+  pre_logo:           "te lo cerco io su",
+  post_logo:          "",
+  search_button:      "Cerca con Google",
+  lucky_button:       "Mi sento fortunato",
+  about:              "Chi siamo",
+  contact:            "Scrivici",
+  donate:             "Fai una donazione",
+  google_owns_google: "GOOGLE é un marchio registrato Google Inc.",
+
+  setup: {
+    type_question: "Scrivi una domanda, clicca un pulsante.",
+    share_link:    "Condividi il link qui sotto."
+  },
+
+  play: {
+    step_1: "Passo 1: Scrivi la tua domanda",
+    step_2: "Passo 2: Clicca il pulsante Cerca con Google",
+    pwnage: "Era cosí difficile?"
+  },
+
+  link: {
+    copy:      "copia",
+    shorten:   "tinyurl",
+    go:        "vai a...",
+    reset:     "ricomincia",
+    creating:  "Un attimo...",
+    fetching:  "Recuperando le informazioni...",
+    copied:    "Indirizzo copiato negli appunti",
+    shortened: "TinyURL copiato negli appunti"
+  },
+
+  credit:     "Creato da @coderifous, contributions by @rmm5t.",
+  genesis:    "Nato durante un discorso fatto a pranzo tra @coderifous, @tmassing, @rmm5t, @EricStratton, e @methodvon.",
+  pitch:      "Dedicato a tutti quelli che preferiscono infastidirci con le loro domande invece che cercarsele su google da soli.",
+  disclaimer: "Non abbiamo alcun legame con Google&trade;.",
+
+  translated_by: "Tradotto da @onigiri"
+}
