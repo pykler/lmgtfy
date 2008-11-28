@@ -9,13 +9,13 @@
   google_owns_google: "GOOGLE é un marchio registrato Google Inc.",
 
   setup: {
-    type_question: "Scrivi una domanda, clicca un pulsante.",
+    type_question: "Scrivi una domanda, clicca un bottone.",
     share_link:    "Condividi il link qui sotto."
   },
 
   play: {
     step_1: "Passo 1: Scrivi la tua domanda",
-    step_2: "Passo 2: Clicca il pulsante Cerca con Google",
+    step_2: "Passo 2: Clicca su Cerca con Google",
     pwnage: "Era cosí difficile?"
   },
 
@@ -30,7 +30,7 @@
     shortened: "TinyURL copiato negli appunti"
   },
 
-  credit:     "Creato da @coderifous, contributions by @rmm5t.",
+  credit:     "Creato da @coderifous, contributo di @rmm5t.",
   genesis:    "Nato durante un discorso fatto a pranzo tra @coderifous, @tmassing, @rmm5t, @EricStratton, e @methodvon.",
   pitch:      "Dedicato a tutti quelli che preferiscono infastidirci con le loro domande invece che cercarsele su google da soli.",
   disclaimer: "Non abbiamo alcun legame con Google&trade;.",
