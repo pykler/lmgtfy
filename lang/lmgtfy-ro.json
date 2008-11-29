@@ -1,0 +1,39 @@
+{
+  pre_logo:           "Hai să-ți caut eu asta pe",
+  post_logo:          "",
+  search_button:      "Căutare Google",
+  lucky_button:       "Mă simt norocos",
+  about:              "Despre",
+  contact:            "Contact",
+  donate:             "Donează",
+  google_owns_google: "GOOGLE este o marcă înregistrată Google Inc.",
+
+  setup: {
+    type_question: "Scrie întrebarea și apasă un buton",
+    share_link:    "Folosește linkul de mai jos"
+  },
+
+  play: {
+    step_1: "Pasul 1: Scrie-ți întrebarea",
+    step_2: "Pasul 2: Apasă butonul de Căutare",
+    pwnage: "A fost greu?"
+  },
+
+  link: {
+    copy:      "copiază",
+    shorten:   "tinyurl",
+    go:        "bagă",
+    reset:     "anulează",
+    creating:  "Se creează...",
+    fetching:  "Stai puțin...",
+    copied:    "URL-ul a fost copiat în clipboard",
+    shortened: "TinyURL-ul a fost copiat în clipboard"
+  },
+
+  credit:     "Creat de @coderifous, a contribuit și @rmm5t.",
+  genesis:    "Proiect inspirat de o discuție cu @coderifous, @tmassing, @rmm5t, @EricStratton și @methodvon.",
+  pitch:      "Pentru toți cei care preferă să te întrebe pe tine în loc să caute singuri pe Google.",
+  disclaimer: "Nu este asociat cu Google&trade; în niciun fel.",
+
+  translated_by: "Tradus de Cristi Bălan și Irina Dumitrașcu"
+}
