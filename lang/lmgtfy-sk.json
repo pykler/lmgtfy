@@ -3,13 +3,13 @@
   post_logo:          "pre teba",
   search_button:      "Hľadať v Google",
   lucky_button:       "Skúsim šťastie",
-  about:              "O",
+  about:              "Podrobnosti",
   contact:            "Kontakt",
   donate:             "Podporiť",
   google_owns_google: "GOOGLE je registrovaná ochranná známka Google Inc.",
 
   setup: {
-    type_question: "Napíš otýzku, klikni na tlačítko.",
+    type_question: "Napíš otázku a klikni na tlačítko.",
     share_link:    "Zdielaj link."
   },
 
@@ -31,9 +31,9 @@
   },
 
   credit:     "Vytvorené @coderifous, výpomoc @rmm5t.",
-  genesis:    "Inšpirované počas obedňajšej konverzácie s @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
-  pitch:      "Toto je pre všetkých ľudí, ktorí považujú za jednoduchšie vás otravovať, ako si ničo vygoogliť sami.",
-  disclaimer: "Žiadnym spôsobom nespojené sGoogle&trade;.",
+  genesis:    "Inšpirované počas obedňajšej konverzácie s @coderifous, @tmassing, @rmm5t, @EricStratton, a @methodvon.",
+  pitch:      "Toto je pre všetkých ľudí, ktorí považujú za jednoduchšie vás otravovať, ako si niečo vygoogliť sami.",
+  disclaimer: "Žiadnym spôsobom nespojené s Google&trade;.",
 
   translated_by: "Translated by @hl2run"
 }
