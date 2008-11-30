@@ -1,0 +1,39 @@
+{
+  pre_logo:           "ja ti to ",
+  post_logo:          "pre teba",
+  search_button:      "Hľadať v Google",
+  lucky_button:       "Skúsim šťastie",
+  about:              "O",
+  contact:            "Kontakt",
+  donate:             "Podporiť",
+  google_owns_google: "GOOGLE je registrovaná ochranná známka Google Inc.",
+
+  setup: {
+    type_question: "Napíš otýzku, klikni na tlačítko.",
+    share_link:    "Zdielaj link."
+  },
+
+  play: {
+    step_1: "Krok 1: Napíš tvoju otázku.",
+    step_2: "Krok 2: Klikni na tlačítko vyhľadávania.",
+    pwnage: "Bolo to také ťažké?"
+  },
+
+  link: {
+    copy:      "kopíruj",
+    shorten:   "tinyurl",
+    go:        "choď",
+    reset:     "reset",
+    creating:  "Vytváranie...",
+    fetching:  "Sťahovanie...",
+    copied:    "Link zkopírovaný do schránky",
+    shortened: "TinyURL zkopírovaná do schránky"
+  },
+
+  credit:     "Vytvorené @coderifous, výpomoc @rmm5t.",
+  genesis:    "Inšpirované počas obedňajšej konverzácie s @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
+  pitch:      "Toto je pre všetkých ľudí, ktorí považujú za jednoduchšie vás otravovať, ako si ničo vygoogliť sami.",
+  disclaimer: "Žiadnym spôsobom nespojené sGoogle&trade;.",
+
+  translated_by: "Translated by @hl2run"
+}
