@@ -201,7 +201,7 @@ $(function(){
     linkifyAbout();
 
     var localise_opts = { pathPrefix: 'lang', callback: languageLoaded, skipLanguage: "en-US" };
-    var lang = $.getQueryString({ id: "lang" });
+    var lang = $.getQueryString({ id: "lang" }) || sniffSubdomainForLanguage();
     if (lang) localise_opts.language = lang;
     $.localise('lmgtfy', localise_opts);
 
@@ -223,6 +223,12 @@ $(function(){
 //       linkStatus("link.copied");
 //       return false;
 //     });
+  }
+
+  function sniffSubdomainForLanguage() {
+    var first = document.location.hostname.split(".")[0];
+    var match = first.match(/^[a-z]{2}(?:-[a-z]{2})?$/i);
+    return match ? match[0] : null;
   }
 
   function languageLoaded(data) {
