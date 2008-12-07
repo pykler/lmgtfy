@@ -305,7 +305,7 @@ $(function(){
   }
 
   function googleItForThem() {
-    $("#ad").hide();
+    $("#sponsor").hide();
     $("body").css("cursor", "wait");
     fakeMouse.show();
     instruct("play.step_1");
