@@ -30,6 +30,11 @@
         a.link_button { display: block; float: left; width: 60px; height: 20px; margin: 0 2px; padding: 5px 0; background: transparent url(images/link_button.png) no-repeat center center; color: #fff; line-height: 20px; text-align: center; font-size: 0.8em; text-decoration: none; }
         a.link_button:hover { background-image: url(images/link_button_hover.png) }
         #link_message { z-index: 99; width: 332px; height: 32px; background: url(images/link_message.png); color: #fff; line-height: 32px; text-align: center; font-size: 1em; }
+        #ad { width: 120px; margin: auto; opacity: 1.0; margin-top: 40px; opacity: 0.75 }
+        #ad a img { border: 0px }
+        #ad:hover { opacity: 1.0; }
+        #ad img { padding-bottom: 5px; }
+        #ad p { margin-top: 0px; text-align: center; color: #444 }
   %body
     %center
       .logo
@@ -62,7 +67,7 @@
       #footer
         %a.about{ :href => "#", :name => "about", :rel => "localize.about" } About
         %a{ :rel => "localize.contact", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
-        %a{ :href => "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1419004", :rel => "localize.donate" } Donate
+        %a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%64%73@%6c%6d%67%74%66%79.%63%6f%6d?body=Ryan%20and%20Jim%2C%0A%0APlease%20send%20me%20information%20about%20putting%20an%20ad%20on%20LMGTFY.com%0A%0AThanks%21&amp;subject=Advertising%20on%20LMGTFY" } Advertise
 
       #about{ :style => "display: none" }
         %p{ :rel => "localize.credit" }        Created by @coderifous, contributions by @rmm5t.
@@ -71,6 +76,12 @@
         %p{ :rel => "localize.pitch" }         This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
         %p{ :rel => "localize.disclaimer" }    Not associated with Google&trade; in any way.
         %br
+
+    #ad
+      %a{ :href => "http://www.basecampHQ.com/?referrer=LMGTFY" }
+        %img{ :src => "/ads/images/basecamp.png" }
+        %p
+          Get projects done.
 
     #copyright
       &copy; LMGTFY, 2008 |
