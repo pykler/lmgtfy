@@ -294,7 +294,7 @@ $(function(){
   }
 
   function getTheSearchTerms() {
-    $("#sponsor").hide().sponsor("/sponsors/program.json", function() { this.fadeIn(1000); });
+    $("#sponsor").sponsor("/sponsors/program.json", function() { this.fadeIn(1000); });
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
     inputField.focus().select();
@@ -330,7 +330,6 @@ $(function(){
   }
 
   function googleItForThem() {
-    $("#sponsor").hide();
     $("body").css("cursor", "wait");
     fakeMouse.show();
     instruct("play.step_1");

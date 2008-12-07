@@ -30,7 +30,7 @@
         a.link_button { display: block; float: left; width: 60px; height: 20px; margin: 0 2px; padding: 5px 0; background: transparent url(images/link_button.png) no-repeat center center; color: #fff; line-height: 20px; text-align: center; font-size: 0.8em; text-decoration: none; }
         a.link_button:hover { background-image: url(images/link_button_hover.png) }
         #link_message { z-index: 99; width: 332px; height: 32px; background: url(images/link_message.png); color: #fff; line-height: 32px; text-align: center; font-size: 1em; }
-        #sponsor { margin: 40px auto; text-align: center; font-size: 0.9em; }
+        #sponsor { display: none; margin: 40px auto; text-align: center; font-size: 0.9em; }
         #sponsor a { display: block; margin: 0 auto; width: 200px; text-decoration: none; opacity: 0.75; }
         #sponsor a:hover { opacity: 1.0; }
         #sponsor a img { padding-bottom: 5px; width: 120px; height: 90px; border: 0; }
@@ -80,9 +80,9 @@
 
     #sponsor
       %img{ :src => "/images/sponsored_by.png" }
-      %a{ :href => "http://www.basecampHQ.com/?referrer=LMGTFY" }
-        %img{ :src => "/sponsors/images/basecamp.png" }
-        %p The easy way to <em>Manage Projects</em>. Get projects done.
+      %a
+        %img
+        %p
 
     #copyright
       &copy; LMGTFY, 2008
