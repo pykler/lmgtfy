@@ -147,7 +147,7 @@
   $.fn.sponsor = function(programFile, callback) {
     var self = this;
     $.getJSON(programFile, function(program) {
-      var sponsor = program.slots[rand(program.slots.length - 1)];
+      var sponsor = program.slots[rand(program.slots.length)];
       var id = sponsor.id;
       var anchor = self.find("a");
       anchor.attr("href", sponsor.url);
@@ -163,7 +163,7 @@
   };
 
   function rand(max) {
-    return Math.round(Math.random() * max);
+    return Math.floor(Math.random() * max);
   }
 })(jQuery);
 
