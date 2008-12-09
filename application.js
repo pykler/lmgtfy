@@ -220,7 +220,11 @@ $(function(){
   else getTheSearchTerms();
 
   function initializeContent() {
-    $("a[name=about]").click(function(){ $("#about").toggle(); return false; });
+    $("a[name=about]").click(function() {
+      $("#about").toggle();
+      $('html,body').animate({ scrollTop: $("#about").offset().top }, 1000);
+      return false;
+    });
     $('input.copyable').click(function() { $(this).select(); });
     linkifyAbout();
 

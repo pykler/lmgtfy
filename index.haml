@@ -12,25 +12,25 @@
       :plain
         * { font-family: arial,sans-serif; }
         body { background-color: #fff; color: #333; }
-        #logo { position: relative; top: 2em; }
+        #logo { margin-top: -1em; position: relative; top: 2em; }
         .logo { font-size: 1.5em; color: #444; }
-        input.text { font-size: 1.0em; }
+        input.text { font-size: 1em; }
         #fake_mouse { position: absolute; top: 100px; left: 100px; }
-        #instructions { margin-top: 50px; font-size: 1.1em; color: #999; width: 350; height: 84px; background: transparent url(images/instructions_bg.png) no-repeat top center; }
+        #instructions { margin-top: 40px; font-size: 1.1em; color: #999; width: 350; height: 84px; background: transparent url(images/instructions_bg.png) no-repeat top center; }
         #instructions div { line-height: 84px; }
-        #link_placeholder { height: 100px; }
+        #link_placeholder { height: 90px; }
         #link { position: absolute; display: none; padding-bottom: 28px; }
         input.link { width: 312px; font-size: 1.2em; text-align: center; border: 1px solid #c2c9ff; color: #555; background-color: #f4fbff; cursor: pointer; }
-        #footer { color: #999; border-top: solid 1px #ddd; padding-top: 0.5em; }
+        #footer { margin-top: 40px; color: #999; border-top: solid 1px #ddd; padding-top: 0.5em; text-align: center; }
         #footer a { color: #999; text-decoration: none; padding: 0 1em; }
         #footer a:hover { text-decoration: underline; }
-        #about { margin-top: 0.5em; color: #666; }
-        #copyright { position: fixed; bottom: 0; width: 100%; padding: 0.25em; text-align: center; font-size: 0.75em; color: #bbb; background-color: #fff; }
+        #about { margin-top: 0.5em; color: #666; text-align: center; }
+        #copyright { margin-top: 40px; padding: 0.25em; text-align: center; font-size: 0.75em; color: #bbb; background-color: #fff; }
         #link_buttons, #link_message { position: absolute; display: none;}
         a.link_button { display: block; float: left; width: 60px; height: 20px; margin: 0 2px; padding: 5px 0; background: transparent url(images/link_button.png) no-repeat center center; color: #fff; line-height: 20px; text-align: center; font-size: 0.8em; text-decoration: none; }
         a.link_button:hover { background-image: url(images/link_button_hover.png) }
         #link_message { z-index: 99; width: 332px; height: 32px; background: url(images/link_message.png); color: #fff; line-height: 32px; text-align: center; font-size: 1em; }
-        #sponsor { display: none; margin: 40px auto; text-align: center; font-size: 0.9em; }
+        #sponsor { display: none; margin: 0 auto; text-align: center; font-size: 0.9em; }
         #sponsor a { display: block; margin: 0 auto; width: 200px; text-decoration: none; opacity: 0.75; }
         #sponsor a:hover { opacity: 1.0; }
         #sponsor a img { padding-bottom: 5px; width: 120px; height: 90px; border: 0; }
@@ -65,24 +65,23 @@
           %a#tiny.link_button{ :href => "#", :rel => "localize.link.shorten" } tinyurl
           %a#go.link_button{ :href => "#", :rel => "localize.link.go" } go
 
-      #footer
-        %a.about{ :href => "#", :name => "about", :rel => "localize.about" } About
-        %a{ :rel => "localize.contact", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
-        %a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%64%73@%6c%6d%67%74%66%79.%63%6f%6d?body=Ryan%20and%20Jim%2C%0A%0APlease%20send%20me%20information%20about%20putting%20an%20ad%20on%20LMGTFY.com%0A%0AThanks%21&amp;subject=Advertising%20on%20LMGTFY" } Advertise
-
-      #about{ :style => "display: none" }
-        %p{ :rel => "localize.credit" }        Created by @coderifous, contributions by @rmm5t.
-        %p{ :rel => "localize.genesis" }       Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.
-        %p{ :rel => "localize.translated_by" }
-        %p{ :rel => "localize.pitch" }         This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
-        %p{ :rel => "localize.disclaimer" }    Not associated with Google&trade; in any way.
-        %br
-
     #sponsor
       %img{ :src => "/images/sponsored_by.png" }
       %a
         %img
         %p
+
+    #footer
+      %a.about{ :href => "#", :name => "about", :rel => "localize.about" } About
+      %a{ :rel => "localize.contact", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
+      %a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%64%73@%6c%6d%67%74%66%79.%63%6f%6d?body=Ryan%20and%20Jim%2C%0A%0APlease%20send%20me%20information%20about%20putting%20an%20ad%20on%20LMGTFY.com%0A%0AThanks%21&amp;subject=Advertising%20on%20LMGTFY" } Advertise
+
+    #about{ :style => "display: none" }
+      %p{ :rel => "localize.credit" }        Created by @coderifous, contributions by @rmm5t.
+      %p{ :rel => "localize.genesis" }       Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.
+      %p{ :rel => "localize.translated_by" }
+      %p{ :rel => "localize.pitch" }         This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
+      %p{ :rel => "localize.disclaimer" }    Not associated with Google&trade; in any way.
 
     #copyright
       &copy; LMGTFY, 2008
