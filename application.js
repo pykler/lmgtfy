@@ -376,7 +376,7 @@ $(function(){
       var escapedString = gentlyEncode(searchString);
       var button_key    = (button.attr("id") == $("#lucky").attr("id")) ? "btnI" : "btnG";
 
-      window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=" + escape(button.attr("value"));
+      window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=1";
     }
 
     function fixSafariRenderGlitch() {
