@@ -373,10 +373,12 @@ $(function(){
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return;
 
-      var escapedString = gentlyEncode(searchString);
-      var button_key    = (button.attr("id") == $("#lucky").attr("id")) ? "btnI" : "btnG";
-
-      window.location = "http://www.google.com/search?q=" + escapedString + "&" + button_key + "=1";
+      var google = "http://www.google.com/cse?cx=partner-pub-1841856653263547%3A8eram9fqly9&ie=UTF-8&sa=Search&q=";
+      if (button.attr("id") == $("#lucky").attr("id")) {
+        google = "http://www.google.com/search?btnI=1&q=";
+      }
+      
+      window.location = google + gentlyEncode(searchString);
     }
 
     function fixSafariRenderGlitch() {
