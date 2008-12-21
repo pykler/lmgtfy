@@ -3,19 +3,19 @@
     {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
-      image: "/sponsors/images/basecamp.png",
+      image: "/s/images/basecamp.png",
       message: "The easy way to <em>Manage Projects</em>. Get projects done."
     },
     {
       id: "highrise",
       url: "http://www.highriseHQ.com/?referrer=LMGTFY",
-      image: "/sponsors/images/highrise.png",
+      image: "/s/images/highrise.png",
       message: "Highrise can <em>track leads &amp; contacts</em>, <em>set follow-ups</em>, and <em>assign tasks</em>."
     },
     {
       id: "backpack",
       url: "http://www.backpackIT.com/?referrer=LMGTFY",
-      image: "/sponsors/images/backpack.png",
+      image: "/s/images/backpack.png",
       message: "The easy way to<br /> <em>Get Organized!</em>"
     }
   ],

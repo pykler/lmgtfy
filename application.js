@@ -298,7 +298,7 @@ $(function(){
   }
 
   function getTheSearchTerms() {
-    $("#sponsor").sponsor("/sponsors/program.json", function() { this.fadeIn(1000); });
+    $("#sponsor").sponsor("/s/program.json", function() { this.fadeIn(1000); });
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
     inputField.focus().select();
@@ -377,7 +377,7 @@ $(function(){
       if (button.attr("id") == $("#lucky").attr("id")) {
         google = "http://www.google.com/search?btnI=1&q=";
       }
-      
+
       window.location = google + gentlyEncode(searchString);
     }
 
