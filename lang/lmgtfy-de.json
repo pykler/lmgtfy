@@ -16,7 +16,8 @@
   play: {
     step_1: "Schritt 1: Frage eingeben",
     step_2: "Schritt 2: Such-Button anklicken",
-    pwnage: "War das so schwierig?"
+    pwnage: "War das so schwierig?",
+    nice:   "Es ist so einfach."
   },
 
   link: {

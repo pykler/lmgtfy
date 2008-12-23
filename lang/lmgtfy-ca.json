@@ -16,7 +16,8 @@
   play: {
     step_1: "Pas 1: Escriu la teva pregunta",
     step_2: "Pas 2: Fes clic al botó buscar",
-    pwnage: "Realment era tan difícil?"
+    pwnage: "Realment era tan difícil?",
+    nice:   "És així de fàcil."
   },
 
   link: {

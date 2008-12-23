@@ -16,7 +16,8 @@
   play: {
     step_1: "Fust: Klikikliki U wannano",
     step_2: "Den: Clickee weh it sez 'Sutcha'",
-    pwnage: "Dat wuz EZ-PZ!"
+    pwnage: "Dat wuz EZ-PZ!",
+    nice:   "Dat wuz EZ-PZ!"
   },
 
   link: {

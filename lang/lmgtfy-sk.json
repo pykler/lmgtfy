@@ -16,7 +16,8 @@
   play: {
     step_1: "Krok 1: Napíš tvoju otázku.",
     step_2: "Krok 2: Klikni na tlačítko vyhľadávania.",
-    pwnage: "Bolo to také ťažké?"
+    pwnage: "Bolo to také ťažké?",
+    nice:   "Je to tak jednoduché."
   },
 
   link: {

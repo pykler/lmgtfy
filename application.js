@@ -192,7 +192,8 @@ LMGTFY.lang = {
   play: {
     step_1: "Step 1: Type in your question",
     step_2: "Step 2: Click the Search button",
-    pwnage: "Was that so hard?"
+    pwnage: "Was that so hard?",
+    nice:   "It's that easy."
   },
 
   link: {
@@ -364,7 +365,8 @@ $(function(){
         top:  (button.position().top  + 10).px(),
         left: (button.position().left + 30).px()
       }, 2000, 'swing', function(){
-        instruct("play.pwnage");
+        var key = $.getQueryString({ id: "n" }) == 1 ? "play.nice" : "play.pwnage";
+        instruct(key);
         button.focus();
         setTimeout(redirect, 2000);
       });

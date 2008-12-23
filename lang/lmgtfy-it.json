@@ -16,7 +16,8 @@
   play: {
     step_1: "Passo 1: Scrivi la tua domanda",
     step_2: "Passo 2: Clicca su Cerca con Google",
-    pwnage: "Era cosí difficile?"
+    pwnage: "Era cosí difficile?",
+    nice:   "E 'così facile."
   },
 
   link: {

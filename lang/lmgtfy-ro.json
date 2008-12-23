@@ -16,7 +16,8 @@
   play: {
     step_1: "Pasul 1: Scrie-ți întrebarea",
     step_2: "Pasul 2: Apasă butonul de Căutare",
-    pwnage: "A fost greu?"
+    pwnage: "A fost greu?",
+    nice:   "Este atat de usor."
   },
 
   link: {

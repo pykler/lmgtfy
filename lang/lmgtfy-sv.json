@@ -16,7 +16,8 @@
   play: {
     step_1: "Steg 1: Ställ din fråga",
     step_2: "Steg 2: Klicka på sök-knappen",
-    pwnage: "Var det så svårt?"
+    pwnage: "Var det så svårt?",
+    nice:   "Det är så lätt."
   },
 
   link: {

@@ -16,7 +16,8 @@
   play: {
     step_1: "1: Skriv dit spørgsmål",
     step_2: "2: Klik på søgeknappen",
-    pwnage: "Var det så svært?"
+    pwnage: "Var det så svært?",
+    nice:   "Så nemt er det."
   },
 
   link: {

@@ -16,7 +16,8 @@
   play: {
     step_1: "1. Adım : Arayacağın kelimeyi yaz",
     step_2: "2. Adım : Arama butonuna bas",
-    pwnage: "Bunu yapmak çok mu zordu?"
+    pwnage: "Bunu yapmak çok mu zordu?",
+    nice:   "It's that easy."
   },
 
   link: {
