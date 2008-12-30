@@ -375,7 +375,8 @@ $(function(){
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return;
 
-      var google = "http://www.google.com/cse?cx=partner-pub-1841856653263547%3A8eram9fqly9&ie=UTF-8&sa=Search&q=";
+//       var google = "http://www.google.com/cse?cx=partner-pub-1841856653263547%3A8eram9fqly9&ie=UTF-8&sa=Search&q=";
+      var google = "http://www.google.com/search?btnG=1&q=";
       if (button.attr("id") == $("#lucky").attr("id")) {
         google = "http://www.google.com/search?btnI=1&q=";
       }
