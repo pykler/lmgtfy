@@ -17,6 +17,7 @@ desc "build the html"
 task :build do
   print "Building..."
   sh("haml index.haml index.html")
+  sh("cat javascript/jquery*.js javascript/helpers.js javascript/application.js > bundle.js")
   puts "done."
 end
 

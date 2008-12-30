@@ -1,0 +1,209 @@
+// default lang necessities
+var LMGTFY = {};
+LMGTFY.lang = {
+  setup: {
+    type_question: "Type a question, click a button.",
+    share_link:    "Share the link below.",
+    or:            "or"
+  },
+
+  play: {
+    step_1: "Step 1: Type in your question",
+    step_2: "Step 2: Click the Search button",
+    pwnage: "Was that so hard?",
+    nice:   "It's that easy."
+  },
+
+  link: {
+    creating:  "Creating...",
+    fetching:  "Fetching...",
+    copied:    "URL copied to clipboard",
+    shortened: "TinyURL copied to clipboard"
+  }
+};
+
+// app code
+$(function(){
+  initializeContent();
+
+  var searchString = $.getQueryString({ id: "q" });
+  var inputField   = $("input[type=text]:first");
+  var fakeMouse    = $("#fake_mouse");
+  var instructions = $("#instructions > div");
+  var button       = ($.getQueryString({ id: "l" }) == "1") ? $("#lucky") : $("#search");
+  var inputLink    = $("#link input.link");
+  var linkButtons  = $("#link_buttons");
+  var linkMessage  = $("#link_message");
+
+  if (searchString && searchString.length > 0) googleItForThem();
+  else getTheSearchTerms();
+
+  function initializeContent() {
+    $("a[name=about]").click(function() {
+      $("#about").toggle();
+      $('html,body').animate({ scrollTop: $("#about").offset().top }, 1000);
+      return false;
+    });
+    $('input.copyable').click(function() { $(this).select(); });
+    linkifyAbout();
+
+    var localize_opts = { pathPrefix: 'lang', callback: languageLoaded, skipLanguage: "en-US" };
+    var lang = $.getQueryString({ id: "lang" }) || sniffSubdomainForLanguage();
+    if (lang) localize_opts.language = lang;
+    $("[rel*=localize]").localize('lmgtfy', localize_opts);
+
+    $("#link").hover(function(){ linkButtons.fadeIn("fast"); }, function(){ linkButtons.fadeOut("fast"); });
+    $("#go").click(function(){ window.location = inputLink.val(); return false; });
+    $("#reset").click(function(){ showTheUrl($(this).attr("url")); return false; });
+    $("#tiny").click(function(){
+      linkStatus("link.fetching", 0, true);
+      $.getJSON("http://json-tinyurl.appspot.com/?callback=?&url=" + gentlyEncode(inputLink.val()), function(data) {
+        inputLink.val(data.tinyurl).focus().select();
+        linkStatus("link.fetching", 1500);
+      });
+      $(this).hide();
+      $("#reset").show();
+      return false;
+    });
+//     $("#copy").click(function(){
+//       $.sendToClipboard(inputLink.val());
+//       linkStatus("link.copied");
+//       return false;
+//     });
+  }
+
+  function sniffSubdomainForLanguage() {
+    var first = document.location.hostname.split(".")[0];
+    var match = first.match(/^[a-z]{2}(?:-[a-z]{2})?$/i);
+    return match ? match[0] : null;
+  }
+
+  function languageLoaded(data) {
+    LMGTFY.lang = data;
+    var keys, value;
+    $("[rel*=localize]").each(function(){
+      elem = $(this);
+      keys = elem.attr("rel").split(/\./);
+      value = keys.length == 2 ? data[keys[1]] : data[keys[1]][keys[2]];
+      if (elem.attr('tagName') == "INPUT")
+        elem.val(value);
+      else
+        elem.text(value);
+    });
+    linkifyAbout();
+  }
+
+  function linkifyAbout() {
+    $("#about p").each(function() {
+      $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'));
+    });
+  }
+
+  function instruct(langkey) {
+    instructions.html(langString(langkey));
+  }
+
+  function linkStatus(langkey, millis, stuck) {
+    millis = millis || 2500;
+    linkMessage.html(langString(langkey)).show().centerOver(inputLink);
+    if (!stuck) {
+      setTimeout(function(){ linkMessage.fadeOut(millis/4*3); }, millis/4);
+    }
+  }
+
+  function langString(langkey) {
+    var keys = langkey.split(/\./);
+    return keys.length == 1 ? LMGTFY.lang[keys[0]] : LMGTFY.lang[keys[0]][keys[1]];
+  }
+
+  function getTheSearchTerms() {
+    $("#sponsor").sponsor("/s/program.json", function() { this.fadeIn(1000); });
+    $("form").submit(function(){ $("#search").click(); return false; });
+    instruct("setup.type_question");
+    inputField.focus().select();
+
+    $("input[type=button]").click(function(e){
+      instruct("setup.share_link");
+
+      var l   = window.location;
+      var url = l.protocol + "//" + l.hostname + l.pathname + "?";
+
+      strings = [ "q=" + gentlyEncode(inputField.val()) ];
+      if (this.id == "lucky") strings.push("l=1");
+
+      url += strings.join("&");
+
+      showTheUrl(url);
+    });
+  }
+
+  function showTheUrl(url) {
+    $("#copy").hide();
+
+    $("#link").centerOver($("#link_placeholder")).show();
+    $("#reset").attr("url", url).hide();
+    $("#tiny").show();
+
+    linkStatus("link.creating", 1500);
+    inputLink.val(url).focus().select();
+    linkButtons.centerOver(inputLink, 28);
+
+//     $.sendToClipboard(inputLink.val());
+//     linkStatus("link.copied");
+  }
+
+  function googleItForThem() {
+    $("body").css("cursor", "wait");
+    fakeMouse.show();
+    instruct("play.step_1");
+
+    fakeMouse.animate({
+      top:  (inputField.position().top  + 15).px(),
+      left: (inputField.position().left + 10).px()
+    }, 1500, 'swing', function(){
+      inputField.focus();
+      fakeMouse.animate({ top: "+=18px", left: "+=10px" }, 'fast', function() { fixSafariRenderGlitch(); });
+      type(searchString, 0);
+    });
+
+    function type(string, index){
+      var val = string.substr(0, index + 1);
+      inputField.attr('value', val);
+      if (index < string.length) {
+        setTimeout(function(){ type(string, index + 1); }, Math.random() * 240);
+      }
+      else {
+        doneTyping();
+      }
+    }
+
+    function doneTyping(){
+      instruct("play.step_2");
+      fakeMouse.animate({
+        top:  (button.position().top  + 10).px(),
+        left: (button.position().left + 30).px()
+      }, 2000, 'swing', function(){
+        var key = $.getQueryString({ id: "n" }) == 1 ? "play.nice" : "play.pwnage";
+        instruct(key);
+        button.focus();
+        setTimeout(redirect, 2000);
+      });
+    }
+
+    function redirect(){
+      if ($.getQueryString({ id: "debug" })) return;
+
+      // var google = "http://www.google.com/cse?cx=partner-pub-1841856653263547%3A8eram9fqly9&ie=UTF-8&sa=Search&q=";
+      var google = "http://www.google.com/search?btnG=1&q=";
+      if (button.attr("id") == $("#lucky").attr("id")) {
+        google = "http://www.google.com/search?btnI=1&q=";
+      }
+
+      window.location = google + gentlyEncode(searchString);
+    }
+
+    function fixSafariRenderGlitch() {
+      if ($.browser.safari) inputField.blur().focus();
+    }
+  }
+});
