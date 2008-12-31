@@ -1,6 +1,5 @@
 // default lang necessities
-var LMGTFY = {};
-LMGTFY.lang = {
+$.localize.data.lmgtfy = {
   setup: {
     type_question: "Type a question, click a button.",
     share_link:    "Share the link below.",
@@ -22,7 +21,6 @@ LMGTFY.lang = {
   }
 };
 
-// app code
 $(function(){
   initializeContent();
 
@@ -46,8 +44,14 @@ $(function(){
     });
     $('input.copyable').click(function() { $(this).select(); });
     linkifyAbout();
-
-    var localize_opts = { pathPrefix: 'lang', callback: languageLoaded, skipLanguage: "en-US" };
+    var localize_opts = { 
+      pathPrefix: 'lang', 
+      skipLanguage: "en-US", 
+      callback: function(data, defaultCallback) {
+        defaultCallback(data)
+        linkifyAbout();
+      }
+    };
     var lang = $.getQueryString({ id: "lang" }) || sniffSubdomainForLanguage();
     if (lang) localize_opts.language = lang;
     $("[rel*=localize]").localize('lmgtfy', localize_opts);
@@ -65,11 +69,6 @@ $(function(){
       $("#reset").show();
       return false;
     });
-//     $("#copy").click(function(){
-//       $.sendToClipboard(inputLink.val());
-//       linkStatus("link.copied");
-//       return false;
-//     });
   }
 
   function sniffSubdomainForLanguage() {
@@ -77,20 +76,10 @@ $(function(){
     var match = first.match(/^[a-z]{2}(?:-[a-z]{2})?$/i);
     return match ? match[0] : null;
   }
-
-  function languageLoaded(data) {
-    LMGTFY.lang = data;
-    var keys, value;
-    $("[rel*=localize]").each(function(){
-      elem = $(this);
-      keys = elem.attr("rel").split(/\./);
-      value = keys.length == 2 ? data[keys[1]] : data[keys[1]][keys[2]];
-      if (elem.attr('tagName') == "INPUT")
-        elem.val(value);
-      else
-        elem.text(value);
-    });
-    linkifyAbout();
+  
+  function langString(langkey) {
+    var keys = langkey.split(/\./);
+    return keys.length == 1 ? $.localize.data.lmgtfy[keys[0]] : $.localize.data.lmgtfy[keys[0]][keys[1]];
   }
 
   function linkifyAbout() {
@@ -109,11 +98,6 @@ $(function(){
     if (!stuck) {
       setTimeout(function(){ linkMessage.fadeOut(millis/4*3); }, millis/4);
     }
-  }
-
-  function langString(langkey) {
-    var keys = langkey.split(/\./);
-    return keys.length == 1 ? LMGTFY.lang[keys[0]] : LMGTFY.lang[keys[0]][keys[1]];
   }
 
   function getTheSearchTerms() {
@@ -147,9 +131,6 @@ $(function(){
     linkStatus("link.creating", 1500);
     inputLink.val(url).focus().select();
     linkButtons.centerOver(inputLink, 28);
-
-//     $.sendToClipboard(inputLink.val());
-//     linkStatus("link.copied");
   }
 
   function googleItForThem() {

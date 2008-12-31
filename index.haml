@@ -40,17 +40,17 @@
   %body
     %center
       .logo
-        %span{ :rel => "localize.pre_logo" } let me
+        %span{ :rel => "localize[pre_logo]" } let me
         %img#logo{ :src => "http://www.google.com/intl/en_ALL/images/logo.gif" }
-        %span{ :rel => "localize.post_logo" } that for you
+        %span{ :rel => "localize[post_logo]" } that for you
       %br
       %br
       %br
       %form
         %input.text{ :type => "text", :size => 55, :title => "Google Search", :value => "" }
         %br
-        %input#search{ :type => "button", :value => "Google Search", :rel => "localize.search_button" }
-        %input#lucky{ :type => "button", :value => "I'm Feeling Lucky", :rel => "localize.lucky_button" }
+        %input#search{ :type => "button", :value => "Google Search", :rel => "localize[search_button]" }
+        %input#lucky{ :type => "button", :value => "I'm Feeling Lucky", :rel => "localize[lucky_button]" }
 
       #instructions
         %div
@@ -61,10 +61,10 @@
         %input.link.copyable{ :type => "text", :readonly => true }
         #link_message
         #link_buttons
-          %a#copy.link_button{ :href => "#", :rel => "localize.link.copy" } copy
-          %a#reset.link_button{ :href => "#", :rel => "localize.link.reset" } reset
-          %a#tiny.link_button{ :href => "#", :rel => "localize.link.shorten" } tinyurl
-          %a#go.link_button{ :href => "#", :rel => "localize.link.go" } go
+          %a#copy.link_button{ :href => "#", :rel => "localize[link.copy]" } copy
+          %a#reset.link_button{ :href => "#", :rel => "localize[link.reset]" } reset
+          %a#tiny.link_button{ :href => "#", :rel => "localize[link.shorten]" } tinyurl
+          %a#go.link_button{ :href => "#", :rel => "localize[link.go]" } go
 
     #sponsor
       %img{ :src => "/images/sponsored_by.png" }
@@ -73,21 +73,21 @@
         %p
 
     #footer
-      %a.about{ :href => "#", :name => "about", :rel => "localize.about" } About
-      %a{ :rel => "localize.contact", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
+      %a.about{ :href => "#", :name => "about", :rel => "localize[about]" } About
+      %a{ :rel => "localize[contact]", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
       %a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%64%73@%6c%6d%67%74%66%79.%63%6f%6d?body=Ryan%20and%20Jim%2C%0A%0APlease%20send%20me%20information%20about%20putting%20an%20ad%20on%20LMGTFY.com%0A%0AThanks%21&amp;subject=Advertising%20on%20LMGTFY" } Advertise
 
     #about{ :style => "display: none" }
-      %p{ :rel => "localize.pitch" }         This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
-      %p{ :rel => "localize.credit" }        Created by @coderifous, contributions by @rmm5t.
-      %p{ :rel => "localize.genesis" }       Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.
-      %p{ :rel => "localize.translated_by" }
-      %p{ :rel => "localize.disclaimer" }    Not associated with Google&trade; in any way.
+      %p{ :rel => "localize[pitch]" }         This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
+      %p{ :rel => "localize[credit]" }        Created by @coderifous, contributions by @rmm5t.
+      %p{ :rel => "localize[genesis]" }       Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.
+      %p{ :rel => "localize[translated_by]" }
+      %p{ :rel => "localize[disclaimer]" }    Not associated with Google&trade; in any way.
 
     #copyright
       &copy; LMGTFY, 2008
       ==|
-      %span{ :rel => "localize.google_owns_google" } GOOGLE is a trademark of Google Inc.
+      %span{ :rel => "localize[google_owns_google]" } GOOGLE is a trademark of Google Inc.
 
     %img#fake_mouse{ :src => "images/mouse_arrow.png", :style => "display: none" }
 
