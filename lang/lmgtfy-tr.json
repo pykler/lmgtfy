@@ -9,7 +9,7 @@
   google_owns_google: "Google, Google Inc.'a ait bir markadır.",
 
   setup: {
-    type_question: "Kelimeyi yazın ve butonlardam birine basın.",
+    type_question: "Kelimeyi yazın ve butonlardan birine basın.",
     share_link:    "Aşağıdaki linki paylaşınız."
   },
 
