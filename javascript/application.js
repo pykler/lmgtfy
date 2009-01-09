@@ -44,9 +44,9 @@ $(function(){
     });
     $('input.copyable').click(function() { $(this).select(); });
     linkifyAbout();
-    var localize_opts = { 
-      pathPrefix: 'lang', 
-      skipLanguage: "en-US", 
+    var localize_opts = {
+      pathPrefix: 'lang',
+      skipLanguage: "en-US",
       callback: function(data, defaultCallback) {
         defaultCallback(data)
         linkifyAbout();
@@ -76,7 +76,7 @@ $(function(){
     var match = first.match(/^[a-z]{2}(?:-[a-z]{2})?$/i);
     return match ? match[0] : null;
   }
-  
+
   function langString(langkey) {
     var keys = langkey.split(/\./);
     return keys.length == 1 ? $.localize.data.lmgtfy[keys[0]] : $.localize.data.lmgtfy[keys[0]][keys[1]];
@@ -174,8 +174,7 @@ $(function(){
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return;
 
-      // var google = "http://www.google.com/cse?cx=partner-pub-1841856653263547%3A8eram9fqly9&ie=UTF-8&sa=Search&q=";
-      var google = "http://www.google.com/search?btnG=1&q=";
+      var google = "http://vanillaresults.com/?q=";
       if (button.attr("id") == $("#lucky").attr("id")) {
         google = "http://www.google.com/search?btnI=1&q=";
       }
