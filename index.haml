@@ -59,6 +59,36 @@
       %p{ :rel => "localize[translated_by]" }
       %p{ :rel => "localize[disclaimer]" }    Not associated with Google&trade; in any way.
 
+    :ruby
+      def options_from_hash(hash)
+        hash.keys.sort.each do |k|
+          haml_concat "<option value=\"#{k}\">#{hash[k]}</option>"
+        end
+      end
+
+    #language
+      %select
+        :ruby
+          options_from_hash(
+            ""   => "LMGTFY Worldwide",
+            "ca" => "Catalan",
+            "da" => "Danish",
+            "de" => "German",
+            "en" => "English",
+            "es" => "Spanish",
+            "fr" => "French",
+            "it" => "Italian",
+            "pl" => "Polish",
+            "pt-BR" => "Portuguese (Brazil)",
+            "pt" => "Portuguese",
+            "ro" => "Romanian",
+            "ru" => "Russian",
+            "sk" => "Slovak",
+            "sv" => "Swedish",
+            "tr" => "Turkish",
+            "uk" => "Ukrainian"
+          )
+
     #copyright
       &copy; LMGTFY, 2008
       ==|
