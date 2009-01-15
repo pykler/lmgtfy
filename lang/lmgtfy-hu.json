@@ -1,0 +1,40 @@
+{
+  pre_logo:           "hadd keressem meg neked",
+  post_logo:          "-on",
+  search_button:      "Google keresés",
+  lucky_button:       "Jó napom van",
+  about:              "Névjegy",
+  contact:            "Kapcsolat",
+  donate:             "Hírdetés",
+  google_owns_google: "A GOOGLE a Google Inc. bejegyzett védjegye.",
+
+  setup: {
+    type_question: "Írj be egy kérdést, kattints egy gombra.",
+    share_link:    "Küldd tovább az alábbi linket."
+  },
+
+  play: {
+    step_1: "1. lépés: Írd be a kérdésedet",
+    step_2: "2. lépés: Kattints az egyik gombra",
+    pwnage: "Ugye nem is volt nehéz?",
+    nice:   "Ilyen egyszerû ."
+  },
+
+  link: {
+    copy:      "másolás",
+    shorten:   "tinyurl",
+    go:        "ugrás",
+    reset:     "vissza",
+    creating:  "Készítés...",
+    fetching:  "Letöltés...",
+    copied:    "URL a vágólapra másolva",
+    shortened: "TinyURL a vágólapra másolva"
+  },
+
+  credit:     "Készítette @coderifous, besegített @rmm5t.",
+  genesis:    "Az oldalt egy ebéd közbeni beszélgetés inspirálta, ahol @coderifous, @tmassing, @rmm5t, @EricStratton, és @methodvon volt jelen.",
+  pitch:      "Ez az oldal azoknak az embereknek készült, akik kényelmesebbnek találják, hogy a kérdéseikkel zavarjanak, ahelyett, hogy saját maguk megkeresnék a google-on.",
+  disclaimer: "Az oldal nem áll kapcsolatban a Google&trade; -el semmilyen formában.",
+
+  translated_by: "Fordította: psybreeze"
+}
