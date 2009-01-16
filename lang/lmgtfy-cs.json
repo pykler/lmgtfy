@@ -1,0 +1,40 @@
+{
+  pre_logo:           "vyhledám ti to v",
+  post_logo:          "za tebe",
+  search_button:      "Vyhledat Googlem",
+  lucky_button:       "Zkusím štěstí",
+  about:              "O LMGTFY",
+  contact:            "Kontakt",
+  donate:             "Přispět",
+  google_owns_google: "GOOGLE je registrovaná ochranná známka společnosti Google Inc.",
+
+  setup: {
+    type_question: "Napiš dotaz a stiskni tlačítko",
+    share_link:    "Zkopíruj odkaz"
+  },
+
+  play: {
+    step_1: "Krok 1: Napiš dotaz",
+    step_2: "Krok 2: Klikni na tlačítko",
+    pwnage: "Bylo to tak těžké?",
+    nice:   "Je to tak snadné."
+  },
+
+  link: {
+    copy:      "kopírovat",
+    shorten:   "tinyurl",
+    go:        "ukázat",
+    reset:     "reset",
+    creating:  "Vytvářím...",
+    fetching:  "Zkracuji...",
+    copied:    "Zkopírováno do schránky",
+    shortened: "TinyURL Zkopírováno do schránky"
+  },
+
+  credit:     "Vytvořil @coderifous s pomocí @rmm5t.",
+  genesis:    "Inspirováno rozhovorem během oběda s @coderifous, @tmassing, @rmm5t, @EricStratton a @methodvon.",
+  pitch:      "Pro všechny lidi, kteří radši otravujou otázkami, než aby si to vyhledali v Google sami.",
+  disclaimer: "LMGTFY nemá nic společného se společností Google&trade;.",
+
+  translated_by: "Přeložil Krencl"
+}
