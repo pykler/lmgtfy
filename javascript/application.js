@@ -71,14 +71,14 @@ $(function(){
     });
     $("#language select").change(function(e){
       var l = window.location;
-      var hostnameMinusSubdomain = window.location.hostname.match(/[^.]+\.(?:com|local)$/)[0];
+      var hostnameMinusSubdomain = l.hostname.match(/[^.]+\.(?:com|local)$/)[0];
       var url = l.protocol + "//" + $(this).val() + "." + hostnameMinusSubdomain + l.pathname;
       window.location = url;
     });
   }
 
   function sniffSubdomainForLanguage() {
-    var first = document.location.hostname.split(".")[0];
+    var first = window.location.hostname.split(".")[0];
     var match = first.match(/^[a-z]{2}(?:-[a-z]{2})?$/i);
     return match ? match[0] : null;
   }
