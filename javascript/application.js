@@ -48,7 +48,7 @@ $(function(){
       pathPrefix: 'lang',
       skipLanguage: "en-US",
       callback: function(data, defaultCallback) {
-        defaultCallback(data)
+        defaultCallback(data);
         linkifyAbout();
       }
     };
@@ -74,7 +74,7 @@ $(function(){
       var hostnameMinusSubdomain = window.location.hostname.match(/[^.]+\.(?:com|local)$/)[0];
       var url = l.protocol + "//" + $(this).val() + "." + hostnameMinusSubdomain + l.pathname;
       window.location = url;
-    })
+    });
   }
 
   function sniffSubdomainForLanguage() {
