@@ -29,7 +29,7 @@ end
 def autobuild
   puts "Starting autobuild (Ctrl-C to stop)\n"
   @watcher = DirectoryWatcher.new '.', :interval => 0.25
-  @watcher.glob = "*.{haml,sass}"
+  @watcher.glob = %w(*.{haml,sass} javascript/*.js)
   @watcher.add_observer do |*events|
     Rake::Task[:build].reenable
     Rake::Task[:build].invoke
