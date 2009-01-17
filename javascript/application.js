@@ -71,7 +71,7 @@ $(function(){
     });
     $("#language select").change(function(e){
       var l = window.location;
-      var hostnameMinusSubdomain = l.hostname.match(/[^.]+\.(?:com|local)$/)[0];
+      var hostnameMinusSubdomain = l.hostname.match(/[^.]+\.(?:[^.]+)$/)[0];
       var url = l.protocol + "//" + $(this).val() + "." + hostnameMinusSubdomain + l.pathname;
       window.location = url;
     });
