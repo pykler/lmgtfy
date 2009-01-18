@@ -1,0 +1,40 @@
+{
+  pre_logo:           "la meg",
+  post_logo:          "det for deg",
+  search_button:      "Google-søk",
+  lucky_button:       "Jeg prøver lykken",
+  about:              "Om",
+  contact:            "Kontakt",
+  donate:             "Donér",
+  google_owns_google: "GOOGLE er et registrert varemerke av Google Inc.",
+
+  setup: {
+    type_question: "Skriv et spørsmål, trykk en knapp.",
+    share_link:    "Del lenken under."
+  },
+
+  play: {
+    step_1: "Steg 1: Skriv ditt spørsmål",
+    step_2: "Steg 2: Trykk på søkeknappen",
+    pwnage: "Var det så vanskelig?",
+    nice:   "Så lett er det."
+  },
+
+  link: {
+    copy:      "kopier",
+    shorten:   "forkort URL",
+    go:        "gå",
+    reset:     "nullstill",
+    creating:  "Lager...",
+    fetching:  "Henter...",
+    copied:    "URL kopiert til utklippstavlen",
+    shortened: "Forkortet URL kopiert til utklippstavlen"
+  },
+
+  credit:     "Laget av @coderifous, bidrag av @rmm5t.",
+  genesis:    "Inspirert under en lunchsamtale med @coderifous, @tmassing, @rmm5t, @EricStratton, og @methodvon.",
+  pitch:      "Dette er for alle de som synes det er mer beleielig å plage deg med sine spørsmål enn å google det selv.",
+  disclaimer: "Ikke i asossiasjon med Google&trade; på noen måte.",
+
+  translated_by: "Oversatt av jurgemaister"
+}
