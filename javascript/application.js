@@ -22,7 +22,9 @@ $.localize.data.lmgtfy = {
 };
 
 $(function(){
-  initializeContent();
+  initializeLocalization();
+  initializeAboutLink();
+  initializeControls();
 
   var searchString = $.getQueryString({ id: "q" });
   var inputField   = $("input[type=text]:first");
@@ -36,26 +38,17 @@ $(function(){
   if (searchString && searchString.length > 0) googleItForThem();
   else getTheSearchTerms();
 
-  function initializeContent() {
+  function initializeAboutLink() {
     $("a[name=about]").click(function() {
       $("#about").toggle();
       $('html,body').animate({ scrollTop: $("#about").offset().top }, 1000);
       return false;
     });
-    $('input.copyable').click(function() { $(this).select(); });
     linkifyAbout();
-    var localize_opts = {
-      pathPrefix: 'lang',
-      skipLanguage: "en-US",
-      callback: function(data, defaultCallback) {
-        defaultCallback(data);
-        linkifyAbout();
-      }
-    };
-    var lang = $.getQueryString({ id: "lang" }) || sniffSubdomainForLanguage();
-    if (lang) localize_opts.language = lang;
-    $("[rel*=localize]").localize('lmgtfy', localize_opts);
+  }
 
+  function initializeControls() {
+    $('input.copyable').click(function() { $(this).select(); });
     $("#link").hover(function(){ linkButtons.fadeIn("fast"); }, function(){ linkButtons.fadeOut("fast"); });
     $("#go").click(function(){ window.location = inputLink.val(); return false; });
     $("#reset").click(function(){ showTheUrl($(this).attr("url")); return false; });
@@ -75,6 +68,20 @@ $(function(){
       var url = l.protocol + "//" + $(this).val() + "." + hostnameMinusSubdomain + l.pathname;
       window.location = url;
     });
+  }
+
+  function initializeLocalization() {
+    var localize_opts = {
+      pathPrefix: 'lang',
+      skipLanguage: "en-US",
+      callback: function(data, defaultCallback) {
+        defaultCallback(data);
+        linkifyAbout();
+      }
+    };
+    var lang = $.getQueryString({ id: "lang" }) || sniffSubdomainForLanguage();
+    if (lang) localize_opts.language = lang;
+    $("[rel*=localize]").localize('lmgtfy', localize_opts);
   }
 
   function sniffSubdomainForLanguage() {
