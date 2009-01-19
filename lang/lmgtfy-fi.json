@@ -1,0 +1,40 @@
+﻿{
+  pre_logo:           "katos kuinka",
+  post_logo:          "voi auttaa",
+  search_button:      "Google-haku",
+  lucky_button:       "Kokeilen onneani",
+  about:              "Tietoa",
+  contact:            "Ota yhteyttä",
+  donate:             "Lahjoita",
+  google_owns_google: "GOOGLE on rekisteröity tavaramerkki, ja sen omistaa Google Inc.",
+
+  setup: {
+    type_question: "Syötä hakusanat ja paina nappia.",
+    share_link:    "Jaa oheinen linkki."
+  },
+
+  play: {
+    step_1: "1: Kirjoita hakusanasi",
+    step_2: "2: Napsauta hakupainiketta",
+    pwnage: "Oliko se muka niin vaikeaa?",
+    nice:   "Helppoa, eikö vain?" 
+  },
+
+  link: {
+    copy:      "kopioi",
+    shorten:   "lyhennä",
+    go:        "avaa",
+    reset:     "palauta",
+    creating:  "Luodaan...",
+    fetching:  "Noudetaan...",
+    copied:    "URL kopioitiin leikepöydälle",
+    shortened: "Lyhytosoite kopioitiin leikepöydälle"
+  },
+
+  credit:     "Tekijä: @coderifous, avustajana @rmm5t.",
+  genesis:    "Idea syntyi lounaalla käydyssä keskustelussa, johon kuuluivat @coderifous, @tmassing, @rmm5t, @EricStratton, ja @methodvon.",
+  pitch:      "Tämä on kaikkia niitä ihmisiä varten, jotka mieluummin vaivaavat sinua kysymyksillään kuin googlaavat sen itse.",
+  disclaimer: "Ei missään yhteydessä Google&trade;en.",
+
+  translated_by: "Kääntäjä: Rudolph Enberq"
+}
