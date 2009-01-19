@@ -9,7 +9,7 @@
   google_owns_google: "GOOGLE is een handelsmerk van Google Inc.",
 
   setup: {
-    type_question: "Voer vraag in, klik op een knop.",
+    type_question: "Voer een vraag in, klik op een knop.",
     share_link:    "Deel de link hieronder."
   },
 
@@ -32,7 +32,7 @@
   },
 
   credit:     "Gemaakt door @coderifous, bijdragen door @rmm5t.",
-  genesis:    "Geïnspireerd tijdens een lunchgesprek met @coderifous, @tmassing, @rmm5t, @EricStratton, en @methodvon.",
+  genesis:    "Geïnspireerd door een lunchgesprek met @coderifous, @tmassing, @rmm5t, @EricStratton, en @methodvon.",
   pitch:      "Dit is voor iedereen wie het makkelijker vindt om jou lastig te vallen met hun vraag in plaats van zelf te googlen.",
   disclaimer: "Op geen enkele manier met Google&trade; geassocieerd.",
 
