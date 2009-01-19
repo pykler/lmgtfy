@@ -1,0 +1,40 @@
+{
+  pre_logo:           "laat me dat voor je",
+  post_logo:          "n",
+  search_button:      "Google zoeken",
+  lucky_button:       "Ik doe een gok",
+  about:              "Over ons",
+  contact:            "Contact",
+  donate:             "Doneren",
+  google_owns_google: "GOOGLE is een handelsmerk van Google Inc.",
+
+  setup: {
+    type_question: "Voer vraag in, klik op een knop.",
+    share_link:    "Deel de link hieronder."
+  },
+
+  play: {
+    step_1: "Stap 1: Voer je vraag in",
+    step_2: "Stap 2: Klik op de zoekknop",
+    pwnage: "Was dat zo moeilijk?",
+    nice:   "Zo makkelijk is het."
+  },
+
+  link: {
+    copy:      "kopiëren",
+    shorten:   "tinyurl",
+    go:        "ga",
+    reset:     "reset",
+    creating:  "Maken...",
+    fetching:  "Opvragen...",
+    copied:    "URL is gekopieerd naar het klembord",
+    shortened: "TinyURL is gekopieerd naar het klembord"
+  },
+
+  credit:     "Gemaakt door @coderifous, bijdragen door @rmm5t.",
+  genesis:    "Geïnspireerd tijdens een lunchgesprek met @coderifous, @tmassing, @rmm5t, @EricStratton, en @methodvon.",
+  pitch:      "Dit is voor iedereen wie het makkelijker vindt om jou lastig te vallen met hun vraag in plaats van zelf te googlen.",
+  disclaimer: "Op geen enkele manier met Google&trade; geassocieerd.",
+
+  translated_by: "Vertaald door @arienh4."
+}
