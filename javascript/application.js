@@ -34,9 +34,11 @@ $(function(){
   var inputLink    = $("#link input.link");
   var linkButtons  = $("#link_buttons");
   var linkMessage  = $("#link_message");
-
-  if (searchString && searchString.length > 0) googleItForThem();
-  else getTheSearchTerms();
+  
+  if (searchString)
+    googleItForThem();
+  else
+    getTheSearchTerms();
 
   function initializeAboutLink() {
     $("a[name=about]").click(function() {
