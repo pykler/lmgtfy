@@ -1,7 +1,7 @@
 excludes = %w(.* R* cgi-bin *.haml artwork)
 exclude_options = excludes.map { |e| "--exclude=#{e}" }.join(" ")
 SETTINGS = {
-  :rsync_server  => "letmegooglethatforyou.com:~/www",
+  :rsync_server  => "lmgtfy.com:/u/apps/lmgtfy",
   :rsync_options => "-e ssh -avz --delete #{exclude_options}"
 }
 
