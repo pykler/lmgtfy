@@ -75,7 +75,7 @@ $(function(){
   function initializeLocalization() {
     var localize_opts = {
       pathPrefix: 'lang',
-      skipLanguage: "en-US",
+      skipLanguage: /^en/,
       callback: function(data, defaultCallback) {
         defaultCallback(data);
         linkifyAbout();

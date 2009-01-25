@@ -84,9 +84,26 @@
       return value;
     }
 
+    function regexify(string_or_regex_or_array){
+      if (typeof(string_or_regex_or_array) == "string") {
+        return "^" + string_or_regex_or_array + "$";
+      }
+      else if (string_or_regex_or_array.length) {
+        var matchers = [];
+        var x = string_or_regex_or_array.length;
+        while (x--) {
+          matchers.push(regexify(string_or_regex_or_array[x]));
+        }
+        return matchers.join("|");
+      }
+      else {
+        return string_or_regex_or_array;
+      }
+    }
+
     var lang = normaliseLang(options && options.language ? options.language : $.defaultLanguage);
 
-    if (options.skipLanguage && options.skipLanguage == lang) return;
+    if (options.skipLanguage && lang.match( regexify(options.skipLanguage) )) return;
     loadLanguage(pkg, lang, 1);
 
     $.ajaxSetup(saveSettings);
