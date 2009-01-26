@@ -1,4 +1,4 @@
-excludes = %w(.* R* cgi-bin *.haml artwork)
+excludes = %w(.* R* cgi-bin *.haml artwork javascript)
 exclude_options = excludes.map { |e| "--exclude=#{e}" }.join(" ")
 SETTINGS = {
   :rsync_server  => "lmgtfy.com:/u/apps/lmgtfy",
