@@ -81,15 +81,32 @@ $(function(){
         linkifyAbout();
       }
     };
-    var lang = $.getQueryString({ id: "lang" }) || sniffSubdomainForLanguage();
+    var lang = $.getQueryString({ id: "lang" }) || sniffUrlForLanguage();
     if (lang) localize_opts.language = lang;
     $("[rel*=localize]").localize('lmgtfy', localize_opts);
+  }
+
+  function sniffUrlForLanguage() {
+    return sniffSubdomainForLanguage() || sniffDomainForLanguage();
   }
 
   function sniffSubdomainForLanguage() {
     var first = window.location.hostname.split(".")[0];
     var match = first.match(/^[a-z]{2}(?:-[a-z]{2})?$/i);
     return match ? match[0] : null;
+  }
+
+  function sniffDomainForLanguage() {
+    var domainLanguageOverrides = {
+      "haddkeressemmegneked": "hu"
+    };
+
+    for (var domain in domainLanguageOverrides) {
+      if (window.location.hostname.match(domain)) {
+        return domainLanguageOverrides[domain];
+      }
+    }
+    return null;
   }
 
   function langString(langkey) {
