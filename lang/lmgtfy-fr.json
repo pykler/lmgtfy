@@ -5,6 +5,8 @@
   lucky_button:       "J'ai de la chance",
   about:              "A Propos",
   contact:            "Contact",
+  advertise:          "Annonceurs",
+  donate:             "Faire un don",
   google_owns_google: "GOOGLE est une marque de Google Inc.",
 
   setup: {

@@ -5,6 +5,7 @@
   lucky_button:       "Kokeilen onneani",
   about:              "Tietoa",
   contact:            "Ota yhteyttä",
+  advertise:          "Mainosta",
   donate:             "Lahjoita",
   google_owns_google: "GOOGLE on rekisteröity tavaramerkki, ja sen omistaa Google Inc.",
 
@@ -17,7 +18,7 @@
     step_1: "1: Kirjoita hakusanasi",
     step_2: "2: Napsauta hakupainiketta",
     pwnage: "Oliko se muka niin vaikeaa?",
-    nice:   "Helppoa, eikö vain?" 
+    nice:   "Helppoa, eikö vain?"
   },
 
   link: {
