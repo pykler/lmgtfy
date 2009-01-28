@@ -166,6 +166,8 @@ $(function(){
   }
 
   function googleItForThem() {
+    if ($.getQueryString({ id: "fwd" })) redirect();
+
     $("body").css("cursor", "wait");
     fakeMouse.show();
     instruct("play.step_1");
