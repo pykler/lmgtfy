@@ -1,6 +1,18 @@
 {
   slots: [
     {
+      id: "ioj",
+      url: "http://www.ioj.com/",
+      image: "/s/images/ioj.png",
+      message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
+    },
+    {
+      id: "ioj",
+      url: "http://www.ioj.com/",
+      image: "/s/images/ioj.png",
+      message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
+    },
+    {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
       image: "/s/images/basecamp.png",
@@ -17,12 +29,6 @@
       url: "http://www.backpackIT.com/?referrer=LMGTFY",
       image: "/s/images/backpack.png",
       message: "The easy way to<br /> <em>Get Organized!</em>"
-    },
-    {
-      id: "ioj",
-      url: "http://www.ioj.com/",
-      image: "/s/images/ioj.png",
-      message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
     }
   ],
 
