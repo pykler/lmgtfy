@@ -1,0 +1,43 @@
+{
+  pre_logo:           "내가 널 위해",
+  post_logo:          "해주마!",
+  search_button:      "구글 검색",
+  lucky_button:       "운 좋은 예감",
+  about:              "정보",
+  contact:            "문의",
+  advertise:          "광고",
+  donate:             "기부",
+  //live:             "실시간 기록", //no translation for "Live Stream"?
+  google_owns_google: "GOOGLE 은 Google 사의 등록 상표 입니다.",
+
+  setup: {
+    type_question: "질문을 입력하고, 버튼을 누르세요.",
+    share_link:    "이제 아래의 링크를 뿌리면 됩니다."
+  },
+
+  play: {
+    step_1: "첫째: 궁금한걸 입력합니다.",
+    step_2: "둘째: 검색 버튼을 누릅니다.",
+    pwnage: "이게 그리 어렵냐!",
+    nice:   "어때요, 참 쉽죠?"
+  },
+
+  link: {
+    copy:      "복사",
+    shorten:   "짧게",
+    go:        "보기",
+    reset:     "초기화",
+    creating:  "생성중...",
+    fetching:  "불러오는 중...",
+    copied:    "주소가 클립보드에 복사되었습니다.",
+    shortened: "짧은주소가 클립보드에 복사되었습니다."
+  },
+
+  credit:     "@coderifous랑 @rmm5t 둘이서",
+  genesis:    "@tmassing, @rmm5t, @EricStratton, @methodvon 와 점심 수다중에 떠올라서 만듬.",
+  pitch:      "이 사이트를 인터넷 검색이 당신을 귀찮게 하는 것보다 덜 효율적이라고 생각하는 사람들에게 바칩니다.",
+  disclaimer: "※이곳은 Google&trade;과는 아무런 관련이 없습니다.",
+
+  //translated_by: "Translated by @iAmGhost_ and @hlighter." //Have to translate "Translated by" text?
+  translated_by: "@iAmGhost_와 @hlighter가 번역함." 
+}
