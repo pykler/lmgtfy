@@ -116,7 +116,7 @@ $(function(){
 
   function linkifyAbout() {
     $("#about p").each(function() {
-      $(this).html($(this).text().replace(/(@([a-zA-Z0-9]+))/g, '<a href="http://twitter.com/$2">$1</a>'));
+      $(this).html($(this).text().replace(/(@([a-zA-Z0-9_]+))/g, '<a href="http://twitter.com/$2">$1</a>'));
     });
   }
 
