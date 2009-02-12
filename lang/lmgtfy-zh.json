@@ -1,0 +1,42 @@
+{
+  pre_logo:           "让我帮你",
+  post_logo:          "你要的东西",
+  search_button:      "Google搜索",
+  lucky_button:       "手气不错",
+  about:              "关于",
+  live:               "搜索直播",
+  contact:            "联系",
+  advertise:          "广告机会",
+  donate:             "捐助",
+  google_owns_google: "GOOGLE是Google Inc.的商标",
+
+  setup: {
+    type_question: "写下你的问题,点击一个按钮",
+    share_link:    "分享下面这个链接"
+  },
+
+  play: {
+    step_1: "第一步: 输入你的问题",
+    step_2: "第二步: 点击搜索按钮",
+    pwnage: "对你来说很难么?",
+    nice:   "就这么简单."
+  },
+
+  link: {
+    copy:      "复制",
+    shorten:   "tinyurl",
+    go:        "去",
+    reset:     "重设",
+    creating:  "创建中...",
+    fetching:  "提取中...",
+    copied:    "URL被复制到粘贴板中",
+    shortened: "TinyURL被复制到粘贴板中"
+  },
+
+  credit:     "@coderifous 和 @rmm5t 制作.",
+  genesis:    "在 @coderifous, @tmassing, @rmm5t, @EricStratton, 和 @methodvon 一起的午餐中想到的.",
+  pitch:      "献给所有喜欢问他人问题而不是自己去搜索的人.",
+  disclaimer: "本产品和Google&trade;没有任何联系.",
+
+  translated_by: "由 @Mgccl 翻译"
+}
