@@ -1,0 +1,42 @@
+{
+  pre_logo:           "دعني أ",
+  post_logo:          "ــها لك",
+  search_button:      "Google بحث",
+  lucky_button:       "ضربة حظ",
+  about:              "حــول",
+  live:               "عرض حيّ",
+  contact:            "للتواصل",
+  advertise:          "للإعلان",
+  donate:             "للتبرّع",
+  google_owns_google: "Google Inc. علامة تجارية لـ GOOGLE",
+
+  setup: {
+    type_question: ".اكتب استفسار، اضغط زر",
+    share_link:    "أرسل الرابط أدناه لمن تريد"
+  },
+
+  play: {
+    step_1: "الخطوة 1: اكتب استفسارك",
+    step_2: "الخطوة 2:اضغط زر البحث",
+    pwnage: "هل كانت الطريقة صعبة جداً؟",
+    nice:   "إنها بهذه السهولة"
+  },
+
+  link: {
+    copy:      "‘نسخ",
+    shorten:   "tinyurl رابط مختصر",
+    go:        "إذهب",
+    reset:     "إلغاء",
+    creating:  "جاري التنفيذ...",
+    fetching:  "جاري جلب الإختصار...",
+    copied:    "تم نسخ الرابط",
+    shortened: "TinyURL تم نسخ الرابط المختصر"
+  },
+
+  credit:     "@coderifous و @rmm5t قام بعمل هذه الصفحة",
+  genesis:    "@coderifous و @tmassing ،@rmm5t ،@EricStratton ،@methodvon استـُلهمت الفكرة أثناء محادثتنا في فترة الغداء مع",
+  pitch:      "هذه الصفحة لكل هؤلاء الناس الذين يرون أن ازعاجك بأسئلتهم أسهل من بحثهم في جوجل عنها",
+  disclaimer: "بأي شكل من الأشكال Google&trade; هذا الموقع غير مرتبط بـ جوجل ",
+
+  translated_by: "@techani تمت الترجمة بواسطة سهيل بن عبدالعزيز السعيد "
+}
