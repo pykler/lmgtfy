@@ -1,0 +1,42 @@
+{
+  pre_logo:           "等我幫您",
+  post_logo:          "您要嘅嘢啦",
+  search_button:      "Google 搜尋",
+  lucky_button:       "好手氣",
+  about:              "關於",
+  live:               "Live Stream",
+  contact:            "聯絡",
+  advertise:          "廣告",
+  donate:             "捐助",
+  google_owns_google: "GOOGLE 是 Google Inc. 的商標",
+
+  setup: {
+    type_question: "輸入一個問題，之後再按一個按鈕",
+    share_link:    "分享下面的連結"
+  },
+
+  play: {
+    step_1: "第一步：打您要問嘅嘢",
+    step_2: "第二步：Click 一吓搜尋",
+    pwnage: "乜真係咁難咩？",
+    nice:   "就喺咁簡單！"
+  },
+
+  link: {
+    copy:      "複製",
+    shorten:   "tinyurl",
+    go:        "前往",
+    reset:     "重設",
+    creating:  "建立中...",
+    fetching:  "提取中...",
+    copied:    "已經把 URL 複製到剪貼簿了",
+    shortened: "已經把 tinyurl 複製到剪貼簿了"
+  },
+
+  credit:     "由 @coderifous 及 @rmm5t 建立",
+  genesis:    "喺 @coderifous 、 @tmassing 、 @rmm5t 、 @EricStratton 同 @methodvon 一齊食飯嗰陣諗到",
+  pitch:      "送俾所有成日煩住你，唔肯自己去 Google 搜尋嘢嘅麻煩人",
+  disclaimer: "本站與 Google&trade; 沒有任何關係",
+
+  translated_by: "由 @GELDDF 翻譯"
+}
