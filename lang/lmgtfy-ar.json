@@ -5,7 +5,7 @@
   lucky_button:       "ضربة حظ",
   about:              "حــول",
   live:               "عرض حيّ",
-  contact:            "للتواصل",
+  contact:            "للإتصال",
   advertise:          "للإعلان",
   donate:             "للتبرّع",
   google_owns_google: "Google Inc. علامة تجارية لـ GOOGLE",
@@ -23,12 +23,12 @@
   },
 
   link: {
-    copy:      "‘نسخ",
+    copy:      "نسخ",
     shorten:   "tinyurl رابط مختصر",
     go:        "إذهب",
     reset:     "إلغاء",
-    creating:  "جاري التنفيذ...",
-    fetching:  "جاري جلب الإختصار...",
+    creating:  "...إنشاء",
+    fetching:  "...جلب الإختصار",
     copied:    "تم نسخ الرابط",
     shortened: "TinyURL تم نسخ الرابط المختصر"
   },
@@ -38,5 +38,5 @@
   pitch:      "هذه الصفحة لكل هؤلاء الناس الذين يرون أن ازعاجك بأسئلتهم أسهل من بحثهم في جوجل عنها",
   disclaimer: "بأي شكل من الأشكال Google&trade; هذا الموقع غير مرتبط بـ جوجل ",
 
-  translated_by: "@techani تمت الترجمة بواسطة سهيل بن عبدالعزيز السعيد "
+  translated_by: "@techani تمت الترجمة بواسطة سهيل السعيد "
 }
