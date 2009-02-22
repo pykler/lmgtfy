@@ -4,10 +4,10 @@
   search_button:      "구글 검색",
   lucky_button:       "운 좋은 예감",
   about:              "정보",
+  //live:             "실시간 기록", //no translation for "Live Stream"?
   contact:            "문의",
   advertise:          "광고",
   donate:             "기부",
-  //live:             "실시간 기록", //no translation for "Live Stream"?
   google_owns_google: "GOOGLE 은 Google 사의 등록 상표 입니다.",
 
   setup: {
@@ -38,6 +38,5 @@
   pitch:      "이 사이트를 인터넷 검색이 당신을 귀찮게 하는 것보다 덜 효율적이라고 생각하는 사람들에게 바칩니다.",
   disclaimer: "※이곳은 Google&trade;과는 아무런 관련이 없습니다.",
 
-  //translated_by: "Translated by @iAmGhost_ and @hlighter." //Have to translate "Translated by" text?
-  translated_by: "@iAmGhost_와 @hlighter가 번역함." 
+  translated_by: "@iAmGhost_와 @hlighter가 번역함."
 }
