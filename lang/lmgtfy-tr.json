@@ -4,9 +4,9 @@
   search_button:      "Google'da Ara",
   lucky_button:       "Şansımı Denemek İstiyorum",
   about:              "Hakkında",
-  live:               "Live Stream",
+  live:               "Son Arananlar",
   contact:            "İletişim",
-  advertise:          "Advertise",
+  advertise:          "Reklam ver",
   donate:             "Bağış Yap",
   google_owns_google: "Google, Google Inc.'a ait bir markadır.",
 
@@ -19,7 +19,7 @@
     step_1: "1. Adım : Arayacağın kelimeyi yaz",
     step_2: "2. Adım : Arama butonuna bas",
     pwnage: "Bunu yapmak çok mu zordu?",
-    nice:   "Bu kolay söyledi."
+    nice:   "Kolay, değil mi?"
   },
 
   link: {
@@ -38,5 +38,5 @@
   pitch:      "Sorularının cevaplarını Google'da aramaktansa sizi rahatsız etmeyi tercih eden insanlara çözüm bulmak için yapılmıştır.",
   disclaimer: "Google markası ile hiçbir şekilde ortaklık yoktur.",
 
-  translated_by: "Bu site Utku Aydın tarafından çevrilmiştir. Bir önceki çevirisi, Cemal Yerlikaya'ya aittir. "
+  translated_by: "Bu hizmet Türkçe'ye, Utku Aydın tarafından çevrilmiştir."
 }
