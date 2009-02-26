@@ -208,8 +208,7 @@ $(function(){
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return;
 
-      //var google = "http://vanillaresults.com/?q=";
-      var google = "http://www.google.com/search?btnG=1&q=";
+      var google = "http://vanillaresults.com/?q=";
       if (button.attr("id") == $("#lucky").attr("id")) {
         google = "http://www.google.com/search?hl=en&btnI=I%27m+Feeling+Lucky&q=";
       }
