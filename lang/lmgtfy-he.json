@@ -1,0 +1,42 @@
+﻿{
+  pre_logo:           "תן לי להשתמש ב",
+  post_logo:          "בשבילך",
+  search_button:      "חיפוש בגוגל",
+  lucky_button:       "יותר מזל משכל",
+  about:              "אודות",
+  live:               "עדכונים שוטפים",
+  contact:            "צור קשר",
+  advertise:          "פרסם",
+  donate:             "תרומות",
+  google_owns_google: "Google Inc. הוא סמל מסחרי של GOOGLE",
+
+  setup: {
+    type_question: ".הקלד שאלה, הקלק על כפתור",
+    share_link:    ".שתף את הקישור למטה"
+  },
+
+  play: {
+    step_1: "צעד 1: הקלד את שאלתך",
+    step_2: "צעד 2: הקלד על כפתור החיפוש",
+    pwnage: "?זה היה כ\"כ קשה ",
+    nice:   ".זה ממש פשוט"
+  },
+
+  link: {
+    copy:      "העתק",
+    shorten:   "tinyurl",
+    go:        "לך",
+    reset:     "אתחול",
+    creating:  "...יוצר",
+    fetching:  "...מביא",
+    copied:    "קישור הועתק ללוח",
+    shortened: "הועתק ללוח TinyURL"
+  },
+
+  credit:     ".@coderifous -ו @rmm5t נוצר ע\"י",
+  genesis:    ".@coderifous, @tmassing, @rmm5t, @EricStratton, @methodvon ההשראה ניתנה בזמן שיחת ארוחת צהריים ע\"י",
+  pitch:      ".אתר זה הוא בשביל כל האנשים שמוצאים את זה לנכון להפריע לך עם השאלה שלהם במקום להשתמש בגוגל בעצמם",
+  disclaimer: ".באף דרך כזו או אחרת Google&trade ללא שותפות עם",
+
+  translated_by: "Translated by Amir Schor"
+}
