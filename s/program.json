@@ -1,17 +1,11 @@
 {
   slots: [
-    {
-      id: "ioj",
-      url: "http://www.ioj.com/",
-      image: "/s/images/ioj.png",
-      message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
-    },
-    {
-      id: "ioj",
-      url: "http://www.ioj.com/",
-      image: "/s/images/ioj.png",
-      message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
-    },
+    //{
+    //  id: "ioj",
+    //  url: "http://www.ioj.com/",
+    //  image: "/s/images/ioj.png",
+    //  message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
+    //},
     {
       id: "maillaunder",
       url: "http://www.maillaunder.com/?lmgtfy",
