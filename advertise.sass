@@ -1,0 +1,108 @@
+=clearfix
+  &:after
+    :content "."
+    :display block
+    :height 0
+    :clear both
+    :visibility hidden
+
+*
+  :font-family georgia,serif
+  :letter-spacing 0.01em
+
+em
+  :background-color #ff6
+  :font-weight bold
+  :font-style normal
+
+body
+  :background-color #fff
+  :color #111
+
+h1
+  :color #fff
+  :background-color #237EC5
+  :margin 0px
+  :padding 0.5em
+  :text-align center
+
+h2
+  :font-size 2em
+  :text-align center
+  :font-weight normal
+  :margin-bottom 0.3em
+
+#subtext
+  :color #666
+  :text-align center
+  :font-size 1.3em
+  :margin-bottom 2em
+
+#ad_location
+  :text-align center
+  :font-size 1.2em
+  #locations
+    :margin auto
+    :width 530px
+    +clearfix
+    * a
+      :color #111
+      :text-decoration none
+      &:hover
+        :text-decoration underline
+    #location_1
+      :float left
+      :width 200px
+    #location_2
+      :float right
+      :width 200px
+
+#nuggets
+  :width 700px
+  :height 22em
+  :margin auto
+  :margin-top 3em
+  +clearfix
+  .left_column
+    :float left
+    :width 335px
+  .right_column
+    :float right
+    :width 335px
+  .nugget
+    :width 335px
+    :height 10em
+    h3
+      :margin 0em 0em 0.5em 0em
+    p
+      :margin 0em 0em 1.5em 0em
+    &.email_ad_button
+      :text-align center
+      :background url(/images/email_ads_button.png) no-repeat top left
+      h3
+        :color #fff
+        :font-size 1em
+        :padding 1em 3em
+        :line-height 1.4em
+        :font-weight normal
+      a
+        :display block
+        :position relative
+        :top -15px
+        :left 53px
+        :width 229px
+        :height 44px
+
+#program_details
+  :width 700px
+  :margin auto
+  h2
+    :text-align left
+
+#copyright
+  :margin-top 40px
+  :padding 0.25em
+  :text-align center
+  :font-size 0.75em
+  :color #999
+  :background-color #fff
