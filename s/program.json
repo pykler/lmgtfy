@@ -6,18 +6,12 @@
     //  image: "/s/images/ioj.png",
     //  message: "iOJ is <em>easy file sharing</em>.  Screenshots, screencasts, and more."
     //},
-    {
-      id: "maillaunder",
-      url: "http://www.maillaunder.com/?lmgtfy",
-      image: "/s/images/maillaunder.png",
-      message: "<em>Eliminate email spam</em> today with our a hosted solution. Try it <em>free for 30 days</em>."
-    },
-    {
-      id: "maillaunder",
-      url: "http://www.maillaunder.com/?lmgtfy",
-      image: "/s/images/maillaunder.png",
-      message: "<em>Eliminate email spam</em> today with our a hosted solution. Try it <em>free for 30 days</em>."
-    },
+    //{
+    //  id: "maillaunder",
+    //  url: "http://www.maillaunder.com/?lmgtfy",
+    //  image: "/s/images/maillaunder.png",
+    //  message: "<em>Eliminate email spam</em> today with our a hosted solution. Try it <em>free for 30 days</em>."
+    //},
     {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
