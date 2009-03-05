@@ -1,0 +1,42 @@
+{
+  pre_logo:           "lasu min",
+  post_logo:          "-i tion por vi",
+  search_button:      "Google-Serĉo",
+  lucky_button:       "Mi Bonŝancas",
+  about:              "Pri paĝo",
+  live:               "Viva Strio",
+  contact:            "Kontakto",
+  advertise:          "Reklamu",
+  donate:             "Donacu",
+  google_owns_google: "GOOGLE estas komerca marko de Google Inc.",
+
+  setup: {
+    type_question: "Tajpu la demandon, klaku la butonon.",
+    share_link:    "Disigu la ligilon sube."
+  },
+
+  play: {
+    step_1: "Paŝo 1: Entajpu vian demandon",
+    step_2: "Paŝo 2: Klaku la Google-Serĉo butonon",
+    pwnage: "Ĉu tio estis tiom malfacila?",
+    nice:   "Estas tiom facila."
+  },
+
+  link: {
+    copy:      "kopiu",
+    shorten:   "tinyurl",
+    go:        "iru",
+    reset:     "reŝargu",
+    creating:  "Kreante...",
+    fetching:  "Alportante...",
+    copied:    "URL kopiita al poŝo",
+    shortened: "TinyURL kopiita al poŝo"
+  },
+
+  credit:     "Kreita de @coderifous kaj @rmm5t.",
+  genesis:    "Inspirita dum la tagmanĝa konversacio inter @coderifous, @tmassing, @rmm5t, @EricStratton, kaj @methodvon.",
+  pitch:      "Tio ĉi estas por ĉiuj homoj opiniantaj pli konvena ĝeni vin kun ilia demando ol gugli ĝin mem.",
+  disclaimer: "Neniel asociata kun Google&trade;.",
+
+  translated_by: "Tradukita de Viliam Búr"
+}
