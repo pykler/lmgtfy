@@ -1,41 +1,42 @@
 {
-  pre_logo:           "deixe que eu",
-  post_logo:          "isso pra você",
-  search_button:      "Pesquisa Google",
-  lucky_button:       "Estou com sorte",
-  about:              "Sobre",
+  pre_logo:           "deixa que eu uso o",
+  post_logo:          "por ti",
+  search_button:      "Pesquisa do Google",
+  lucky_button:       "Sinto-me com sorte",
+  about:              "Acerca de",
   live:               "Live Stream",
-  contact:            "Contato",
-  advertise:          "Anuncie",
-  donate:             "Doe",
-  google_owns_google: "GOOGLE é uma marca registrada de Google Inc.",
+  contact:            "Contactos",
+  advertise:          "Publicidade",
+  donate:             "Donativos",
+  google_owns_google: "GOOGLE é uma marca registrada da Google Inc.",
 
   setup: {
-    type_question: "Digite a pergunta, clique em um botão.",
-    share_link:    "Compartilhe o link abaixo."
+    type_question: "Escreve a pergunta, carrega num dos botões.",
+    share_link:    "Partilha o link."
   },
 
   play: {
-    step_1: "Passo 1: Digite sua pergunta",
-    step_2: "Passo 2: Clique no botão de pesquisa",
-    pwnage: "Difícil, né?",
-    nice:   "É muito fácil."
+    step_1: "1º Passo: Escreve a pergunta",
+    step_2: "2º Passo: Carrega no botão de pesquisa",
+    pwnage: "É assim tão difícil?",
+    nice:   "É mesmo muito fácil."
   },
 
   link: {
     copy:      "copiar",
     shorten:   "tinyurl",
-    go:        "ir",
-    reset:     "refazer",
-    creating:  "Criar...",
-    fetching:  "Buscando...",
+    go:        "entrar",
+    reset:     "recomeçar",
+    creating:  "A criar...",
+    fetching:  "Procurando...",
     copied:    "URL copiado para a área de transferência",
     shortened: "TinyURL copiado para a área de transferência"
   },
 
-  credit:     "Criado por @coderifous, contribuições por @rmm5t.",
-  genesis:    "Inspiração vinda de uma conversa durante o almoço com @coderifous, @tmassing, @rmm5t, @EricStratton e @methodvon.",
-  pitch:      "Esta ferramenta é para todas as pessoas que acham mais conveniente te perturbar com a pergunta deles do que ir no google e pesquisar sozinhos.",
-  disclaimer: "Não associado ao Google&trade; de nenhuma forma.",
-  translated_by: "Traduzido por nervosaaa e @tiagoveloso."
+  credit:     "Criado por @coderifous and @rmm5t.",
+  genesis:    "Inpiração vinda de uma conversa durante um almoço entre @coderifous, @tmassing, @rmm5t, @EricStratton e @methodvon.",
+  pitch:      "Isto é para todas as pessoas que acham mais conveniente pertubar-te com perguntas que facilmente podem ir sozinhos ao google pesquisar pela resposta.",
+  disclaimer: "Não estamos associados ao Google&trade; de nenhuma forma.",
+
+  translated_by: "Traduzido por Jay City"
 }
