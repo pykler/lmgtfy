@@ -1,18 +1,18 @@
 {
-  pre_logo:           "deixa que eu uso o",
+  pre_logo:           "deixa-me usar o",
   post_logo:          "por ti",
   search_button:      "Pesquisa do Google",
   lucky_button:       "Sinto-me com sorte",
   about:              "Acerca de",
   live:               "Live Stream",
-  contact:            "Contactos",
+  contact:            "Contacto",
   advertise:          "Publicidade",
   donate:             "Donativos",
   google_owns_google: "GOOGLE é uma marca registrada da Google Inc.",
 
   setup: {
-    type_question: "Escreve a pergunta, carrega num dos botões.",
-    share_link:    "Partilha o link."
+    type_question: "Escreve a pergunta, carrega num botão.",
+    share_link:    "E partilha o link."
   },
 
   play: {
@@ -28,13 +28,13 @@
     go:        "entrar",
     reset:     "recomeçar",
     creating:  "A criar...",
-    fetching:  "Procurando...",
+    fetching:  "A recriar...",
     copied:    "URL copiado para a área de transferência",
     shortened: "TinyURL copiado para a área de transferência"
   },
 
-  credit:     "Criado por @coderifous and @rmm5t.",
-  genesis:    "Inpiração vinda de uma conversa durante um almoço entre @coderifous, @tmassing, @rmm5t, @EricStratton e @methodvon.",
+  credit:     "Criado por @coderifous e @rmm5t.",
+  genesis:    "Inspiração vinda de uma conversa durante um almoço entre @coderifous, @tmassing, @rmm5t, @EricStratton e @methodvon.",
   pitch:      "Isto é para todas as pessoas que acham mais conveniente pertubar-te com perguntas que facilmente podem ir sozinhos ao google pesquisar pela resposta.",
   disclaimer: "Não estamos associados ao Google&trade; de nenhuma forma.",
 
