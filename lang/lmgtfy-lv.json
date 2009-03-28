@@ -1,5 +1,5 @@
 {
-  pre_logo:           "ļauj, es tavā vietā pameklēšu iekš",
+  pre_logo:           "ļauj, es pameklēšu tavā vietā iekš",
   post_logo:          "",
   search_button:      "Google meklēšana",
   lucky_button:       "Es ticu veiksmei!",
@@ -11,13 +11,13 @@
   google_owns_google: "GOOGLE ir Google korporācijai piederoša preču zīme.",
 
   setup: {
-    type_question: "Ieraksti jautājumu, noklikšķini uz pogas.",
+    type_question: "Ieraksti jautājumu, nospied pogu.",
     share_link:    "Padalies ar saiti."
   },
 
   play: {
     step_1: "1. solis: Ieraksti savu jautājumu",
-    step_2: "2. solis: Noklikšķini uz meklēšanas pogas",
+    step_2: "2. solis: Nospied meklēšanas pogu",
     pwnage: "Vai tad tas bija tik grūti?",
     nice:   "Tas ir tik vienkārši."
   },
@@ -38,5 +38,5 @@
   pitch:      "Veltīts visiem tiem, kam šķiet ērtāk patraucēt ar savu jautājumu citus kā pašiem pameklēt iekš Google.",
   disclaimer: "Nav nekādas saistības ar Google&trade;.",
 
-  translated_by: "Latviski pārtulkojis @reinisi"
+  translated_by: "Latviski iztulkojis @reinisi"
 }
