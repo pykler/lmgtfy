@@ -1,0 +1,42 @@
+{
+  pre_logo:           "ļauj, es tavā vietā pameklēšu iekš",
+  post_logo:          "",
+  search_button:      "Google meklēšana",
+  lucky_button:       "Es ticu veiksmei!",
+  about:              "Par mums",
+  live:               "Dzīvā plūsma",
+  contact:            "Kontakti",
+  advertise:          "Reklāma",
+  donate:             "Ziedot",
+  google_owns_google: "GOOGLE ir Google korporācijai piederoša preču zīme.",
+
+  setup: {
+    type_question: "Ieraksti jautājumu, noklikšķini uz pogas.",
+    share_link:    "Padalies ar saiti."
+  },
+
+  play: {
+    step_1: "1. solis: Ieraksti savu jautājumu",
+    step_2: "2. solis: Noklikšķini uz meklēšanas pogas",
+    pwnage: "Vai tad tas bija tik grūti?",
+    nice:   "Tas ir tik vienkārši."
+  },
+
+  link: {
+    copy:      "kopēt",
+    shorten:   "saīsināt saiti",
+    go:        "atvērt",
+    reset:     "atiestatīt",
+    creating:  "Veidojas…",
+    fetching:  "Sūtās šurp…",
+    copied:    "Saite iekopēta starpliktuvē",
+    shortened: "Saīsinātā saite iekopēta starpliktuvē"
+  },
+
+  credit:     "Izveidojuši @coderifous un @rmm5t.",
+  genesis:    "Iedvesma nāk no sarunas pie pusdienām ar @coderifous, @tmassing, @rmm5t, @EricStratton un @methodvon.",
+  pitch:      "Veltīts visiem tiem, kam šķiet ērtāk patraucēt ar savu jautājumu citus kā pašiem pameklēt iekš Google.",
+  disclaimer: "Nav nekādas saistības ar Google&trade;.",
+
+  translated_by: "Latviski pārtulkojis @reinisi"
+}
