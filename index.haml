@@ -63,44 +63,44 @@
 
     :ruby
       def options_from_hash(hash)
-        hash.keys.sort.each do |k|
-          haml_concat "<option value=\"#{k}\">#{hash[k]}</option>"
+        hash.sort { |a, b| a[1] <=> b[1] }.each do |k, v|
+          haml_concat "<option value=\"#{k}\">#{v}</option>"
         end
       end
 
     #language
       %select
+        %option{ :value => "" } LMGTFY Worldwide
         :ruby
           options_from_hash(
-            ""   => "LMGTFY Worldwide",
-            "ar" => "Arabic",
-            "ca" => "Catalan",
-            "cs" => "Czech",
-            "da" => "Danish",
-            "de" => "German",
-            "en" => "English",
-            "eo" => "Esperanto",
-            "es" => "Spanish",
-            "fi" => "Finnish",
-            "fr" => "French",
-            "he" => "Hebrew",
-            "hu" => "Hungarian",
-            "it" => "Italian",
-            "ko" => "Korean",
-            "lv" => "Latvian",
-            "nl" => "Dutch",
-            "no" => "Norwegian",
-            "pl" => "Polish",
+            "ar"    => "Arabic",
+            "ca"    => "Catalan",
+            "cs"    => "Czech",
+            "da"    => "Danish",
+            "de"    => "German",
+            "en"    => "English",
+            "eo"    => "Esperanto",
+            "es"    => "Spanish",
+            "fi"    => "Finnish",
+            "fr"    => "French",
+            "he"    => "Hebrew",
+            "hu"    => "Hungarian",
+            "it"    => "Italian",
+            "ko"    => "Korean",
+            "lv"    => "Latvian",
+            "nl"    => "Dutch",
+            "no"    => "Norwegian",
+            "pl"    => "Polish",
+            "pt"    => "Portuguese",
             "pt-BR" => "Portuguese (Brazil)",
-            "pt" => "Portuguese",
-            "ro" => "Romanian",
-            "rs" => "Serbian",
-            "ru" => "Russian",
-            "sk" => "Slovak",
-            "sv" => "Swedish",
-            "tr" => "Turkish",
-            "uk" => "Ukrainian",
-            "zh" => "Chinese",
+            "ro"    => "Romanian",
+            "rs"    => "Serbian",
+            "ru"    => "Russian",
+            "sk"    => "Slovak",
+            "sv"    => "Swedish",
+            "tr"    => "Turkish",
+            "uk"    => "Ukrainian",
+            "zh"    => "Chinese",
             "zh-HK" => "Chinese (Hong Kong)",
             "zh-TW" => "Chinese (Taiwan)"
           )
