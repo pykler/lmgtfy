@@ -23,10 +23,10 @@
   },
 
   link: {
-    copy:      "kopiraj",
-    shorten:   "tinyurl",
-    go:        "idi",
-    reset:     "reset",
+    copy:      "Kopiraj",
+    shorten:   "Tinyurl",
+    go:        "Otvori",
+    reset:     "Reset",
     creating:  "Kreiram...",
     fetching:  "Preuzimam...",
     copied:    "URL kopiran u clipboard",
@@ -35,7 +35,7 @@
 
   credit:     "Kreirano od strane @coderifous i @rmm5t.",
   genesis:    "Inspirisani smo bili tokom razgovora za ručkom sa @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
-  pitch:      "Ovo je za sve one ljude kojima mnogo više odgovara te zamaraju sa njihovim pitanjima nego da sami koriste google.",
+  pitch:      "Ovo je za sve one ljude kojima mnogo više odgovara da te zamaraju sa njihovim pitanjima nego da sami koriste google.",
   disclaimer: "Nismo povezani sa Google&trade; na bilo koji način.",
 
   translated_by: "Prevod odradio @gavra33"
