@@ -1,0 +1,42 @@
+{
+  pre_logo:           "Άφησέ με να στο",
+  post_logo:          "αυτό για σένα",
+  search_button:      "Αναζήτηση Google",
+  lucky_button:       "Αισθάνομαι τυχερός",
+  about:              "About",
+  live:               "Live Stream",
+  contact:            "Επικοινώνησε",
+  advertise:          "Advertise for $199",
+  donate:             "Donate",
+  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+
+  setup: {
+    type_question: "Γράψε μια ερώτηση, πάτα ένα κουμπί.",
+    share_link:    "Διέδωσε το link από κάτω."
+  },
+
+  play: {
+    step_1: "Βήμα 1: Γράψε την ερώτηση",
+    step_2: "Βήμα 2: Πάτα στο κουμπί εκκίνησης",
+    pwnage: "Ήταν τόσο δύσκολο;",
+    nice:   "Είναι τόσο εύκολο."
+  },
+
+  link: {
+    copy:      "αντιγραφή",
+    shorten:   "tinyurl",
+    go:        "πήγαινε",
+    reset:     "επαναφορά",
+    creating:  "Δημιουργείται...",
+    fetching:  "Fetching...",
+    copied:    "URL αντιγράφτηκε στην μνήμη",
+    shortened: "TinyURL αντιγράφτηκε στην μνήμη"
+  },
+
+  credit:     "Created by @coderifous and @rmm5t.",
+  genesis:    "Εμπνεύστηκε την ώρα συζήτησης μεσημεριανού με τους @coderifous, @tmassing, @rmm5t, @EricStratton και @methodvon.",
+  pitch:      "Αυτό είναι για τους ανθρώπους που νομίζουν ότι είναι καλύτερα το σε ρωτάνε παρά να το ψάξουν μόνοι τους στο Google.",
+  disclaimer: "Not associated with Google&trade; in any way.",
+
+  translated_by: "Translated by Dark_Kostas"
+}
