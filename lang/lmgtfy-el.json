@@ -3,11 +3,11 @@
   post_logo:          "αυτό για σένα",
   search_button:      "Αναζήτηση Google",
   lucky_button:       "Αισθάνομαι τυχερός",
-  about:              "About",
-  live:               "Live Stream",
+  about:              "Πληροφορίες",
+  live:               "Ζωντανό Stream",
   contact:            "Επικοινώνησε",
-  advertise:          "Advertise for $199",
-  donate:             "Donate",
+  advertise:          "Δημοσίευση για $199",
+  donate:             "Δωρεά",
   google_owns_google: "GOOGLE is a trademark of Google Inc.",
 
   setup: {
@@ -28,15 +28,15 @@
     go:        "πήγαινε",
     reset:     "επαναφορά",
     creating:  "Δημιουργείται...",
-    fetching:  "Fetching...",
+    fetching:  "Τροποποιείται...",
     copied:    "URL αντιγράφτηκε στην μνήμη",
     shortened: "TinyURL αντιγράφτηκε στην μνήμη"
   },
 
-  credit:     "Created by @coderifous and @rmm5t.",
+  credit:     "Δημιουργήθηκε από τον @coderifous και @rmm5t.",
   genesis:    "Εμπνεύστηκε την ώρα συζήτησης μεσημεριανού με τους @coderifous, @tmassing, @rmm5t, @EricStratton και @methodvon.",
   pitch:      "Αυτό είναι για τους ανθρώπους που νομίζουν ότι είναι καλύτερα το σε ρωτάνε παρά να το ψάξουν μόνοι τους στο Google.",
-  disclaimer: "Not associated with Google&trade; in any way.",
+  disclaimer: "Δεν έχει σχέση με Google™.",
 
-  translated_by: "Translated by Dark_Kostas"
+  translated_by: "Μεταφρασμένο από Dark_Kostas"
 }
