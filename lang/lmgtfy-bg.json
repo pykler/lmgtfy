@@ -1,6 +1,6 @@
 {
   pre_logo:           "дай да",
-  post_logo:          "вместо теб",
+  post_logo:          "това вместо теб",
   search_button:      "Търси в Google",
   lucky_button:       "Чувствам се късметлия",
   about:              "Относно",
@@ -11,7 +11,7 @@
   google_owns_google: "GOOGLE е търговска марка на Google Inc.",
 
   setup: {
-    type_question: "Напиши въпрос и кликни върху бутона.",
+    type_question: "Напиши въпрос и кликни Търси.",
     share_link:    "Сподели връзката отдолу."
   },
 
@@ -23,19 +23,19 @@
   },
 
   link: {
-    copy:      "copy",
+    copy:      "копирай",
     shorten:   "tinyurl",
-    go:        "go",
-    reset:     "reset",
-    creating:  "Creating...",
-    fetching:  "Fetching...",
+    go:        "посети",
+    reset:     "изчисти",
+    creating:  "Създавам...",
+    fetching:  "Свалям...",
     copied:    "URL copied to clipboard",
     shortened: "TinyURL copied to clipboard"
   },
 
   credit:     "Създадено от @coderifous и @rmm5t.",
   genesis:    "Инспирирано по време на обеден разговор с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
-  pitch:      "Това е за всички онези хора, които намират за по-удобно да те занимават с техните въпроси, вместо да потърсят самички отговори в Google.",
+  pitch:      "Този сайт е за всички онези хора, които намират за по-удобно да те занимават с техните въпроси, вместо да потърсят самички отговори им в Google.",
   disclaimer: "Не е свързано с  Google&trade; по никакъв начин.",
 
   translated_by: "Преведено от Николай Кубарелов"
