@@ -1,0 +1,42 @@
+{
+  pre_logo:           "дай да",
+  post_logo:          "вместо теб",
+  search_button:      "Търси в Google",
+  lucky_button:       "Чувствам се късметлия",
+  about:              "Относно",
+  live:               "На живо",
+  contact:            "Контакт",
+  advertise:          "Рекламирай за $199",
+  donate:             "Дарение",
+  google_owns_google: "GOOGLE е търговска марка на Google Inc.",
+
+  setup: {
+    type_question: "Напиши въпрос и кликни върху бутона.",
+    share_link:    "Сподели връзката отдолу."
+  },
+
+  play: {
+    step_1: "Step 1: Напиши твоя въпрос",
+    step_2: "Step 2: Натисни бутона Търси",
+    pwnage: "Беше ли толкова трудно?",
+    nice:   "Доста лесно е."
+  },
+
+  link: {
+    copy:      "copy",
+    shorten:   "tinyurl",
+    go:        "go",
+    reset:     "reset",
+    creating:  "Creating...",
+    fetching:  "Fetching...",
+    copied:    "URL copied to clipboard",
+    shortened: "TinyURL copied to clipboard"
+  },
+
+  credit:     "Създадено от @coderifous и @rmm5t.",
+  genesis:    "Инспирирано по време на обеден разговор с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
+  pitch:      "Това е за всички онези хора, които намират за по-удобно да те занимават с техните въпроси, вместо да потърсят самички отговори в Google.",
+  disclaimer: "Не е свързано с  Google&trade; по никакъв начин.",
+
+  translated_by: "Преведено от Николай Кубарелов"
+}
