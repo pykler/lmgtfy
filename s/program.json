@@ -13,6 +13,18 @@
     //  message: "<em>Eliminate email spam</em> today with our a hosted solution. Try it <em>free for 30 days</em>."
     //},
     {
+      id: "webair",
+      url: "http://www.webair.com",
+      image: "/s/images/webair.png",
+      message: "<em>Premium Web Hosting</em><br />Outstanding Support<br />Affordable Prices."
+    },
+    {
+      id: "webair",
+      url: "http://www.webair.com",
+      image: "/s/images/webair.png",
+      message: "<em>Premium Web Hosting</em><br />Outstanding Support<br />Affordable Prices."
+    },
+    {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
       image: "/s/images/basecamp.png",
