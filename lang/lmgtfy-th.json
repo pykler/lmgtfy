@@ -1,0 +1,42 @@
+﻿{
+  pre_logo:           "ให้เรา",
+  post_logo:          "มันให้ก็แล้วกัน",
+  search_button:      "ค้นหาด้วย Google",
+  lucky_button:       "ดีใจจัง ค้นแล้วเจอเลย",
+  about:              "ข้อมูล",
+  live:               "สตรีมข้อความสด",
+  contact:            "ติดต่อ",
+  advertise:          "อยากติดโฆษณา จ่าย $199",
+  donate:             "บริจาก",
+  google_owns_google: "GOOGLE เป็นเครื่องหมายการค้าของ Google Inc.",
+
+  setup: {
+    type_question: "พิมพ์คำถามแล้วกดปุ่ม",
+    share_link:    "แจกจ่ายลิงค์ด้านล่าง"
+  },
+
+  play: {
+    step_1: "ขั้นที่ 1: พิมพ์คำถามของคุณ",
+    step_2: "ขั้นที่ 2: กดปุ่มค้นหา",
+    pwnage: "แค่นั้นแหละ ยากมากนั้กเหรอ?",
+    nice:   "ง่ายจะตายไป"
+  },
+
+  link: {
+    copy:      "ก๊อบปี้",
+    shorten:   "ทำให้สั้นลง",
+    go:        "ไป",
+    reset:     "รีเซ็ต",
+    creating:  "กำลังสร้าง...",
+    fetching:  "กำลังไปเอามา...",
+    copied:    "URL ถูกก๊อบปี้ไว้ที่คลิปบอร์ดแล้ว",
+    shortened: "URL สั้นถูกก๊อบปี้ไว้ที่คลิปบอร์ดแล้ว"
+  },
+
+  credit:     "สร้างโดย @coderifous และ @rmm5t",
+  genesis:    "ได้การดลใจตอนกินข้าวเที่ยงกับ @coderifous, @tmassing, @rmm5t, @EricStratton, และ @methodvon",
+  pitch:      "เว็บไซต์นี้สำหรับคนที่คิดว่ามันง่ายกว่าที่จะถามคำถามกับคุณแทนที่จะใช้ Google ด้วยตัวของเขาเอง",
+  disclaimer: "ไม่มีการเกี่ยวกับ Google&trade; ในทางใดๆทั้งสิ่น",
+
+  translated_by: "แปลโดย @souleaterjh"
+}
