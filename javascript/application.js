@@ -98,7 +98,8 @@ $(function(){
 
   function sniffDomainForLanguage() {
     var domainLanguageOverrides = {
-      "haddkeressemmegneked": "hu"
+      "haddkeressemmegneked": "hu",
+      "klingon": "xx-KL"
     };
 
     for (var domain in domainLanguageOverrides) {

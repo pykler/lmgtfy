@@ -1,0 +1,42 @@
+{
+  pre_logo:           "SoHvaD",
+  post_logo:          "Daq vInejlaH",
+  search_button:      "GoogleDaq vInej",
+  lucky_button:       "jISuDrup",
+  about:              "Hoch LMGTFY De'",
+  live:               "Hoch nejwI' bej",
+  contact:            "Qum",
+  advertise:          "naDev Dochmey ngevmeH $199 yInob",
+  donate:             "Huch nob",
+  google_owns_google: "Google Inc. mu' 'oH GOOGLE'e'",
+
+  setup: {
+    type_question: "yIghel, yI'uy.",
+    share_link:    "nuvpu' latlhvaD De' yInob."
+  },
+
+  play: {
+    step_1: "wa': yIghel",
+    step_2: "cha': yI'uy",
+    pwnage: "Qatlh'a' jay?",
+    nice:   "ngeDqu'."
+  },
+
+  link: {
+    copy:      "qon",
+    shorten:   "runmoH",
+    go:        "Such",
+    reset:     "charqa'",
+    creating:  "chenmoHtaH...",
+    fetching:  "SuqtaH...",
+    copied:    "De'wI'lIj qawHaq ru'Daq qonta' Daq",
+    shortened: "De'wI'lIj qaqHaq ru'Daq qonta' Daq run"
+  },
+
+  credit:     "ghun @coderifous @rmm5t je.",
+  genesis:    "qaStaHvIS megh, qechvam chenmoH @coderifous @tmassing @rmm5t @EricStratton @methodvon je.",
+  pitch:      "Google lo'laHbe'bogh nuvpu' QaHmeH chenmoH Daqvam. nInuQ 'e' yImev 'e' wItul.",
+  disclaimer: "Google&trade; rarbe' Daqvam",
+
+  translated_by: "mughwI': @qurgh"
+}
