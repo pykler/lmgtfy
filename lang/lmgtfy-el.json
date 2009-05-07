@@ -1,23 +1,23 @@
 {
-  pre_logo:           "Άφησέ με να στο",
-  post_logo:          "αυτό για σένα",
+  pre_logo:           "Άσε με να",
+  post_logo:          "-άρω αυτό για σένα",
   search_button:      "Αναζήτηση Google",
   lucky_button:       "Αισθάνομαι τυχερός",
   about:              "Πληροφορίες",
   live:               "Ζωντανό Stream",
-  contact:            "Επικοινώνησε",
-  advertise:          "Δημοσίευση για $199",
+  contact:            "Επικοινωνία",
+  advertise:          "Διαφημιστείτε για $199",
   donate:             "Δωρεά",
-  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+  google_owns_google: "Το GOOGLE είναι σήμα κατατεθέν της Google Inc",
 
   setup: {
     type_question: "Γράψε μια ερώτηση, πάτα ένα κουμπί.",
-    share_link:    "Διέδωσε το link από κάτω."
+    share_link:    "Μοιράστε το link από κάτω."
   },
 
   play: {
     step_1: "Βήμα 1: Γράψε την ερώτηση",
-    step_2: "Βήμα 2: Πάτα στο κουμπί εκκίνησης",
+    step_2: "Βήμα 2: Πάτα το κουμπί αναζήτησης",
     pwnage: "Ήταν τόσο δύσκολο;",
     nice:   "Είναι τόσο εύκολο."
   },
@@ -29,14 +29,14 @@
     reset:     "επαναφορά",
     creating:  "Δημιουργείται...",
     fetching:  "Τροποποιείται...",
-    copied:    "URL αντιγράφτηκε στην μνήμη",
-    shortened: "TinyURL αντιγράφτηκε στην μνήμη"
+    copied:    "Το URL αντιγράφτηκε στην μνήμη",
+    shortened: "Το TinyURL αντιγράφτηκε στην μνήμη"
   },
 
   credit:     "Δημιουργήθηκε από τον @coderifous και @rmm5t.",
   genesis:    "Εμπνεύστηκε την ώρα συζήτησης μεσημεριανού με τους @coderifous, @tmassing, @rmm5t, @EricStratton και @methodvon.",
-  pitch:      "Αυτό είναι για τους ανθρώπους που νομίζουν ότι είναι καλύτερα το σε ρωτάνε παρά να το ψάξουν μόνοι τους στο Google.",
-  disclaimer: "Δεν έχει σχέση με Google™.",
+  pitch:      "Αυτό είναι για τους ανθρώπους που νομίζουν ότι είναι καλύτερα το να σε ρωτάνε παρά να το ψάξουν μόνοι τους στο Google.",
+  disclaimer: "Δεν έχει σχέση με την εταιρία Google™.",
 
-  translated_by: "Μεταφρασμένο από Dark_Kostas"
+  translated_by: "Μεταφρασμένο από Dark_Kostas και αναβάθμιση μετάφρασης απο τον Dawndeath"
 }
