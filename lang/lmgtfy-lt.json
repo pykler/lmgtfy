@@ -1,0 +1,42 @@
+{
+  pre_logo:           "leisk man",
+  post_logo:          "padaryti uþ tave",
+  search_button:      "Google Paieðka",
+  lucky_button:       "Man sekasi!",
+  about:              "Apie",
+  live:               "Tiesioginis srautas",
+  contact:            "Kontaktai",
+  advertise:          "Reklama uþ $199",
+  donate:             "Aukoti",
+  google_owns_google: "GOOGLE yra Google Inc prekinis þenklas .",
+
+  setup: {
+    type_question: "Iraðykite klausimà, spauskite mygtukà.",
+    share_link:    "Kopijuokite nuoroda þemiau"
+  },
+
+  play: {
+    step_1: "1 þingsnis: Paraðykite klausimà",
+    step_2: "2 þingsnis: Spauskite Google Paieðka",
+    pwnage: "Tai negi buvo taip sunku?",
+    nice:   "Tai taip lengva."
+  },
+
+  link: {
+    copy:      "kopijuoti",
+    shorten:   "trumpinti adresà",
+    go:        "eiti",
+    reset:     "anuliuoti",
+    creating:  "Kuriama...",
+    fetching:  "Trumpinama...",
+    copied:    "Nuoroda nukopijuota á adresynà",
+    shortened: "Sutrumpintas adresas nukopijuotas á adresynà"
+  },
+
+  credit:     "Sukurta pagal @coderifous ir @rmm5t.",
+  genesis:    "Ákvëpimas ágautas per pietø pokalbá su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
+  pitch:      "Projektas yra visiems þmonems, kurie nori tinkamai iðnaudoti sunkumus su uþduodamais klausimais, á kuriuos gali atsakyti Google",
+  disclaimer: "Nëra susijusi su Google&trade; jokiu bûdu.",
+
+  translated_by: "Iðvertë Laurynas"
+}
