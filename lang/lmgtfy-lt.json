@@ -1,42 +1,42 @@
 {
   pre_logo:           "leisk man",
-  post_logo:          "padaryti uþ tave",
-  search_button:      "Google Paieðka",
+  post_logo:          "padaryti už tave",
+  search_button:      "Google Paieška",
   lucky_button:       "Man sekasi!",
   about:              "Apie",
   live:               "Tiesioginis srautas",
   contact:            "Kontaktai",
-  advertise:          "Reklama uþ $199",
+  advertise:          "Reklama už $199",
   donate:             "Aukoti",
-  google_owns_google: "GOOGLE yra Google Inc prekinis þenklas .",
+  google_owns_google: "GOOGLE yra Google Inc prekinis ženklas .",
 
   setup: {
-    type_question: "Iraðykite klausimà, spauskite mygtukà.",
-    share_link:    "Kopijuokite nuoroda þemiau"
+    type_question: "Irašykite klausimą, spauskite mygtuką.",
+    share_link:    "Kopijuokite nuoroda žemiau"
   },
 
   play: {
-    step_1: "1 þingsnis: Paraðykite klausimà",
-    step_2: "2 þingsnis: Spauskite Google Paieðka",
+    step_1: "1 žingsnis: Paraðykite klausimà",
+    step_2: "2 žingsnis: Spauskite Google Paieška",
     pwnage: "Tai negi buvo taip sunku?",
-    nice:   "Tai taip lengva."
+    nice:   "Tai juk taip lengva."
   },
 
   link: {
     copy:      "kopijuoti",
-    shorten:   "trumpinti adresà",
+    shorten:   "trumpinti adresą",
     go:        "eiti",
     reset:     "anuliuoti",
     creating:  "Kuriama...",
     fetching:  "Trumpinama...",
-    copied:    "Nuoroda nukopijuota á adresynà",
-    shortened: "Sutrumpintas adresas nukopijuotas á adresynà"
+    copied:    "Nuoroda nukopijuota į adresyną",
+    shortened: "Sutrumpintas adresas nukopijuotas į adresyną"
   },
 
   credit:     "Sukurta pagal @coderifous ir @rmm5t.",
-  genesis:    "Ákvëpimas ágautas per pietø pokalbá su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
-  pitch:      "Projektas yra visiems þmonems, kurie nori tinkamai iðnaudoti sunkumus su uþduodamais klausimais, á kuriuos gali atsakyti Google",
-  disclaimer: "Nëra susijusi su Google&trade; jokiu bûdu.",
+  genesis:    "Įkvėpimas ágautas per pietų pokalbį su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
+  pitch:      "Projektas yra visiems žmonėms, kurie nori tinkamai išnaudoti sunkumus su užduodamais klausimais, į kuriuos gali atsakyti Google",
+  disclaimer: "Nėra susijusi su Google&trade;",
 
-  translated_by: "Iðvertë Laurynas"
+  translated_by: "Išvertė Laurynas"
 }
