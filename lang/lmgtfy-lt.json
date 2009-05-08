@@ -16,7 +16,7 @@
   },
 
   play: {
-    step_1: "1 žingsnis: Paraðykite klausimà",
+    step_1: "1 žingsnis: Parašykite klausimą",
     step_2: "2 žingsnis: Spauskite Google Paieška",
     pwnage: "Tai negi buvo taip sunku?",
     nice:   "Tai juk taip lengva."
@@ -34,7 +34,7 @@
   },
 
   credit:     "Sukurta pagal @coderifous ir @rmm5t.",
-  genesis:    "Įkvėpimas ágautas per pietų pokalbį su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
+  genesis:    "Įkvėpimas įgautas per pietų pokalbį su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
   pitch:      "Projektas yra visiems žmonėms, kurie nori tinkamai išnaudoti sunkumus su užduodamais klausimais, į kuriuos gali atsakyti Google",
   disclaimer: "Nėra susijusi su Google&trade;",
 
