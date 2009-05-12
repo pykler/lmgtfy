@@ -1,0 +1,42 @@
+{
+  pre_logo:           "naj z",
+  post_logo:          "-om poišcem to za tebe",
+  search_button:      "Iskanje Google",
+  lucky_button:       "Klik na sreco",
+  about:              "O nas",
+  live:               "Live iskanje",
+  contact:            "Kontakt",
+  advertise:          "Oglašujte za $199",
+  donate:             "Donirajte",
+  google_owns_google: "GOOGLE je blagovna znamka Google Inc.",
+
+  setup: {
+    type_question: "Vpišite vprašanje, kliknite na gumb.",
+    share_link:    "Delite link spodaj."
+  },
+
+  play: {
+    step_1: "Korak 1: Vpišite vprašanje.",
+    step_2: "Korak 2: Pritisnite tipko za iskanje.",
+    pwnage: "Je to bilo tako težko?",
+    nice:   "Pa tako je enostavno."
+  },
+
+  link: {
+    copy:      "kopiraj",
+    shorten:   "skrajšaj url",
+    go:        "go",
+    reset:     "reset",
+    creating:  "Izdelujem...",
+    fetching:  "Stiskam...",
+    copied:    "URL kopiran v clipboard",
+    shortened: "TinyURL kopiran v clipboard"
+  },
+
+  credit:     "Izdelava: @coderifous in @rmm5t.",
+  genesis:    "Ideja je prišla na dan v pogovoru pri kosilu med: @coderifous, @tmassing, @rmm5t, @EricStratton, im @methodvon.",
+  pitch:      "Stran je namenjena tistim, ki tratijo vaš cas z vprašanji, kot da bi rajši sami kaj poiskali po Googlu.",
+  disclaimer: "Ni v nobeni povezavi z Google&trade;.",
+
+  translated_by: "Prevedel Timi Lah"
+}
