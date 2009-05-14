@@ -25,6 +25,18 @@
       message: "<em>Premium Web Hosting</em><br />Outstanding Support<br />Affordable Prices."
     },
     {
+      id: "ruro",
+      url: "http://www.ruro.com",
+      image: "/s/images/ruro.png",
+      message: "FreezerPro, ezColony, LIMS 247<br /><em>The software scientists prefer!</em><br /><span style='color: #15b;'>www.ruro.com</span>"
+    },
+    {
+      id: "ruro",
+      url: "http://www.ruro.com",
+      image: "/s/images/ruro.png",
+      message: "FreezerPro, ezColony, LIMS 247<br /><em>The software scientists prefer!</em><br /><span style='color: #15b;'>www.ruro.com</span>"
+    },
+    {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
       image: "/s/images/basecamp.png",
