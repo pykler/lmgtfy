@@ -1,0 +1,44 @@
+﻿{
+  pre_logo:           "ma nek'",
+  post_logo:          "traži za tebe",
+  search_button:      "Google pretraga",
+  lucky_button:       "Osjećam se sretnim",
+  about:              "O nama",
+  live:               "Pretrage uživo",
+  contact:            "Kontakt",
+  advertise:          "Reklama",
+  donate:             "Doniraj",
+  google_owns_google: "GOOGLE je zaštitni znak Google Inc.",
+
+  setup: {
+    type_question: "Ukucaj pitanje, i klikni na dugme.",
+    share_link:    "Podijeli sa drugima link ispod."
+  },
+
+  play: {
+    step_1: "Prvi korak: Ukucaj svoje pitanje",
+    step_2: "Drugi korak: I klikni dugme za pretragu",
+    pwnage: "Je li to bilo teško?",
+    nice:   "Da, tako lagano.."
+  },
+
+  link: {
+    copy:      "Kopiraj",
+    shorten:   "tinyurl",
+    go:        "Posjeti",
+    reset:     "Ponovi",
+    creating:  "Kreiranje...",
+    fetching:  "Kreiranje...",
+    copied:    "Link kopiran",
+    shortened: "TinyURL link kopiran"
+  },
+
+  credit:     "Kreirali @coderifous i @rmm5t.",
+  genesis:    "Inspirisano tokom konverzacije na rucku sa @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
+  pitch:      "Ovo je za sve one ljude koji smatraju da je lakše umarati tebe sa svojim pitanjima, umjesto da googlaju sami.",
+  disclaimer: "Nepovezano sa Google&trade; ni na bilo kakav način.",
+
+  translated_by: "Preveo Ahmet Novalić (@elahmo)"
+}
+
+
