@@ -1,5 +1,5 @@
 ﻿{
-  pre_logo:           "ma nek'",
+  pre_logo:           "neka",
   post_logo:          "traži za tebe",
   search_button:      "Google pretraga",
   lucky_button:       "Osjećam se sretnim",
@@ -34,11 +34,10 @@
   },
 
   credit:     "Kreirali @coderifous i @rmm5t.",
-  genesis:    "Inspirisano tokom konverzacije na rucku sa @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
-  pitch:      "Ovo je za sve one ljude koji smatraju da je lakše umarati tebe sa svojim pitanjima, umjesto da googlaju sami.",
-  disclaimer: "Nepovezano sa Google&trade; ni na bilo kakav način.",
+  genesis:    "Inspirisano tokom ručka sa @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
+  pitch:      "Ovo je za sve one ljude koji smatraju da je lakše umarati tebe sa svojim pitanjima, umjesto da guglaju sami.",
+  disclaimer: "Nepovezano sa Google&trade; ni na kakav način.",
 
   translated_by: "Preveo Ahmet Novalić (@elahmo)"
 }
-
 
