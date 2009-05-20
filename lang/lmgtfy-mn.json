@@ -1,0 +1,42 @@
+﻿{
+  pre_logo:           "Чиний төлөө тэрийг",
+  post_logo:          "-ж болох уу?",
+  search_button:      "Google Хайлт",
+  lucky_button:       "Оновчтой Сонголт",
+  about:              "lmgtfy-ийн Тухай",
+  live:               "Хүүмүсийн Сонголууд",
+  contact:            "Холбоо Барих",
+  advertise:          "$199-ээр Энд Зарлаж Боломжтой",
+  donate:             "Өргөн уу?",
+  google_owns_google: "GOOGLE бол Google Inc.-ийн үйлдвэрийн тэмдэг",
+
+  setup: {
+    type_question: "Асуудалийг бич, товчийг товчон уу?",
+    share_link:    "Эндээс доор вэбсайт болоо. Тэрийг найзтай хуваа!"
+  },
+
+  play: {
+    step_1: "1-р: Асуудал чин бич.",
+    step_2: "2-р: Хайлт-ийн товчийг товчон уу?",
+    pwnage: "Тийм хэзүү биш биздээ?",
+    nice:   "Тийм амархан байна."
+  },
+
+  link: {
+    copy:      "хувилах",
+    shorten:   "өөр",
+    go:        "хай",
+    reset:     "шинээр тавих",
+    creating:  "Болож  байна...",
+    fetching:  "Аваж байна...",
+    copied:    "Ззавсрын санах ой дээр болсон",
+    shortened: "Өөр нь завсрын санах ой дээр болсон"
+  },
+
+  credit:     "@coderifous мөн @rmm5t-ээр байгуулсан.",
+  genesis:    "Сайтийн Санаа @coderifous, @tmassing, @rmm5t, @EricStratton, мөн @methodvon хамт идэж байхдаа гарсан.",
+  pitch:      "Чамаас асуухийг хүсэлтэй байгаа, гэхдээ өрөө Google-ээс асуух дэндүү залхуу хүмүүсийн төлөө.",
+  disclaimer: "Google-тэй ямар нэгэн нэгдсэн юм гэж байхгүй шүү.",
+
+  translated_by: "Translated by Michael Miller"
+}
