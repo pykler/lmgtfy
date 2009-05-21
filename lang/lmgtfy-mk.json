@@ -1,0 +1,42 @@
+﻿{
+  pre_logo:           "дај да ти го побарам на",
+  post_logo:          "за тебе",
+  search_button:      "Пребарај го Google",
+  lucky_button:       "Од прва рака",
+  about:              "За нас",
+  live:               "Во Живо",
+  contact:            "Контакт",
+  advertise:          "Рекламирај се за $199",
+  donate:             "Донирај",
+  google_owns_google: "GOOGLE е трговска марка на Google Inc.",
+
+  setup: {
+    type_question: "Внеси прашање, кликни копче.",
+    share_link:    "Сподели го линкот подолу."
+  },
+
+  play: {
+    step_1: "Чекор 1: Внеси го твоето прашање",
+    step_2: "Чекор 2: Кликни на копчето за пребарување",
+    pwnage: "Толку ли беше тешко?",
+    nice:   "Толку е лесно."
+  },
+
+  link: {
+    copy:      "Копирај",
+    shorten:   "TinyURL",
+    go:        "Посети",
+    reset:     "Ресетирај",
+    creating:  "Создавам...",
+    fetching:  "Преземам...",
+    copied:    "URL адресата е копирана во клипборд",
+    shortened: "TinyURL е копирана во клипборд"
+  },
+
+  credit:     "Создадено од @coderifous и @rmm5t.",
+  genesis:    "Инспирирано за време на ручек муабет меѓу @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
+  pitch:      "Ова е за сите оние луѓе кои пре би ти досаѓале на тебе со нивните прашања, наместо сами да си побараат на Google.",
+  disclaimer: "Не е поврзано со Google&trade; на никаков начин.",
+
+  translated_by: "Преведено на Македонски од Владимир Кочковски"
+}
