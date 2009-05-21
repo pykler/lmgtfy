@@ -1,8 +1,8 @@
 {
   pre_logo:           "naj z",
-  post_logo:          "-om poišcem to za tebe",
+  post_logo:          "-om poiščem to za tebe",
   search_button:      "Iskanje Google",
-  lucky_button:       "Klik na sreco",
+  lucky_button:       "Klik na srečo",
   about:              "O nas",
   live:               "Live iskanje",
   contact:            "Kontakt",
@@ -18,7 +18,7 @@
   play: {
     step_1: "Korak 1: Vpišite vprašanje.",
     step_2: "Korak 2: Pritisnite tipko za iskanje.",
-    pwnage: "Je to bilo tako težko?",
+    pwnage: "Je bilo to tako težko?",
     nice:   "Pa tako je enostavno."
   },
 
@@ -29,14 +29,14 @@
     reset:     "reset",
     creating:  "Izdelujem...",
     fetching:  "Stiskam...",
-    copied:    "URL kopiran v clipboard",
-    shortened: "TinyURL kopiran v clipboard"
+    copied:    "URL kopiran v odložišče",
+    shortened: "TinyURL kopiran v odložišče"
   },
 
   credit:     "Izdelava: @coderifous in @rmm5t.",
   genesis:    "Ideja je prišla na dan v pogovoru pri kosilu med: @coderifous, @tmassing, @rmm5t, @EricStratton, im @methodvon.",
-  pitch:      "Stran je namenjena tistim, ki tratijo vaš cas z vprašanji, kot da bi rajši sami kaj poiskali po Googlu.",
+  pitch:      "Stran je namenjena tistim, ki raje tratijo vaš čas s vprašanji, kot da bi sami kaj poiskali po Googlu.",
   disclaimer: "Ni v nobeni povezavi z Google&trade;.",
 
-  translated_by: "Prevedel Timi Lah"
+  translated_by: "Prevedel Timi Lah, Cvetko Pirš"
 }
