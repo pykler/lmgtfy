@@ -1,0 +1,43 @@
+{
+  pre_logo:           "Pustite da vam ja pretražim",
+  post_logo:          "za vas",
+  search_button:      "Google pretraživanje",
+  lucky_button:       "Prati me sre?a",
+  about:              "O nama",
+  live:               "Pretrage uživo",
+  contact:            "Kontakt",
+  advertise:          "Oglas za $199",
+  donate:             "Doniraj te",
+  google_owns_google: "Google je zaštitni znak tvrtke Google Inc.",
+
+  setup: {
+    type_question: "Upišite pitanje, i kliknite na gumb.",
+    share_link:    "Podijelite ispod link."
+  },
+
+  play: {
+    step_1: "Korak 1: Upišite vaše pitanje",
+    step_2: "Korak 2: Kliknite na gumb za pretragu",
+    pwnage: "Je li to tako teško?",
+    nice:   "Tako jednostavno.."
+  },
+
+  link: {
+    copy:      "Kopiraj",
+    shorten:   "tinyurl",
+    go:        "Posjeti",
+    reset:     "Ponovi",
+    creating:  "Kreiranje...",
+    fetching:  "Dobavljanje...",
+    copied:    "Link kopiran",
+    shortened: "TinyURL link kopiran"
+  },
+
+  credit:     "Kreirali @coderifous i @rmm5t.",
+  genesis:    "Inspirirani ru?ak tijekom razgovora s @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
+  pitch:      "Ovo je za sve one ljude koji smatraju da vas je lakše gnjaviti sa svojim pitanjima, nego da pretraže to za sebe.",
+  disclaimer: "Nije povezano s Google&trade; na bilo koji na?in.",
+
+  translated_by: "Prijevod: Robert (Robi) Markovi? (@vRobM)"
+}
+
