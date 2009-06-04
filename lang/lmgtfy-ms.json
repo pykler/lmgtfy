@@ -1,0 +1,42 @@
+{
+  pre_logo:           "biar saya",
+  post_logo:          "-kannya untuk anda",
+  search_button:      "Cari Menerusi Google",
+  lucky_button:       "Saya Rasa Bertuah",
+  about:              "Mengenai Kami",
+  live:               "Saluran Langsung",
+  contact:            "Hubung",
+  advertise:          "Iklan untuk $199",
+  donate:             "Derma",
+  google_owns_google: "GOOGLE ialah tanda perdagangan milik Google Inc.",
+
+  setup: {
+    type_question: "Taip satu permintaan, tekan satu butang.",
+    share_link:    "Kongsi link di bawah."
+  },
+
+  play: {
+    step_1: "Langkah 1: Taip soalan anda",
+    step_2: "Langkah 2: Tekan butang \"Cari\"",
+    pwnage: "Adakah itu susah?",
+    nice:   "Sebegitu mudah."
+  },
+
+  link: {
+    copy:      "salin",
+    shorten:   "tinyurl",
+    go:        "pergi",
+    reset:     "mula balik",
+    creating:  "Sedang dibuat...",
+    fetching:  "Sedang mengambil...",
+    copied:    "URL disalin ke clipboard",
+    shortened: "TinyURL disalin ke clipboard"
+  },
+
+  credit:     "Dicipta oleh @coderifous dan @rmm5t.",
+  genesis:    "Diilhamkan ketika perbualan waktu makan antara @coderifous, @tmassing, @rmm5t, @EricStratton, dengan @methodvon.",
+  pitch:      "Ini adalah untuk mereka yang lebih senang mengganggu anda dengan soalan mereka berbanding mencari jawapannya sendiri.",
+  disclaimer: "Tidak berkait dengan Google&trade; dalam apa cara sekalipun.",
+
+  translated_by: "Diterjemah oleh @freezit4"
+}
