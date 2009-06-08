@@ -211,7 +211,7 @@ $(function(){
 
       var google = "http://vanillaresults.com/?q=";
       if (button.attr("id") == $("#lucky").attr("id")) {
-        google = "http://www.google.com/search?hl=en&btnI=I%27m+Feeling+Lucky&q=";
+        google = "http://www.google.com/search?hl=en&btnI=I%27m+Feeling+Lucky&pws=0&q=";
       }
 
       window.location = google + gentlyEncode(searchString);
