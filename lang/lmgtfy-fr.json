@@ -1,4 +1,4 @@
-{
+﻿{
   pre_logo:           "Laisse-moi chercher ça dans",
   post_logo:          "pour toi",
   search_button:      "Recherche Google",
@@ -18,7 +18,7 @@
   play: {
     step_1: "Etape 1: Tapez votre question",
     step_2: "Etape 2: Cliquez sur le bouton Recherche",
-    pwnage: "C'était si compliqué que ça ?",
+    pwnage: "C'était si dur que ça ?",
     nice:   "C'est aussi simple que ça."
   },
 
