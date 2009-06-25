@@ -1,0 +1,42 @@
+﻿{
+  pre_logo:           "sige na nga",
+  post_logo:          "para sa iyo",
+  search_button:      "Hanapin sa Google",
+  lucky_button:       "Sinusuwerte ako",
+  about:              "Ano ito",
+  live:               "Nangyayari ngayon",
+  contact:            "Makipag-ugnayan",
+  advertise:          "Magpa-anunsyo $199",
+  donate:             "Mag-abuloy",
+  google_owns_google: "GOOGLE ay tatak pagmamay-ari ng Google Inc.",
+
+  setup: {
+    type_question: "Itipa ang tanong, pindutin ang buton.",
+    share_link:    "Ipahayag ang koneksyon sa baba."
+  },
+
+  play: {
+    step_1: "Unang Hakbang: Itipa ang tanong",
+    step_2: "Pangalawang Hakbang: pindutin ang buton",
+    pwnage: "Mahirap ba iyon?",
+    nice:   "Ganun lang iyon kadali."
+  },
+
+  link: {
+    copy:      "kopya",
+    shorten:   "tinyurl",
+    go:        "sige",
+    reset:     "ulitin",
+    creating:  "Ginagawa na...",
+    fetching:  "Kinukuha na...",
+    copied:    "URL ay nakopya na sa clipboard",
+    shortened: "TinyURL ay nakopya na sa clipboard"
+  },
+
+  credit:     "Gawa nina @coderifous and @rmm5t.",
+  genesis:    "Nagsimula sa usapan habang kumakain ng tanghalian sina @coderifous, @tmassing, @rmm5t, @EricStratton, at @methodvon.",
+  pitch:      "Ito ay para sa mga taong mas gustong istorbohin ka ng tanong kesa hanapin nila sa google ang sagot.",
+  disclaimer: "Walang koneksyon sa Google&trade; ng kahit ano pa man.",
+
+  translated_by: "Translated by Rose ng ABIT Pilipinas"
+}
