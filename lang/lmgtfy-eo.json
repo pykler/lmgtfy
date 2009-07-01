@@ -5,38 +5,38 @@
   lucky_button:       "Mi Bonŝancas",
   about:              "Pri paĝo",
   live:               "Viva Strio",
-  contact:            "Kontakto",
-  advertise:          "Reklamu",
-  donate:             "Donacu",
+  contact:            "Kontakti",
+  advertise:          "Reklami",
+  donate:             "Donaci",
   google_owns_google: "GOOGLE estas komerca marko de Google Inc.",
 
   setup: {
-    type_question: "Tajpu la demandon, klaku la butonon.",
-    share_link:    "Disigu la ligilon sube."
+    type_question: "Tajpu demandon, klaku butonon.",
+    share_link:    "Dissendu la suban ligilon."
   },
 
   play: {
     step_1: "Paŝo 1: Entajpu vian demandon",
     step_2: "Paŝo 2: Klaku la Google-Serĉo butonon",
-    pwnage: "Ĉu tio estis tiom malfacila?",
-    nice:   "Estas tiom facila."
+    pwnage: "Ĉu tio vere estis tiom malfacila?",
+    nice:   "Estas tiom facile."
   },
 
   link: {
-    copy:      "kopiu",
+    copy:      "kopii",
     shorten:   "tinyurl",
-    go:        "iru",
-    reset:     "reŝargu",
-    creating:  "Kreante...",
-    fetching:  "Alportante...",
+    go:        "ek!",
+    reset:     "reŝargi",
+    creating:  "Kreado...",
+    fetching:  "Alportado...",
     copied:    "URL kopiita al poŝo",
     shortened: "TinyURL kopiita al poŝo"
   },
 
   credit:     "Kreita de @coderifous kaj @rmm5t.",
-  genesis:    "Inspirita dum la tagmanĝa konversacio inter @coderifous, @tmassing, @rmm5t, @EricStratton, kaj @methodvon.",
-  pitch:      "Tio ĉi estas por ĉiuj homoj opiniantaj pli konvena ĝeni vin kun ilia demando ol gugli ĝin mem.",
+  genesis:    "Inspirita dum tagmanĝa konversacio inter @coderifous, @tmassing, @rmm5t, @EricStratton, kaj @methodvon.",
+  pitch:      "Tio ĉi estas por ĉiuj homoj, kiuj ĝenas vin per siaj demandoj anstataŭ ol mem gugli.",
   disclaimer: "Neniel asociata kun Google&trade;.",
 
-  translated_by: "Tradukita de Viliam Búr"
+  translated_by: "Tradukita de Viliam Búr, polurita de Tim Morley"
 }
