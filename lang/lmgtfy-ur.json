@@ -1,0 +1,42 @@
+﻿{
+  pre_logo:           "میں آپ کو",
+  post_logo:          "کیے دیتا ہوں",
+  search_button:      "گوگل تلاش",
+  lucky_button:       "میں خوش قسمت ہوں",
+  about:              "ہمارے متعلق",
+  live:               "براہ راست ",
+  contact:            "رابطہ",
+  advertise:          "١٩٩$ میں اشتہار",
+  donate:             "چندہ",
+  google_owns_google: "کی ملکیت ہے Google Inc. GOOGLE",
+
+  setup: {
+    type_question: "سوال لکھیں، بٹن دبائیں.",
+    share_link:    "یہ لنک بانٹیں."
+  },
+
+  play: {
+    step_1: "١) اپنا سوال لکھیں ",
+    step_2: "٢) تلاش کے بٹن کو دبائیں",
+    pwnage: "کیا یہ اتنا مشکل تھا ؟",
+    nice:   "یہ انتہائی آسان ہے."
+  },
+
+  link: {
+    copy:      "کاپی",
+    shorten:   "tinyurl",
+    go:        "جاؤ",
+    reset:     "دوبارہ سے",
+    creating:  "انتظار فرمائیے...",
+    fetching:  "انتظار فرمائیے...",
+    copied:    "clipboard URL پر کاپی ہو گیا ہے",
+    shortened: "clipboard TinyURL پر کاپی ہو گیا ہے"
+  },
+
+  credit:     "@coderifous اور @rmm5t نے بنایا.",
+  genesis:    "کھانے کے دوران @coderifous اور @tmassing ،@rmm5t ،@EricStratton ،@methodvon  کی بات چیت سے متاثر ہوے.",
+  pitch:      "یہ ا ُن تمام لوگوں کے لئے ہے جو خود گوگل کرنے کی بجاے آپ کو سوال پوچھ کر زحمت دینا آسان سمجھتے ہیں.",
+  disclaimer: "کسی بھی واسطے سے Google&trade; سے منسلک نہیں ہے.",
+
+  translated_by: "ترجمہ @erfaan"
+}
