@@ -11,15 +11,15 @@
   google_owns_google: "کی ملکیت ہے Google Inc. GOOGLE",
 
   setup: {
-    type_question: "سوال لکھیں، بٹن دبائیں.",
-    share_link:    "یہ لنک بانٹیں."
+    type_question: "۔سوال لکھیں، بٹن دبائیں",
+    share_link:    "۔یہ لنک بانٹیں"
   },
 
   play: {
     step_1: "١) اپنا سوال لکھیں ",
     step_2: "٢) تلاش کے بٹن کو دبائیں",
     pwnage: "کیا یہ اتنا مشکل تھا ؟",
-    nice:   "یہ انتہائی آسان ہے."
+    nice:   "۔یہ انتہائی آسان ہے"
   },
 
   link: {
@@ -33,10 +33,10 @@
     shortened: "clipboard TinyURL پر کاپی ہو گیا ہے"
   },
 
-  credit:     "@coderifous اور @rmm5t نے بنایا.",
-  genesis:    "کھانے کے دوران @coderifous اور @tmassing ،@rmm5t ،@EricStratton ،@methodvon  کی بات چیت سے متاثر ہوے.",
+  credit:     "۔نے بنایا @coderifous اور @rmm5t",
+  genesis:    "۔کی بات چیت سے متاثر ہوے @coderifous اور @tmassing ،@rmm5t ،@EricStratton ،@methodvon کھانے کے دوران",
   pitch:      "یہ ا ُن تمام لوگوں کے لئے ہے جو خود گوگل کرنے کی بجاے آپ کو سوال پوچھ کر زحمت دینا آسان سمجھتے ہیں.",
-  disclaimer: "کسی بھی واسطے سے Google&trade; سے منسلک نہیں ہے.",
+  disclaimer: "۔سے منسلک نہیں ہے Google&trade; کسی بھی واسطے سے ",
 
-  translated_by: "ترجمہ @erfaan"
+  translated_by: "@erfaan ترجمہ"
 }
