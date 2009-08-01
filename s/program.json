@@ -1,16 +1,16 @@
 {
   slots: [
     {
-      id: "webair",
-      url: "http://www.webair.com",
-      image: "/s/images/webair.png",
-      message: "<em>Premium Web Hosting</em><br />Outstanding Support<br />Affordable Prices."
+      id: "galava",
+      url: "http://galava.net/home?ref=lmgtfy-1",
+      image: "/s/images/galava.png",
+      message: "Free medieval empire<br />simulation game.<br /><em>World 1 Open Now!</em>"
     },
     {
-      id: "webair",
-      url: "http://www.webair.com",
-      image: "/s/images/webair.png",
-      message: "<em>Premium Web Hosting</em><br />Outstanding Support<br />Affordable Prices."
+      id: "galava",
+      url: "http://galava.net/home?ref=lmgtfy-1",
+      image: "/s/images/galava.png",
+      message: "Free medieval empire<br />simulation game.<br /><em>World 1 Open Now!</em>"
     },
     {
       id: "ruro",
