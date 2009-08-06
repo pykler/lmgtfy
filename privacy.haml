@@ -2,7 +2,7 @@
 %html{ "xmlns" => "http://www.w3.org/1999/xhtml", "xml:lang" => "en" }
   %head
     %meta{ "http-equiv" => "content-type", "content" => "text/html;charset=UTF-8" }
-    %meta{ "name" => "description", "content" => "For all those people that find it more convenient to bother you with their question rather than google it for themselves." }
+    %meta{ "name" => "description", "content" => "LMGTFY Privacy Policy" }
     %meta{ "name" => "keywords", "content" => "google, search, funny, comedy" }
     %meta{ "name" => "microid",  "content" => "mailto+http:sha1:359d8b83150288115fa3d70bc929b599ede7fdd4" }
     %link{ :rel => "icon", :type => "image/x-icon", :href => "favicon.ico" }
@@ -13,40 +13,28 @@
     %style{ :rel => "text/css" }
       - require 'sass'
       = Sass::Engine.new(open("style.sass").read, :style => :compact).render
+      = Sass::Engine.new(open("advertise.sass").read, :style => :compact).render
+      a { color: #000; }
   %body
-    %center
-      .logo
-        %span{ :rel => "localize[pre_logo]" } let me
-        %img#logo{ :src => "http://www.google.com/intl/en_ALL/images/logo.gif" }
-        %span{ :rel => "localize[post_logo]" } that for you
-      %br
-      %br
-      %br
-      %form
-        %input.text{ :type => "text", :size => 55, :title => "Google Search", :value => "" }
-        %br
-        %input#search{ :type => "button", :value => "Google Search", :rel => "localize[search_button]" }
-        %input#lucky{ :type => "button", :value => "I'm Feeling Lucky", :rel => "localize[lucky_button]" }
-
-      #instructions
-        %div
-          Enable javascript to use LMGTFY.
-
-      #link_placeholder
-      #link
-        %input.link.copyable{ :type => "text", :readonly => true }
-        #link_message
-        #link_buttons
-          %a#copy.link_button{ :href => "#", :rel => "localize[link.copy]" } copy
-          %a#reset.link_button{ :href => "#", :rel => "localize[link.reset]" } reset
-          %a#tiny.link_button{ :href => "#", :rel => "localize[link.shorten]" } tinyurl
-          %a#go.link_button{ :href => "#", :rel => "localize[link.go]" } go
-
-    #sponsor
-      %img{ :src => "/images/sponsored_by.png" }
-      %a
-        %img
-        %p
+    %h1 LMGTFY Privacy Policy
+    #program_details
+      %p This is the web site of LMGTFY, LLC.
+      %p For each visitor to our Web page, our Web server automatically recognizes no information regarding the domain or e-mail address.
+      %p We collect aggregate information on what pages consumers access or visit.
+      %p The information we collect is used for internal review and is then discarded, used to improve the content of our Web page.
+      %p With respect to cookies: We do not set any cookies.
+      %p
+        With respect to Third party cookies: We use AlmondNet to collect non-personally
+        identifiable information when you visit our Web page. AlmondNet may use
+        information (not including your name, address, email address or telephone
+        number) about your visits to our Web page in order to provide advertisements
+        on our Web page, other web sites and other forms of media about goods and
+        services that may be of interest to you. If you would like more information
+        about this practice and to know your choices about not having this information
+        used by AlmondNet, please
+        %a{ :href => "http://www.almondnet.com/privacy-center/technology-privacy-policy.aspx" } click here.
+      %p From time to time, we may use customer information for new, unanticipated uses not previously disclosed in our privacy notice. If our information practices change at some time in the future we will post the policy changes to our Web site to notify you of these changes and we will use for these new purposes only data collected from the time of the policy change forward. If you are concerned about how your information is used, you should check back at our Web site periodically.
+      %p Upon request we provide site visitors with access to no information that we have collected and that we maintain about them.
 
     #footer
       %a.about{ :href => "#", :name => "about", :rel => "localize[about]" } About
@@ -138,3 +126,4 @@
       var pageTracker = _gat._getTracker("UA-6370983-1");
       pageTracker._trackPageview();
       } catch(err) {}</script>
+

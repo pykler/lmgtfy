@@ -18,6 +18,7 @@ task :build do
   print "Building..."
   sh("haml index.haml index.html")
   sh("haml advertise.haml advertise.html")
+  sh("haml privacy.haml privacy.html")
   sh("cat javascript/jquery*.js javascript/helpers.js javascript/application.js > bundle.js")
   puts "done."
 end
