@@ -4,6 +4,7 @@
   search_button:      "구글 검색",
   lucky_button:       "운 좋은 예감",
   about:              "정보",
+  privacy:            "Privacy",
   //live:             "실시간 기록", //no translation for "Live Stream"?
   contact:            "문의",
   advertise:          "광고",
