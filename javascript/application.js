@@ -35,8 +35,10 @@ $(function(){
   var linkButtons  = $("#link_buttons");
   var linkMessage  = $("#link_message");
 
-  if (searchString)
+  if (searchString) {
+    $.proMarket("120083", gentlyEncode(searchString));
     googleItForThem();
+  }
   else
     getTheSearchTerms();
 
@@ -144,8 +146,11 @@ $(function(){
 
       var l   = window.location;
       var url = l.protocol + "//" + l.hostname + l.pathname + "?";
+      var searchString = gentlyEncode(inputField.val());
 
-      strings = [ "q=" + gentlyEncode(inputField.val()) ];
+      $.proMarket("120083", searchString);
+
+      strings = [ "q=" + searchString ];
       if (this.id == "lucky") strings.push("l=1");
 
       url += strings.join("&");
