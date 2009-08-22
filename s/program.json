@@ -1,6 +1,12 @@
 {
   slots: [
     {
+      id: "loveknot",
+      url: "http://www.amazon.com/s/ref=nb_ss_3_7?url=search-alias%3Daps&field-keywords=love+knot+sheila+o%27kelly&sprefix=love+kn",
+      image: "/s/images/loveknot.png",
+      message: "An Irish e-novel set in the 1970s<br /><em>&quot;I wanted it to go on and on&quot;</em><br />-Amazon review"
+    },
+    {
       id: "galava",
       url: "http://galava.net/home?ref=lmgtfy-1",
       image: "/s/images/galava.png",
