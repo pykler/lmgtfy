@@ -1,6 +1,18 @@
 {
   slots: [
     {
+      id: "hurricanelabs",
+      url: "http://www.hurricanelabs.com/",
+      image: "/s/images/hurricanelabs.png",
+      message: "<em>Information Security</em><br /><em>Network Defense</em>"
+    },
+    {
+      id: "hurricanelabs",
+      url: "http://www.hurricanelabs.com/",
+      image: "/s/images/hurricanelabs.png",
+      message: "<em>Information Security</em><br /><em>Network Defense</em>"
+    },
+    {
       id: "loveknot",
       url: "http://www.amazon.com/s/ref=nb_ss_3_7?url=search-alias%3Daps&field-keywords=love+knot+sheila+o%27kelly&sprefix=love+kn",
       image: "/s/images/loveknot.png",
