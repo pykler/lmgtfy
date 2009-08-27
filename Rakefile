@@ -33,8 +33,7 @@ def autobuild
   @watcher = DirectoryWatcher.new '.', :interval => 0.25
   @watcher.glob = %w(*.{haml,sass} javascript/*.js)
   @watcher.add_observer do |*events|
-    Rake::Task[:build].reenable
-    Rake::Task[:build].invoke
+    Rake::Task[:build].execute
   end
   Signal.trap('INT') { @watcher.stop }
   @watcher.start
