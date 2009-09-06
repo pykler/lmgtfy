@@ -19,30 +19,6 @@
       message: "An Irish e-novel set in the 1970s<br /><em>&quot;I wanted it to go on and on&quot;</em><br />-Amazon review"
     },
     {
-      id: "galava",
-      url: "http://galava.net/home?ref=lmgtfy-1",
-      image: "/s/images/galava.png",
-      message: "Free medieval empire<br />simulation game.<br /><em>World 1 Open Now!</em>"
-    },
-    {
-      id: "galava",
-      url: "http://galava.net/home?ref=lmgtfy-1",
-      image: "/s/images/galava.png",
-      message: "Free medieval empire<br />simulation game.<br /><em>World 1 Open Now!</em>"
-    },
-    {
-      id: "ruro",
-      url: "http://www.ruro.com",
-      image: "/s/images/ruro.png",
-      message: "FreezerPro, ezColony, LIMS 247<br /><em>The software scientists prefer!</em><br /><span style='color: #15b;'>www.ruro.com</span>"
-    },
-    {
-      id: "ruro",
-      url: "http://www.ruro.com",
-      image: "/s/images/ruro.png",
-      message: "FreezerPro, ezColony, LIMS 247<br /><em>The software scientists prefer!</em><br /><span style='color: #15b;'>www.ruro.com</span>"
-    },
-    {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
       image: "/s/images/basecamp.png",
