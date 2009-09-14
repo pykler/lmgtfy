@@ -1,0 +1,43 @@
+{
+  pre_logo:           "let me",
+  post_logo:          "that for you",
+  search_button:      "Google 検索",
+  lucky_button:       "I'm Feeling Lucky",
+  about:              "これは何？",
+  privacy:            "プライバシー",
+  live:               "Live Stream",
+  contact:            "メール",
+  advertise:          "広告枠を$199で取得",
+  donate:             "寄付",
+  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+
+  setup: {
+    type_question: "質問を入力して、ボタンをクリック",
+    share_link:    "下記のリンクを公開してください"
+  },
+
+  play: {
+    step_1: "Step 1: 質問を入力する。",
+    step_2: "Step 2: Google 検索ボタンをクリック。",
+    pwnage: "ね、簡単でしょう？",
+    nice:   "すごく簡単です。"
+  },
+
+  link: {
+    copy:      "コピー",
+    shorten:   "tinyurl（短縮URL）",
+    go:        "Go",
+    reset:     "リセット",
+    creating:  "作成中...",
+    fetching:  "Fetching...",
+    copied:    "URLをクリップボードにコピー",
+    shortened: "TinyURLをクリップボードにコピー"
+  },
+
+  credit:     "Created by @coderifous and @rmm5t.",
+  genesis:    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
+  pitch:      "これは、質問を自分で調べずに質問する人のために、Google検索の便利さを伝えるものです！",
+  disclaimer: "Google&trade;とは、全く関係の無いサービスです。",
+
+  translated_by: "Translated by @yomogimochi"
+}
