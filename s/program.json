@@ -13,12 +13,6 @@
       message: "<em>Information Security</em><br /><em>Network Defense</em>"
     },
     {
-      id: "loveknot",
-      url: "http://www.amazon.com/s/ref=nb_ss_3_7?url=search-alias%3Daps&field-keywords=love+knot+sheila+o%27kelly&sprefix=love+kn",
-      image: "/s/images/loveknot.png",
-      message: "An Irish e-novel set in the 1970s<br /><em>&quot;I wanted it to go on and on&quot;</em><br />-Amazon review"
-    },
-    {
       id: "basecamp",
       url: "http://www.basecampHQ.com/?referrer=LMGTFY",
       image: "/s/images/basecamp.png",
