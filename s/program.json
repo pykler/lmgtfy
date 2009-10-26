@@ -25,10 +25,16 @@
       message: "Mobile Ringtones, Music Downloads, & More."
     },
     {
-      id: "basecamp",
-      url: "http://www.basecampHQ.com/?referrer=LMGTFY",
-      image: "/s/images/basecamp.png",
-      message: "The easy way to <em>Manage Projects</em>. Get projects done."
+      id: "shuffletime",
+      url: "http://shuffletime.com/c/lmgtfy",
+      image: "/s/images/shuffletime.png",
+      message: "The <em>best links</em> on the web<br />are now a <em>game</em>."
+    },
+    {
+      id: "shuffletime",
+      url: "http://shuffletime.com/c/lmgtfy",
+      image: "/s/images/shuffletime.png",
+      message: "The <em>best links</em> on the web<br />are now a <em>game</em>."
     }
   ],
 
