@@ -1,0 +1,43 @@
+{
+  pre_logo:           "ek",
+  post_logo:          "dit vir jou",
+  search_button:      "Google Soek",
+  lucky_button:       "Kansvatterkortpad",
+  about:              "Oor ons",
+  privacy:            "Privaatheid",
+  live:               "Lewendige Stroom",
+  contact:            "Kontak",
+  advertise:          "Adverteer vir $199",
+  donate:             "Skenk",
+  google_owns_google: "GOOGLE is 'n handelsmerk van Google Inc.",
+
+  setup: {
+    type_question: "Tik 'n vraag in, kliek 'n knoppie.",
+    share_link:    "Deel die onderstaande skakel."
+  },
+
+  play: {
+    step_1: "Stap 1: Tik jou vraag in",
+    step_2: "Stap 2: Kliek op die Soek-knoppie",
+    pwnage: "Was dit so moeilik?",
+    nice:   "Dit is so maklik."
+  },
+
+  link: {
+    copy:      "kopieer",
+    shorten:   "tinyurl",
+    go:        "gaan",
+    reset:     "herstel",
+    creating:  "Skep...",
+    fetching:  "Gaan haal...",
+    copied:    "URL is na die knipbord gekopieer",
+    shortened: "TinyURL is na die knipbord gekopieer"
+  },
+
+  credit:     "Geskep deur @coderifous en @rmm5t.",
+  genesis:    "Geïnspireerd tydens 'n middagete-gesprek met @coderifous, @tmassing, @rmm5t, @EricStratton en @methodvon.",
+  pitch:      "Hierdie is vir almal waarvoor dit geriefliker is om jou met hulle vrae lastig te val eerder as om dit vir hulself te google.",
+  disclaimer: "Nie op enige wyse met Google&trade; geassosieer nie.",
+
+  translated_by: "Vertaal deur Frank Naudé"
+}
