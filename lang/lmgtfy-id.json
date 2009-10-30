@@ -1,0 +1,43 @@
+﻿{
+  pre_logo:           "biar saya",
+  post_logo:          "-kan untuk anda",
+  search_button:      "Telusuri dengan Google",
+  lucky_button:       "Saya Lagi Beruntung",
+  about:              "Tentang",
+  privacy:            "Privasi",
+  live:               "Saluran Langsung",
+  contact:            "Kontak",
+  advertise:          "Pasang iklan $199",
+  donate:             "Sumbangan",
+  google_owns_google: "GOOGLE adalah merek dagang terdaftar dari Google Inc.",
+
+  setup: {
+    type_question: "Tulis pertanyaan, tekan tombol.",
+    share_link:    "Bagikan link dibawah ini."
+  },
+
+  play: {
+    step_1: "Langkah 1: Tulis pertanyaan anda",
+    step_2: "Langkah 2: Tekan tombol Cari",
+    pwnage: "Apakah itu sulit?",
+    nice:   "Itu sangatlah mudah."
+  },
+
+  link: {
+    copy:      "salin",
+    shorten:   "tinyurl",
+    go:        "pergi",
+    reset:     "ganti",
+    creating:  "Sedang Membuat...",
+    fetching:  "Sedang Mengambil...",
+    copied:    "URL sudah disalin ke papan pengumpul",
+    shortened: "TinyURL sudah disalin ke papan pengumpul"
+  },
+
+  credit:     "Dibuat oleh @coderifous dan @rmm5t.",
+  genesis:    "Terinspirasi saat percakapan makan siang dengan @coderifous, @tmassing, @rmm5t, @EricStratton, dan @methodvon.",
+  pitch:      "Ini adalah untuk semua orang yang merasa lebih nyaman untuk menganggu mu dengan pertanyaan mereka dibanding mencarinya sendiri dengan google.",
+  disclaimer: "Tidak berkaitan dengan Google&trade; dalam hal apapun.",
+
+  translated_by: "Diterjemahkan oleh @pengemizt"
+}
