@@ -7,28 +7,10 @@
       message: "<em>Information Security</em><br /><em>Network Defense</em>"
     },
     {
-      id: "hurricanelabs",
-      url: "http://www.hurricanelabs.com/",
-      image: "/s/images/hurricanelabs.png",
-      message: "<em>Information Security</em><br /><em>Network Defense</em>"
-    },
-    {
       id: "reditones",
       url: "http://reditones.com/",
       image: "/s/images/reditones.png",
       message: "Mobile Ringtones, Music Downloads, & More."
-    },
-    {
-      id: "reditones",
-      url: "http://reditones.com/",
-      image: "/s/images/reditones.png",
-      message: "Mobile Ringtones, Music Downloads, & More."
-    },
-    {
-      id: "shuffletime",
-      url: "http://shuffletime.com/c/lmgtfy",
-      image: "/s/images/shuffletime.png",
-      message: "The <em>best links</em> on the web<br />are now a <em>game</em>."
     },
     {
       id: "shuffletime",
