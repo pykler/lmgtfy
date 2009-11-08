@@ -1,6 +1,6 @@
 ﻿{
   pre_logo:           "biar saya",
-  post_logo:          "-kan untuk anda",
+  post_logo:          "-kan untuk Anda",
   search_button:      "Telusuri dengan Google",
   lucky_button:       "Saya Lagi Beruntung",
   about:              "Tentang",
@@ -17,7 +17,7 @@
   },
 
   play: {
-    step_1: "Langkah 1: Tulis pertanyaan anda",
+    step_1: "Langkah 1: Tulis pertanyaan Anda",
     step_2: "Langkah 2: Tekan tombol Cari",
     pwnage: "Apakah itu sulit?",
     nice:   "Itu sangatlah mudah."
