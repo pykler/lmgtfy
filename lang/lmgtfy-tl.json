@@ -1,26 +1,26 @@
-﻿{
-  pre_logo:           "sige na nga",
-  post_logo:          "para sa iyo",
+{
+  pre_logo:           "sige na nga i-",
+  post_logo:          "ko para sa inyo",
   search_button:      "Hanapin sa Google",
   lucky_button:       "Sinusuwerte ako",
   about:              "Ano ito",
   privacy:            "Privacy",
-  live:               "Nangyayari ngayon",
+  live:               "Live Stream",
   contact:            "Makipag-ugnayan",
-  advertise:          "Magpa-anunsyo $199",
-  donate:             "Mag-abuloy",
+  advertise:          "Magpa-advertise! $199 lang!",
+  donate:             "Mag-Donate",
   google_owns_google: "GOOGLE ay tatak pagmamay-ari ng Google Inc.",
 
   setup: {
-    type_question: "Itipa ang tanong, pindutin ang buton.",
-    share_link:    "Ipahayag ang koneksyon sa baba."
+    type_question: "Itayp ang tanong, tapos, pindutin ang button.",
+    share_link:    "Ibigay ang link sa baba."
   },
 
   play: {
-    step_1: "Unang Hakbang: Itipa ang tanong",
-    step_2: "Pangalawang Hakbang: pindutin ang buton",
+    step_1: "Una: Itayp ang tanong",
+    step_2: "Pangalawa: Pindutin ang button",
     pwnage: "Mahirap ba iyon?",
-    nice:   "Ganun lang iyon kadali."
+    nice:   "Ganun lang kadali iyon."
   },
 
   link: {
@@ -28,16 +28,16 @@
     shorten:   "tinyurl",
     go:        "sige",
     reset:     "ulitin",
-    creating:  "Ginagawa na...",
+    creating:  "Sandali lang...",
     fetching:  "Kinukuha na...",
-    copied:    "URL ay nakopya na sa clipboard",
-    shortened: "TinyURL ay nakopya na sa clipboard"
+    copied:    "Ang URL ay nakopya na sa clipboard",
+    shortened: "Ang TinyURL ay nakopya na sa clipboard"
   },
 
   credit:     "Gawa nina @coderifous and @rmm5t.",
-  genesis:    "Nagsimula sa usapan habang kumakain ng tanghalian sina @coderifous, @tmassing, @rmm5t, @EricStratton, at @methodvon.",
-  pitch:      "Ito ay para sa mga taong mas gustong istorbohin ka ng tanong kesa hanapin nila sa google ang sagot.",
+  genesis:    "Nagsimula sa isang usapan habang kumakain ng tanghalian sina @coderifous, @tmassing, @rmm5t, @EricStratton, at @methodvon.",
+  pitch:      "Ito ay para sa mga taong mas gustong istorbohin ka ng tanong kaysa hanapin nila sa Google ang mga sagot.",
   disclaimer: "Walang koneksyon sa Google&trade; ng kahit ano pa man.",
 
-  translated_by: "Translated by Rose ng ABIT Pilipinas"
+  translated_by: "Translated by Rose ng ABIT Pilipinas and PBCNX of The All-Pinoy GSM Forum"
 }
