@@ -5,6 +5,12 @@
       url: "http://shuffletime.com/c/lmgtfy",
       image: "/s/images/shuffletime.png",
       message: "The <em>best links</em> on the web<br />are now a <em>game</em>."
+    },
+    {
+      id: "spaceknight",
+      url: "http://www.thedetour.ca/",
+      image: "/s/images/spaceknights.png",
+      message: "<em>Space Knights Go!</em> Vote for your favorite Pilot Project cartoon. <em>NSFW</em>"
     }
   ],
 
