@@ -136,7 +136,7 @@ $(function(){
   }
 
   function getTheSearchTerms() {
-    $("#survey").show();
+    // $("#alert").show();
     $("#sponsor").sponsor("/s/program.json", function() { this.fadeIn(1000); });
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
