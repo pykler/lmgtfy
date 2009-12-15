@@ -1,6 +1,12 @@
 {
   slots: [
     {
+      id: "hurricanelabs",
+      url: "http://www.hurricanelabs.com/",
+      image: "/s/images/hurricanelabs.png",
+      message: "<em>Information Security</em><br /><em>Network Defense</em>"
+    },
+    {
       id: "shuffletime",
       url: "http://shuffletime.com/c/lmgtfy",
       image: "/s/images/shuffletime.png",
