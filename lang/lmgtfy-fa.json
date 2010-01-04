@@ -1,15 +1,15 @@
 ﻿{
-  pre_logo:           "کنم",
-  post_logo:          "بذار من برای تو",
+  pre_logo:           "بذار من برای تو",
+  post_logo:          "کنم",
   search_button:      "جستجوی گوگل",
   lucky_button:       "من خوش‌شانسم",
   about:              "درباره",
   privacy:            "حریم",
   live:               "گزارش زنده",
   contact:            "ارتباط با ما",
-  advertise:          "$تبلیغ در اینجا با 199",
+  advertise:          "تبلیغ در اینجا با 199 دلار",
   donate:             "هدیه دادن",
-  google_owns_google: "علامت تجاری شرکت گوگل میباشد GOOGLE",
+  google_owns_google: "علامت تجاری شرکت گوگل می‌باشد GOOGLE",
 
   setup: {
     type_question: "سوال را تایپ کرده، روی دکمه کلیک کنید",
@@ -26,8 +26,8 @@
   link: {
     copy:      "کپی",
     shorten:   "tinyurl",
-    go:        "برو",
-    reset:     "reset",
+    go:        "بـرو",
+    reset:     "بازگشت",
     creating:  "...در حال ساختن",
     fetching:  "...در حال بررسی",
     copied:    "به کلیپ‌بُرد کپی شد URL آدرس",
@@ -39,6 +39,6 @@
   pitch:      ".این سایت برای آن دسته از افرادی‌ست که برای بر هم زدن آسایش شما، پیش از پرسیدن سوال جستجو نمی‌کنند",
   disclaimer: "این سایت به هیچ عنوان با شرکت گوگل مرتبط نیست",
 
-  translated_by: "Translated by <علیرضا میـر or @ninigondeh"
+  translated_by: "@ninigondeh ترجمه شده توسط علیرضا میر"
 }
 
