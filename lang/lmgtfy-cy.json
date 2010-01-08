@@ -1,6 +1,6 @@
 {
   pre_logo:           "gadewch i mi",
-  post_logo:          "wneud hwnna drosoch chi",
+  post_logo:          "hwnna drosoch chi",
   search_button:      "Chwilio Google",
   lucky_button:       "Dwi'n Teimlo'n Lwcus",
   about:              "Ynghylch",
@@ -9,7 +9,7 @@
   contact:            "Cysylltwch",
   advertise:          "Hybysebwch am $199",
   donate:             "Rhodd",
-  google_owns_google: "Mae GOOGLE yn nod masnach Google Inc.",
+  google_owns_google: "Nod masnach Google Inc yw GOOGLE.",
 
   setup: {
     type_question: "Teipiwch gwestiwn, pwyswch fotwm.",
@@ -37,7 +37,7 @@
   credit:     "Crëwyd gan @coderifous a @rmm5t.",
   genesis:    "Ysbrydolwyd gan sgwrs amser cinio rhwng @coderifous, @tmassing, @rmm5t, @EricStratton a @methodvon.",
   pitch:      "Mae hwn ar gyfer yr holl bobl sy'n meddwl ei bod yn well i'ch poeni gyda'u cwestiwn yn hytrach na gwglo'r peth eu hunain.",
-  disclaimer: "Nid oes unrhyw gysylltiad â Google&trade;.",
+  disclaimer: "Nid oes unrhyw gysylltiad â Google™.",
 
   translated_by: "Cyfieithwyd gan 'duw'"
 }
