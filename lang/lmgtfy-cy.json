@@ -1,0 +1,43 @@
+{
+  pre_logo:           "gadewch i mi",
+  post_logo:          "wneud hwnna drosoch chi",
+  search_button:      "Chwilio Google",
+  lucky_button:       "Dwi'n Teimlo'n Lwcus",
+  about:              "Ynghylch",
+  privacy:            "Preifatrwydd",
+  live:               "Ffrwd Fyw",
+  contact:            "Cysylltwch",
+  advertise:          "Hybysebwch am $199",
+  donate:             "Rhodd",
+  google_owns_google: "Mae GOOGLE yn nod masnach Google Inc.",
+
+  setup: {
+    type_question: "Teipiwch gwestiwn, pwyswch fotwm.",
+    share_link:    "Rhannwch y ddolen isod."
+  },
+
+  play: {
+    step_1: "Cam 1: Teipiwch eich cwestiwn",
+    step_2: "Cam 2: Pwyswch y botwm Chwilio",
+    pwnage: "A oedd mor anodd â hynny?",
+    nice:   "Mor hawdd â hynny."
+  },
+
+  link: {
+    copy:      "copïo",
+    shorten:   "tinyurl",
+    go:        "ewch",
+    reset:     "ailosod",
+    creating:  "Creu...",
+    fetching:  "Cyrchu...",
+    copied:    "URL wedi'i gopïo i'r clipfwrdd",
+    shortened: "TinyURL wedi'i gopïo i'r clipfwrdd"
+  },
+
+  credit:     "Crëwyd gan @coderifous a @rmm5t.",
+  genesis:    "Ysbrydolwyd gan sgwrs amser cinio rhwng @coderifous, @tmassing, @rmm5t, @EricStratton a @methodvon.",
+  pitch:      "Mae hwn ar gyfer yr holl bobl sy'n meddwl ei bod yn well i'ch poeni gyda'u cwestiwn yn hytrach na gwglo'r peth eu hunain.",
+  disclaimer: "Nid oes unrhyw gysylltiad â Google&trade;.",
+
+  translated_by: "Cyfieithwyd gan 'duw'"
+}
