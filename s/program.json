@@ -17,6 +17,12 @@
       url: "http://www.ruro.com",
       image: "/s/images/ruro.png",
       message: "Advanced Software<br />for Modern Laboratories"
+    },
+    {
+      id: "imvuce",
+      url: "http://imvuce.com/lmgtfy",
+      image: "/s/images/imvuce.png",
+      message: "IMVU Users: <em>Get Cheap Credits!</em> Not a member? Click above to join IMVU Free!"
     }
   ],
 
