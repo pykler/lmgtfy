@@ -1,6 +1,6 @@
 {
-  pre_logo:           "давай я поищу",
-  post_logo:          "вместо за тебя",
+  pre_logo:           "Давай я поищу в",
+  post_logo:          "за тебя",
   search_button:      "Поиск в Google",
   lucky_button:       "Мне повезёт!",
   about:              "О сервисе",
