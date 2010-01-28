@@ -1,31 +1,31 @@
 {
-  slots: [
+  "slots": [
     {
-      id: "hurricanelabs",
-      url: "http://www.hurricanelabs.com/",
-      image: "/s/images/hurricanelabs.png",
-      message: "<em>Information Security</em><br /><em>Network Defense</em>"
+      "id": "hurricanelabs",
+      "url": "http://www.hurricanelabs.com/",
+      "image": "/s/images/hurricanelabs.png",
+      "message": "<em>Information Security</em><br /><em>Network Defense</em>",
+      "expires": "2010-02-15"
     },
     {
-      id: "shuffletime",
-      url: "http://shuffletime.com/c/lmgtfy",
-      image: "/s/images/shuffletime.png",
-      message: "The <em>best links</em> on the web<br />are now a <em>game</em>."
+      "id": "imvuce",
+      "url": "http://imvuce.com/lmgtfy",
+      "image": "/s/images/imvuce.png",
+      "message": "IMVU Users: <em>Get Cheap Credits!</em> Not a member? Click above to join IMVU Free!",
+      "expires": "2010-02-15"
     },
     {
-      id: "ruro",
-      url: "http://www.ruro.com",
-      image: "/s/images/ruro.png",
-      message: "Advanced Software<br />for Modern Laboratories"
+      "id": "ruro",
+      "url": "http://www.ruro.com",
+      "image": "/s/images/ruro.png",
+      "message": "Advanced Software<br />for Modern Laboratories",
+      "expires": "2010-04-04"
     },
     {
-      id: "imvuce",
-      url: "http://imvuce.com/lmgtfy",
-      image: "/s/images/imvuce.png",
-      message: "IMVU Users: <em>Get Cheap Credits!</em> Not a member? Click above to join IMVU Free!"
+      "id": "shuffletime",
+      "url": "http://shuffletime.com/c/lmgtfy",
+      "image": "/s/images/shuffletime.png",
+      "message": "The <em>best links</em> on the web<br />are now a <em>game</em>."
     }
-  ],
-
-  blocks: {
-  }
+  ]
 }
