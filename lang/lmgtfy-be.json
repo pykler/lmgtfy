@@ -1,0 +1,43 @@
+﻿{
+  pre_logo:           "Дазволь пашукаць гэта ў",
+  post_logo:          "замест цябе",
+  search_button:      "Пошук Google",
+  lucky_button:       "Мне пашанцуе",
+  about:              "Пра сэрвіс",
+  privacy:            "Прыватнасьць",
+  live:               "Просты этэр",
+  contact:            "Кантакты",
+  advertise:          "Рэклямуй за $199",
+  donate:             "Ахвяруй",
+  google_owns_google: "GOOGLE гэта гандлёвая марка Google Inc.",
+
+  setup: {
+    type_question: "Надрукуй запыт, націсьні кнопку.",
+    share_link:    "Падзяліся спасылкай."
+  },
+
+  play: {
+    step_1: "Крок 1: Надрукуй запыт",
+    step_2: "Крок 2: Націсьні кнопку Пошук",
+    pwnage: "Няўжо гэта складана?",
+    nice:   "Гэта ж проста!"
+  },
+
+  link: {
+    copy:      "скапіяваць",
+    shorten:   "скарочана",
+    go:        "перайсьці",
+    reset:     "скінуць",
+    creating:  "Стварэньне...",
+    fetching:  "Атрыманьне...",
+    copied:    "Спасылка скапіявана ў буфэр",
+    shortened: "Кароткая спасылка скапіявана ў буфэр"
+  },
+
+  credit:     "Створаны @coderifous і @rmm5t.",
+  genesis:    "Натхнёны размовай за абедам з @coderifous, @tmassing, @rmm5t, @EricStratton і @methodvon.",
+  pitch:      "Гэта сайт для тых людзей, якія лічаць зручнейшым турбаваць цябе сваімі запытамі, чым пашукаць у Google самастойна.",
+  disclaimer: "Ніякім чынам не зьвязаны з Google&trade;.",
+
+  translated_by: "Аўтар перакладу на беларускую мову Korj."
+}
