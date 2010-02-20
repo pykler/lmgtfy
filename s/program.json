@@ -1,20 +1,6 @@
 {
   "slots": [
     {
-      "id": "hurricanelabs",
-      "url": "http://www.hurricanelabs.com/",
-      "image": "/s/images/hurricanelabs.png",
-      "message": "<em>Information Security</em><br /><em>Network Defense</em>",
-      "expires": "2010-02-15"
-    },
-    {
-      "id": "imvuce",
-      "url": "http://imvuce.com/lmgtfy",
-      "image": "/s/images/imvuce.png",
-      "message": "IMVU Users: <em>Get Cheap Credits!</em> Not a member? Click above to join IMVU Free!",
-      "expires": "2010-02-15"
-    },
-    {
       "id": "ruro",
       "url": "http://www.ruro.com",
       "image": "/s/images/ruro.png",
