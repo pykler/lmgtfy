@@ -45,11 +45,19 @@
           %a#tiny.link_button{ :href => "#", :rel => "localize[link.shorten]" } tinyurl
           %a#go.link_button{ :href => "#", :rel => "localize[link.go]" } go
 
-    #sponsor
-      %img{ :src => "/images/sponsored_by.png" }
-      %a
-        %img
-        %p
+      #sponsor
+        %img{ :src => "/images/sponsored_by.png" }
+        <!-- Begin -  Site: LMGTFY Zone: Leaderboard -->
+        <script language="javascript"  type="text/javascript"><!--
+        if (!window.location.search.match(/q=/)) document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="http://please-support.lmgtfy.com/a.aspx?ZoneID=1&amp;Task=Get&amp;IFR=False&amp;PageID=8273&amp;SiteID=2&amp;Random=' + (new Date()).getTime() + '"></'+'scr'+'ipt>');
+        // -->
+        </script>
+        <noscript>
+        <a href="http://please-support.lmgtfy.com/a.aspx?ZoneID=1&amp;Task=Click&amp;Mode=HTML&amp;SiteID=2&amp;PageID=8273" target="_blank">
+        <img src="http://please-support.lmgtfy.com/a.aspx?ZoneID=1&amp;Task=Get&amp;Mode=HTML&amp;SiteID=2&amp;PageID=8273" width="728" height="90" border="0"  alt="">
+        </a>
+        </noscript>
+        <!-- End -  Site: LMGTFY Zone: Leaderboard -->
 
     #footer
       %a.about{ :href => "#", :name => "about", :rel => "localize[about]" } About
@@ -57,7 +65,7 @@
       %a{ :href => "http://twitter.com/lmgtfy" } @LMGTFY
       %a{ :rel => "localize[live]", :href => "http://live.lmgtfy.com" } Live Stream
       %a{ :rel => "localize[contact]", :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%74%61%66%66@%6c%6d%67%74%66%79.%63%6f%6d?body=Jim%20and%20Ryan%20are%20awesome%21&amp;subject=I%20love%20LMGTFY%21" } Contact
-      %a{ :rel => "localize[advertise]", :href => "advertise.html" } Advertise for $199
+      %a{ :rel => "localize[advertise]", :href => "http://please-support.lmgtfy.com/a.aspx?ZoneID=0&BannerID=5&AdvertiserID=3&CampaignID=5&Task=Click&SiteID=2&RandomNumber=555397" } Advertising Info
 
     #about{ :style => "display: none" }
       %p{ :rel => "localize[pitch]" }         This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.
