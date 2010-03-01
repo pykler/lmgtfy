@@ -26,6 +26,11 @@ $(function(){
   initializeAboutLink();
   initializeControls();
 
+  // remove redundant "sponsored by" tag
+  // can get rid of this after either cleaning up the HTML sent by InedoMedia
+  // or just wait till those ads are removed from rotation
+  $("#sponsor > img").remove();
+
   var searchString = $.getQueryString({ id: "q" });
   var inputField   = $("input[type=text]:first");
   var fakeMouse    = $("#fake_mouse");
@@ -137,7 +142,7 @@ $(function(){
 
   function getTheSearchTerms() {
     // $("#alert").show();
-    $("#sponsor").fadeIn(1000);
+    $("#sponsor_wrapper").fadeIn(1000);
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
     inputField.focus().select();
