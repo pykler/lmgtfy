@@ -4,7 +4,7 @@
   search_button:      "Google Pretraga",
   lucky_button:       "Iz prve ruke",
   about:              "O nama",
-  privacy:            "Privacy",
+  privacy:            "Privatnost",
   live:               "Live Stream",
   contact:            "Kontakt",
   advertise:          "Reklama",
@@ -19,7 +19,7 @@
   play: {
     step_1: "Korak 1: Unesi tvoje pitanje",
     step_2: "Korak 2: Klikni na dugme za pretragu",
-    pwnage: "Da li je to bilo toliko teško?",
+    pwnage: "I nije toliko teško, zar ne?",
     nice:   "Toliko je lako."
   },
 
@@ -37,7 +37,7 @@
   credit:     "Kreirano od strane @coderifous i @rmm5t.",
   genesis:    "Inspirisani smo bili tokom razgovora za ručkom sa @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
   pitch:      "Ovo je za sve one ljude kojima mnogo više odgovara da te zamaraju sa njihovim pitanjima nego da sami koriste google.",
-  disclaimer: "Nismo povezani sa Google&trade; na bilo koji način.",
+  disclaimer: "Nismo povezani sa Google™ na bilo koji način.",
 
   translated_by: "Prevod odradio @theGaVrA"
 }
