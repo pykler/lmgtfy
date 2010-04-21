@@ -6,12 +6,6 @@
       "image": "/s/images/ruro.png",
       "message": "Advanced Software<br />for Modern Laboratories",
       "expires": "2010-10-04"
-    },
-    {
-      "id": "shuffletime",
-      "url": "http://shuffletime.com/c/lmgtfy",
-      "image": "/s/images/shuffletime.png",
-      "message": "The <em>best links</em> on the web<br />are now a <em>game</em>."
     }
   ]
 }
