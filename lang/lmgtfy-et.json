@@ -1,0 +1,43 @@
+{
+  pre_logo:           "las ma otsin seda",
+  post_logo:          "st sinu eest",
+  search_button:      "Google otsing",
+  lucky_button:       "Ehk mul veab",
+  about:              "Teave",
+  privacy:            "Privaatsus",
+  live:               "Otseülekanne",
+  contact:            "Kontakt",
+  advertise:          "Reklaami $199 eest",
+  donate:             "Anneta",
+  google_owns_google: "GOOGLE on registreeritud kaubamärk Google Inc. poolt",
+
+  setup: {
+    type_question: "Sisesta küsimus ja vajuta nuppu.",
+    share_link:    "Jaga linki."
+  },
+
+  play: {
+    step_1: "1. Samm: Sisesta enda küsimus",
+    step_2: "2. Samm: Vajuta otsingunuppu",
+    pwnage: "Kas see oli nii raske?",
+    nice:   "Nii lihtne see ongi."
+  },
+
+  link: {
+    copy:      "kopeeri",
+    shorten:   "tinyurl",
+    go:        "ava",
+    reset:     "lähtesta",
+    creating:  "Loon linki...",
+    fetching:  "Püüan linki...",
+    copied:    "URL on kopeeritud",
+    shortened: "TinyURL on kopeeritud"
+  },
+
+  credit:     "Loodud @coderifous ja @rmm5t poolt.",
+  genesis:    "Inspireeritud vestlusest lõuna ajal, kus osalesid @coderifous, @tmassing, @rmm5t, @EricStratton ja @methodvon.",
+  pitch:      "See on kõikidele nendele, kes arvavad, et on lihtsam tülitada enda küsimustega sind, selle asemel, et otsida Googlest.",
+  disclaimer: "Google&trade; ei ole seotud selle saidiga.",
+
+  translated_by: "Tõlkis Indrek Ardel"
+}
